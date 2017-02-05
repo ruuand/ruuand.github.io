@@ -43,7 +43,6 @@ Attaques possibles
 
 -   [Kerberoasting](/Kerberoasting "wikilink"): méthodologie pour récupérer des hashs utilisés par Kerberos pour les services et essayer de casser ceux-ci. Cette attaque se base sur l'utilisation du hash d'un service pour chiffrer les TGS.
 -   [Attaque sur AS-REP](http://www.harmj0y.net/blog/activedirectory/roasting-as-reps/): Cette attaque cible les comptes pour lesquels la pré authentification (la partie **PREAUTH**) est désactivé.
--   [Scanning SPN](/Scanning_SPN "wikilink"): identifier les services qui tournent avec leur SPN
 -   [Silver Ticket](/Silver_Ticket "wikilink"): forger un TGS
 -   [Golden Ticket](/Golden_Ticket "wikilink"): forger un TGT
 -   Il est possible de faire des attaques de type Man in the Middle sur le protocole Kerberos. On peut ensuite faire du cracking offline avec hashcat.
@@ -60,6 +59,6 @@ Ressources
 -   [Active Directory](/Active_Directory "wikilink")
 -   [Explain Like I'm 5: Kerberos](http://www.roguelynn.com/words/explain-like-im-5-kerberos/)
 -   [What Is Kerberos Authentication? - Microsoft Technet](https://technet.microsoft.com/en-us/library/cc780469(v=ws.10).aspx)
--    [Kerberos, Active Directory’s Secret Decoder Ring](http://adsecurity.org/?p=227)
+-   [Kerberos, Active Directory’s Secret Decoder Ring](http://adsecurity.org/?p=227)
 
 [Category:Protocoles](/Category:Protocoles "wikilink")
