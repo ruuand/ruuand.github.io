@@ -24,7 +24,7 @@ Le principe est le suivant (voir [Explain like I’m 5: Kerberos](http://www.rog
 -   Le client demande un **Ticket Granting Ticket** (TGT) au KDC. Ce TGT sera valable pour une durée de 10 heures (renouvelable pour une durée maximale de 7 jours):
     -   (Client) - **PREAUTH** est calculé par le client basé sur le chiffrement d'un timestamp avec le hash NT. Si un écart trop grand de temps est identifié entre le KDC et la machine utilisateur est identifié, un erreur sera renvoyée (KRB_AP_ERR_SKEW)
     -   (Client -&gt; KDC) - *AS-REQ* contenant le **PREAUTH** afin de faire une demande pour un TGT.
-    -   (KDC -&gt; Client) - *AS-REP* contenant le **Privileged Attribute Certificate** (PAC) qui détaille les groupes de sécurité dont l'utilisateur est membre. Cette partie est chiffrée avec la clé du compte krbtgt et seul le KDC pourra donc le déchiffrer. L**AS-REP'' contient également une partie chiffrée avec la clé du client et qui va permettre de communiquer pour récupérer les TGS (**TODO''': à valider). Cette partie chiffrée avec la clé de l'utilisateur explique la nécessite de la pré authentification. Sans ce mécanisme, un attaquant pourrait récupérer des *AS-REP* pour n'importe quel utilisateur et faire du brute force offline.
+    -   (KDC -&gt; Client) - *AS-REP* contenant le **Privileged Attribute Certificate** (PAC) qui détaille les groupes de sécurité dont l'utilisateur est membre. Cette partie est chiffrée avec la clé du compte krbtgt et seul le KDC pourra donc le déchiffrer. L**'AS-REP contient également une partie chiffrée avec la clé du client et qui va permettre de communiquer pour récupérer les TGS **(TODO: à valider). Cette partie chiffrée avec la clé de l'utilisateur explique la nécessite de la pré authentification. Sans ce mécanisme, un attaquant pourrait récupérer des *AS-REP* pour n'importe quel utilisateur et faire du brute force offline.
 -   Le client demande ensuite un **Ticket Granting Service** (TGS) au KDC. Ce TGS permettra d'accéder à un service spécifique:
     -   (Client -&gt; KDC) - Le client fournit son TGT au KDC et indique le service auquel il veut accéder grâce à son **Service Principal Name** (SPN)
     -   (KDC) - Le client valide le TGT grâce à sa signature et construit le TGS qui contient une partie chiffrée par krbtgt et une partie chiffrée avec la clé du service (cette partie contient notamment les informations d'appartenance à des groupes)
@@ -43,7 +43,6 @@ Attaques possibles
 
 -   [Kerberoasting](/Kerberoasting "wikilink"): méthodologie pour récupérer des hashs utilisés par Kerberos pour les services et essayer de casser ceux-ci. Cette attaque se base sur l'utilisation du hash d'un service pour chiffrer les TGS.
 -   [Attaque sur AS-REP](http://www.harmj0y.net/blog/activedirectory/roasting-as-reps/): Cette attaque cible les comptes pour lesquels la pré authentification (la partie **PREAUTH**) est désactivé.
--   [Scanning SPN](/Scanning_SPN "wikilink"): identifier les services qui tournent avec leur SPN
 -   [Silver Ticket](/Silver_Ticket "wikilink"): forger un TGS
 -   [Golden Ticket](/Golden_Ticket "wikilink"): forger un TGT
 -   Il est possible de faire des attaques de type Man in the Middle sur le protocole Kerberos. On peut ensuite faire du cracking offline avec hashcat.
@@ -60,6 +59,6 @@ Ressources
 -   [Active Directory](/Active_Directory "wikilink")
 -   [Explain Like I'm 5: Kerberos](http://www.roguelynn.com/words/explain-like-im-5-kerberos/)
 -   [What Is Kerberos Authentication? - Microsoft Technet](https://technet.microsoft.com/en-us/library/cc780469(v=ws.10).aspx)
--    [Kerberos, Active Directory’s Secret Decoder Ring](http://adsecurity.org/?p=227)
+-   [Kerberos, Active Directory’s Secret Decoder Ring](http://adsecurity.org/?p=227)
 
 [Category:Protocoles](/Category:Protocoles "wikilink")
