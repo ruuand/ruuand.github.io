@@ -63,7 +63,7 @@ Il est à noter que les privilèges qu'ont les membres de ces groupes font qu'il
 Ressources
 ----------
 
--    [Attack Methods for Gaining Domain Admin Rights in Active Directory](https://adsecurity.org/?p=2362)
+-   [Attack Methods for Gaining Domain Admin Rights in Active Directory](https://adsecurity.org/?p=2362)
 -   [Red vs Blue Modern Active Directory Attacks Defense - Sean Metcalf](https://www.youtube.com/watch?v=Lz6haohGAMc&feature=youtu.be)
 
 [Category: Technologies](/Category:_Technologies "wikilink")[Category: Windows](/Category:_Windows "wikilink")
