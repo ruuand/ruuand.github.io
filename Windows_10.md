@@ -12,7 +12,7 @@ Device Guard
 Device Guard contient trois principaux composants:
 * Configurable Code Integrity (CCI): CCI impose que le code executé par la machine soit signé et trusté.
 * VSM Protected Code Integrity:
-* UEFI Secure Boot: voir [[Secure Boot]]
+* UEFI Secure Boot
 
 Credential Guard
 ----------------
