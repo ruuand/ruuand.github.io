@@ -30,6 +30,14 @@ Il est possible de récupérer les parties à cracker avec [Impacket](/Impacket 
 GetUserSPNs.py -dc-ip 192.168.1.1 -request domain.local/validaccount
 ```
 
+Correction
+----------
+
+Il est difficile de bloquer Kerberoasting qui utilise le fonctionnement normal de Kerberos. On peut cependant essayer de détecter une attaque en cours:
+- [Detecting Kerberoasting Activity](https://adsecurity.org/?p=3458)
+- [Detecting Kerberoasting Activity Part 2 – Creating a Kerberoast Service Account Honeypot](https://adsecurity.org/?p=3513)
+
+
 Ressources
 ----------
 
