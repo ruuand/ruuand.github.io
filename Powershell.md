@@ -6,8 +6,8 @@ permalink: /Powershell/
 Généralités
 -----------
 
-- powershell.exe n'est pas "Powershell" mais juste une interface pour intéragir avec. Il est possible d'utiliser d'autres interfaces comme **Not Powershell** (https://github.com/Ben0xA/nps) ou **PSAttack** (https://github.com/jaredhaight/PSAttack)
-- Il est possible d'activer le logging pour Powershell.
+- powershell.exe n'est pas "Powershell" mais juste une interface pour intéragir avec. Il est possible d'utiliser d'autres interfaces comme **Not Powershell** (https://github.com/Ben0xA/nps) ou **PSAttack** (https://github.com/jaredhaight/PSAttack) Il est ainsi possible de contourner certaines restrictions avec ceci (e.g. blocage de powershell.exe ou Constrained Powershell Enforced)
+- Il est possible d'activer le logging pour Powershell. 
 - (Powershell v5): Constrained Powershell Enforced (lié à DeviceGuard) permet de bloquer certaines fonctionnalités de powershell (notamment celles utilisées par Invoke-Mimikatz). Cependant ceci est limité à **powershell.exe**.
 - (Windows 10): [Anti malware Scan Interface](https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn889587(v=vs.85).aspx) fournit une interface pour les antivirus qui permet notamment de faciliter l'analyse AV en mémoire.
    - Il existe des méthodes pour bypasser AMSI.
