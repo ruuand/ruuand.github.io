@@ -40,28 +40,15 @@ Pour faire du formatting / output:
 Get-Process | Format-List -Property Threads, SessionId # Affiche le résultat sous forme de liste en se limitant à certaines informations
 ```
 
-Session interactive
+Meterpreter
 -------------------
 
-**Note**: cette section est basée sur [Interactive sessions in PowerShell](https://www.trustedsec.com/june-2015/interactive-powershell-sessions-within-meterpreter/)
-
-Pour obtenir une session interactive avec Powershell sous metasploit il est possible d'utiliser un des payloads dédiés dans metasploit. Il est à noter qu'il n'est pas possible de passer par meterpreter qui ne permet pas de lancer powershell après avoir fait un `shell`. Dans la version 4.11.5-2016010401 de metasploit les modules suivants sont disponibles:
-
-``` bash
-msf exploit(psexec) > search Interactive_powershell
-
-Matching Modules
-================
-
-   Name                                        Disclosure Date  Rank    Description
-   ----                                        ---------------  ----    -----------
-   payload/cmd/windows/powershell_bind_tcp                      normal  Windows Interactive Powershell Session, Bind TCP
-   payload/cmd/windows/powershell_reverse_tcp                   normal  Windows Interactive Powershell Session, Reverse TCP
-   payload/windows/powershell_bind_tcp                          normal  Windows Interactive Powershell Session, Bind TCP
-   payload/windows/powershell_reverse_tcp                       normal  Windows Interactive Powershell Session, Reverse TCP
-   payload/windows/x64/powershell_bind_tcp                      normal  Windows Interactive Powershell Session, Bind TCP
-   payload/windows/x64/powershell_reverse_tcp                   normal  Windows Interactive Powershell Session, Reverse TCP
+Il est possible d'utiliser powershell à partir d'un meterpreter:
 ```
+load powershell
+```
+
+Voir [Meterpreter New Windows PowerShell Extension](http://www.darkoperator.com/blog/2016/4/2/meterpreter-new-windows-powershell-extension)
 
 Execution Policy
 ----------------
