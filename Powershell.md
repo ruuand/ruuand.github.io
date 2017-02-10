@@ -6,7 +6,14 @@ permalink: /Powershell/
 Généralités
 -----------
 
-powershell.exe n'est pas "Powershell" mais juste une interface pour intéragir avec. Il est possible d'utiliser d'autres interfaces comme "Not Powershell" (https://github.com/Ben0xA/nps)
+- powershell.exe n'est pas "Powershell" mais juste une interface pour intéragir avec. Il est possible d'utiliser d'autres interfaces comme "Not Powershell" (https://github.com/Ben0xA/nps)
+- Il est possible d'activer le logging pour Powershell
+- (Powershell v5): Constrained Powershell Enforced (lié à DeviceGuard) permet de bloquer certaines fonctionnalités de powershell (notamment celles utilisées par Invoke-Mimikatz)
+- (Windows 10): [Anti malware Scan Interface](https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn889587(v=vs.85).aspx) fournit une interface pour les antivirus qui permet notamment de faciliter l'analyse AV en mémoire.
+   - Il existe des méthodes pour bypasser AMSI.
+   - La plupart des AV ne supportent pas AMSI.
+- (Windows 10): [Just Enough Administration](/Just_Enough_Administration/)
+
 
 Commandes
 ---------
@@ -78,6 +85,7 @@ Les commandes suivantes sont utiles à connaître lors de l'utilisation de Power
 Resources
 ---------
 
--   [PowerUp: A Usage Guide](http://www.harmj0y.net/blog/powershell/powerup-a-usage-guide/)
--   [PwnWiki](http://pwnwiki.io/#!scripting/powershell.md)
--   [DerbyCon - PowerShell Secrets and Tactics](https://www.youtube.com/watch?v=mPPv6_adTyg)
+-  [PowerUp: A Usage Guide](http://www.harmj0y.net/blog/powershell/powerup-a-usage-guide/)
+-  [PwnWiki](http://pwnwiki.io/#!scripting/powershell.md)
+-  [DerbyCon - PowerShell Secrets and Tactics](https://www.youtube.com/watch?v=mPPv6_adTyg)
+-  [PowerShell Security: Defending the Enterprise from the Latest Attack Platform](https://www.youtube.com/watch?v=_8yBjg7bRLo)
