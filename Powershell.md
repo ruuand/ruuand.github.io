@@ -81,5 +81,3 @@ Resources
 -   [PowerUp: A Usage Guide](http://www.harmj0y.net/blog/powershell/powerup-a-usage-guide/)
 -   [PwnWiki](http://pwnwiki.io/#!scripting/powershell.md)
 -   [DerbyCon - PowerShell Secrets and Tactics](https://www.youtube.com/watch?v=mPPv6_adTyg)
-
-[Category:Technologies](/Category:Technologies "wikilink")[Category:Windows](/Category:Windows "wikilink")
