@@ -10,5 +10,3 @@ Ressources
 
 -   [Sneaky Active Directory Persistence \#17: Group Policy](https://adsecurity.org/?p=2716)
 -   [Article de Microsoft décrivant comment mettre en place une GPO](https://technet.microsoft.com/fr-fr/library/hh147307(v=ws.10).aspx)
-
-[Category:Technologies](/Category:Technologies "wikilink")
