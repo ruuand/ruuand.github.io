@@ -19,3 +19,7 @@ Device Guard contient trois principaux composants:
 Credential Guard
 ----------------
 Basé sur VSM, Credential Guard permet de s'assurer que LSA soit sécurisé dans VSM.
+
+Références
+----------
+- [Windows 10 Microsoft Passport (aka Microsoft Next Generation Credential) In Detail](https://adsecurity.org/?p=1535)
