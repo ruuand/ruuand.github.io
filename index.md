@@ -20,8 +20,8 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [WMI](/WMI/)
 	- [LLMNR](/LLMNR/)
 	- [SMB Relay](/SMB_Relay/)
-	- [MsCacheV2](/MsCacheV2/)
 	- [Trust Relationships](/Trust_Relationships/)
+	- [MSCacheV2](/MsCacheV2/)
 
 - [Poste de travail](/Poste_de_travail/)
 	- [SecureBoot](/SecureBoot/)
