@@ -39,6 +39,8 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 - Antivirus
 	- [Contournement d'antivirus](/Contournement_d'antivirus/)
 	- [Symantec Veritas Backup Exec](/Symantec_Veritas_Backup_Exec/)
+	- [McAfee](McAfee)
+	- [Sophos Antivirus](Sophos_Antivirus)
 
 - Vulnérabilités
 	- [MS14-068](/MS14-068/)
