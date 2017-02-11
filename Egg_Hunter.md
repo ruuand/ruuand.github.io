@@ -3,6 +3,8 @@ title: Egg Hunter
 permalink: /Egg_Hunter/
 ---
 
+# Egg Hunter
+
 Le principe d'un egg hunter est de séparer le shellcode en deux sections:
 
 -   Une première section contenant la charge utile (e.g. bind shell, reverse shell, etc.). Cette partie est précédée d'un "Egg" qui est une chaîne spécifique répétée deux fois (e.g. W00TW00T).

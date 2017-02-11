@@ -3,6 +3,8 @@ title: Elevation de priviléges (Linux)
 permalink: /Elevation_de_priviléges_(Linux)/
 ---
 
+# Elévation de priviléges (Linux)
+
 Enumération
 -----------
 

@@ -3,6 +3,8 @@ title: Assembleur
 permalink: /Assembleur/
 ---
 
+# Assembleur
+
 Cet article présente différentes informations concernant le langage assembleur (ASM).
 
 Outils
@@ -93,5 +95,3 @@ section .data ; contient des valeurs statiques comme des chaînes des strings
     label: db "Hello World" ; define byte
     len    equ  $-label   ; contient la longueur de label
 ```
-
-[Category:Technologies](/Category:Technologies "wikilink")

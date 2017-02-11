@@ -3,6 +3,8 @@ title: BloodHound
 permalink: /BloodHound/
 ---
 
+# BloodHound
+
 Utilisation
 -----------
 
@@ -25,5 +27,3 @@ Ressources
 
 -   [Projet Github](https://github.com/adaptivethreat/BloodHound)
 -   [BloodHound - Custom Queries](http://www.securityripcord.com/blog/2016/09/28/bloodhound-custom-queries/)
-
-[Category:Outils](/Category:Outils "wikilink")

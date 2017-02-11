@@ -3,6 +3,8 @@ title: Buffer Overflows
 permalink: /Buffer_Overflows/
 ---
 
+# Buffer Overflows
+
 Offset
 ------
 
@@ -61,5 +63,3 @@ Ressources
 ### Liens externes
 
 -   [64 Bits Linux Stack Based Buffer Overflow](https://www.exploit-db.com/docs/33698.pdf)
-
-[Category:Exploitation](/Category:Exploitation "wikilink")

@@ -3,6 +3,8 @@ title: CrackMapExec
 permalink: /CrackMapExec/
 ---
 
+# CrackMapExec
+
 [CrackMapExec](/CrackMapExec "wikilink") est un outil d'exploitation en python (https://github.com/byt3bl33d3r/CrackMapExec).
 
 Fonctionnalités
@@ -37,6 +39,3 @@ Références
 
 -   [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)
 -   [Getting the goods with CrackMapExec part 1](https://byt3bl33d3r.github.io/getting-the-goods-with-crackmapexec-part-1.html)
--   [DerbyCon - CrackMapExec Owning Active Directory by using Active Directory (Vidéo)](https://www.youtube.com/watch?v=ekgeVecQH94)
-
-[Category:Outils](/Category:Outils "wikilink")

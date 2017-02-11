@@ -3,6 +3,8 @@ title: Bash
 permalink: /Bash/
 ---
 
+# Bash
+
 Commandes utiles
 ----------------
 
@@ -23,5 +25,3 @@ Les commandes suivantes générent les commandes à taper pour copier/coller un 
 ``` bash
 cat test | sed -e 's/^/echo /g' | sed -e 's/$/>> file.txt/g'
 ```
-
-[Catégorie:Outils](/Catégorie:Outils "wikilink")

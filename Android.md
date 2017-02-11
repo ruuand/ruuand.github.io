@@ -3,6 +3,8 @@ title: Android
 permalink: /Android/
 ---
 
+# Android
+
 Contenu basé en grande partie sur le cours Android de <http://www.pentesteracademy.com/>.
 
 Commandes utiles
@@ -324,5 +326,3 @@ Ressources
 ----------
 
 -   [Android Security Awesome](https://github.com/ashishb/android-security-awesome)
-
-[Category:Technologies](/Category:Technologies "wikilink")

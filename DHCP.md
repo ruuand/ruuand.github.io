@@ -1,7 +1,9 @@
 ---
-title: Active Directory
-permalink: /Active_Directory/
+title: DHCP
+permalink: /DHCP/
 ---
+
+# DHCP
 
 Attribution statique
 --------------------

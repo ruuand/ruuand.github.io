@@ -3,6 +3,8 @@ title: Contournement d'antivirus
 permalink: /Contournement_d'antivirus/
 ---
 
+# Contournement d'antivirus
+
 Cet article décrit des méthodes pour contourner des antivirus. Ceci est en aucun exhaustif:
 
 -   **Encodage**: Il est possible d'encoder la charge utile et de rajouter du code décodant la charge utile. Ceci est très basique et ne permet pas de contourner la plupart des antivirus.
@@ -23,4 +25,6 @@ Une autre alternative à la compilation dans Kali est de télécharger l'executa
 
 Il est également possible de trouver des informations supplémentaires sur Hyperion dans [exploit-db](https://www.exploit-db.com/docs/18849.pdf)
 
-[Category:Méthodologies](/Category:Méthodologies "wikilink") [Category:Exploitation](/Category:Exploitation "wikilink")
+Powershell
+----------
+Il est possible de contourner les antivirus qui détectent les outils powershelles (voir [Powershell](/Powershell/)

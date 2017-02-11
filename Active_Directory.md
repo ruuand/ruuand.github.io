@@ -3,6 +3,8 @@ title: Active Directory
 permalink: /Active_Directory/
 ---
 
+# Active Directory
+
 Active Directory est un des éléments centraux d'un environnement Windows. Le site <https://adsecurity.org/> est une référence à consulter.
 
 Points à étudier
@@ -19,8 +21,8 @@ Authentification AD
 
 Il existe plusieurs mécanismes d'authentification dans Active Directory:
 
--   [Authentification Lan Manager](/Lan_Manager "wikilink")
--   [Authentification Kerberos](/Kerberos "wikilink")
+-   [Authentification Lan Manager](/Lan_Manager/)
+-   [Authentification Kerberos](/Kerberos/")
 
 ### Authentification par carte à puce
 
@@ -65,5 +67,3 @@ Ressources
 
 -   [Attack Methods for Gaining Domain Admin Rights in Active Directory](https://adsecurity.org/?p=2362)
 -   [Red vs Blue Modern Active Directory Attacks Defense - Sean Metcalf](https://www.youtube.com/watch?v=Lz6haohGAMc&feature=youtu.be)
-
-[Category: Technologies](/Category:_Technologies "wikilink")[Category: Windows](/Category:_Windows "wikilink")

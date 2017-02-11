@@ -3,6 +3,8 @@ title: DNS
 permalink: /DNS/
 ---
 
+# DNS
+
 Configuration
 -------------
 
