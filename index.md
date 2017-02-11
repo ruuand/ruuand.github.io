@@ -56,7 +56,7 @@ Services
 Cette section contient différents services (e.g. DNS, FTP, etc).
 
 - [DHCP](/DHCP/)
-- [DNS (tcp/53](/DNS/)
+- [DNS (tcp/53)](/DNS/)
 - [MySQL (tcp/3306)](/MySQL/)
 - [NTP (tcp/123)](/NTP/)
 - [FTP (tcp/21)](/FTP/)
