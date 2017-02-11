@@ -1,16 +1,6 @@
 # Wiki / Cheat-Sheet de pentesting
 Les informations contenues dans ce site sont plus ou moins mises à jours et plus ou moins fiable. A utiliser avec précaution. Le regroupement en différentes catégories est très aproximatif.
 
-Exploitation
-------------
-- [Buffer Overflows](/Buffer_Overflows/)
-- [Corelan Exploit Course](/Corelan_Exploit_Course/)
-- [Ecriture d'exploit](/Ecriture_d'exploit/)
-- [Egg Hunter](/Egg_Hunter/)
-- [Mona](/Mona/)
-- [SEH](/SEH/)
-- [Assembleur](/Assembleur/)
-
 Pentest Interne & Active Directory
 ----------------------------------
 Cette section contient des éléments relatifs aux tests d'intrusion internes, principalement sur les parties Windows.
@@ -61,24 +51,6 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [Wifi](/Wifi/)
 	- [Elévation de priviléges (Windows)](/Elévation_de_priviléges_(Windows)/)
 
-
-Divers
-------
-- [Installation serveur](/Installation_serveur/)
-- [Pentest Lab](/Pentest_Lab/)
-- [Proxy SSH](/Proxy_SSH/)
-- [Sudo](/Sudo/)
-- [Virtualisation](/Virtualisation/)
-- [Phishing](/Phishing/)
-- [Reverse Shells](/Reverse_Shells/)
-- [Internet Explorer](/Internet_Explorer/)
-
-Linux
------
-- [Elevation de priviléges (Linux)](/Elevation_de_priviléges_(Linux)/)
-- [Bash](/Bash/)
-- [Netcat](/Netcat/)
-
 Services
 --------
 Cette section contient différents services (e.g. DNS, FTP, etc).
@@ -115,7 +87,34 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [WebDAV](/WebDAV/)
 	- [WordPress](/WordPress/)
 
+Exploitation
+------------
+- [Buffer Overflows](/Buffer_Overflows/)
+- [Corelan Exploit Course](/Corelan_Exploit_Course/)
+- [Ecriture d'exploit](/Ecriture_d'exploit/)
+- [Egg Hunter](/Egg_Hunter/)
+- [Mona](/Mona/)
+- [SEH](/SEH/)
+- [Assembleur](/Assembleur/)
+
+Linux
+-----
+- [Elevation de priviléges (Linux)](/Elevation_de_priviléges_(Linux)/)
+- [Bash](/Bash/)
+- [Netcat](/Netcat/)
+
 Mobile
 -----
 - [Android](/Android/)
+
+Divers
+------
+- [Installation serveur](/Installation_serveur/)
+- [Pentest Lab](/Pentest_Lab/)
+- [Proxy SSH](/Proxy_SSH/)
+- [Sudo](/Sudo/)
+- [Virtualisation](/Virtualisation/)
+- [Phishing](/Phishing/)
+- [Reverse Shells](/Reverse_Shells/)
+- [Internet Explorer](/Internet_Explorer/)
 
