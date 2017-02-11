@@ -3,6 +3,8 @@ title: SEH
 permalink: /SEH/
 ---
 
+# Structured Exception Handler (SEH)
+
 Pour afficher le statut des enregistrements SEH avec mona (ou ALT+S sous Immunity). Cette commande affiche aussi l'offset si on y met un pattern MSF:
 
 ``` text

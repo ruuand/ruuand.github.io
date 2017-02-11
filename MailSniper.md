@@ -3,6 +3,8 @@ title: MailSniper
 permalink: /MailSniper/
 ---
 
+# MailSniper
+
 Un outil sorti récemment permet de chercher facilement dans les boîtes mails des utilisateurs pour trouver les mails contenant certains mots-clés. L’outil a deux modes :
 
 -   Si on a juste un compte qui n’est pas DA ou Admin Exchange on peut chercher dans sa propre boîte mail (ex : chercher le mot-clé « KeePass » peut être utile si on a un compte qui fait partie des équipes IT)

@@ -3,6 +3,8 @@ title: Test d'intrusion interne
 permalink: /Test_d'intrusion_interne/
 ---
 
+# Test d'intrusion interne
+
 Cette article présente une liste (non-exhaustive) de méthodologies et outils qui peuvent être utilisées dans des pentests internes. Ces méthodologies sont divisées en plusieurs catégories:
 
 -   Reconnaissance: ensemble des éléments qui permettent d'avoir une première vue sur le réseau quand on arrive dessus. Ceci inclut des méthodes qui peuvent être appliquées sans compte et d'autres qui nécessitent un compte du domaine (généralement n'importe quel compte du domaine suffira).

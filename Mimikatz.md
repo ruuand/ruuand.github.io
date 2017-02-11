@@ -3,6 +3,8 @@ title: Mimikatz
 permalink: /Mimikatz/
 ---
 
+# Mimikatz
+
 Conditions
 ----------
 

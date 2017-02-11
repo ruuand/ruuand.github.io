@@ -3,6 +3,8 @@ title: Internet Explorer
 permalink: /Internet_Explorer/
 ---
 
+# Internet Explorer
+
 Vulnérabilités avec PoC
 -----------------------
 

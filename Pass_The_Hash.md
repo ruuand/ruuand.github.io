@@ -3,6 +3,8 @@ title: Pass The Hash
 permalink: /Pass_The_Hash/
 ---
 
+# Pass the Hash
+
 La méthode **Pass The Hash** consiste à utiliser le hash NTLM d'un utilisateur pour s'authentifier auprès d'un service. Cette attaque permet de s'authentifier sans connaître le mot de passe en clair. Elle est notamment très utile dans les phases de déplcament latéral.
 
 Utilisation

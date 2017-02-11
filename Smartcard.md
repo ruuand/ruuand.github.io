@@ -3,6 +3,8 @@ title: Smartcard
 permalink: /Smartcard/
 ---
 
+# SmartCard
+
 Il est possible à partir de Windows 2012 (?) / Windows 8.1 de se logger avec des smartcards.
 
 Kekeo

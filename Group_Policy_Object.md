@@ -3,6 +3,8 @@ title: Group Policy Object
 permalink: /Group_Policy_Object/
 ---
 
+# Group Policy Object
+
 Cet article fournit un rappel sur les GPO: <https://adsecurity.org/?p=2716>
 
 Ressources

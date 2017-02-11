@@ -3,6 +3,8 @@ title: SMB
 permalink: /SMB/
 ---
 
+# SMB
+
 Enumération
 -----------
 

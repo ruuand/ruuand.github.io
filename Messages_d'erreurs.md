@@ -3,6 +3,8 @@ title: Messages d'erreurs
 permalink: /Messages_d'erreurs/
 ---
 
+# Messages d'erreurs
+
 Cette page regroupe des informations sur les messages d'erreurs qui peuvent être une source de données très utile en test d'intrusion.
 
 PHP

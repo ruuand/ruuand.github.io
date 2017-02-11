@@ -3,6 +3,8 @@ title: Proxy SSH
 permalink: /Proxy_SSH/
 ---
 
+# Proxy SSH
+
 Remote Port Forwarding with SSH
 -------------------------------
 

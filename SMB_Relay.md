@@ -3,6 +3,8 @@ title: SMB Relay
 permalink: /SMB_Relay/
 ---
 
+# SMB Relay
+
 SMB Relay est une méthode d'attaque permettant de relayer une authentification NTLM pour s'authentifier auprès d'un service [SMB](/SMB "wikilink").
 
 Outils

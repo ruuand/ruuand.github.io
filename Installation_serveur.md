@@ -3,6 +3,8 @@ title: Installation serveur
 permalink: /Installation_serveur/
 ---
 
+# Installation Serveur
+
 Installation sur Intel NUC
 --------------------------
 

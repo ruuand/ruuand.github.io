@@ -3,6 +3,8 @@ title: Local File Include
 permalink: /Local_File_Include/
 ---
 
+# Local File Include
+
 Une faille de type Local File Include (LFI) consiste à inclure un fichier local à partir d'une entrée utilisateur. Dans certains cas ceci permet d'accéder à des fichiers non situés dans le webroot voire d'executer du code.
 
 PHP

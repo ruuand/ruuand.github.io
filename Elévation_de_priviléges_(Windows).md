@@ -3,6 +3,9 @@ title: Elévation de priviléges (Windows)
 permalink: /Elévation_de_priviléges_(Windows)/
 ---
 
+# Elévation de priviléges (Windows)
+
+
 The following elements are based on <http://toshellandback.com/2015/11/24/ms-priv-esc/>
 
 Trusted Service Paths

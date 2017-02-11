@@ -3,6 +3,8 @@ title: Trust Relationships
 permalink: /Trust_Relationships/
 ---
 
+# Trust Relationships
+
 Les relations d'approbation permettent à plusieurs domaines de communiquer entre eux.
 
 Elevation de priviléges

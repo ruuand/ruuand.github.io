@@ -3,6 +3,8 @@ title: MsCacheV2
 permalink: /MsCacheV2/
 ---
 
+# MsCacheV2
+
 Par défaut Windows stocke des hashs des utilisateurs du domaine qui s'authentifient pour permettre une authentification quand le DC n'est pas joignable.
 
 Mimikatz permet de dumper ces hashs:

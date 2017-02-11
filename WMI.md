@@ -3,6 +3,8 @@ title: WMI
 permalink: /WMI/
 ---
 
+# WMI
+
 WMI permet d'executer des commandes à distance (à la manière de [PsExec](/PsExec "wikilink")). Cependant son utilisation est plus discréte.
 
 Commandes utiles
