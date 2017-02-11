@@ -19,6 +19,8 @@ Les hashs LM (et mdp) sont stockés dans certaines conditions (source: <http://w
 -   Windows APIs used by applications
 -   Etc
 
+Par ailleurs sous les vieilles versions de Windows il est possible d'utiliser mimilove.
+
 Défenses
 --------
 
@@ -52,4 +54,3 @@ Références
 -   [Mimikatz Overview, Defenses and Detection](https://www.sans.org/reading-room/whitepapers/detection/mimikatz-overview-defenses-detection-36780)
 -   [Utilisation avancée de Mimikatz](http://connect.ed-diamond.com/MISC/MISC-066/Utilisation-avancee-de-Mimikatz)
 
-[Category:Outils](/Category:Outils "wikilink")
