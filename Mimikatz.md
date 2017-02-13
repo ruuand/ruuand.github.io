@@ -19,7 +19,9 @@ Les hashs LM (et mdp) sont stockés dans certaines conditions (source: <http://w
 -   Windows APIs used by applications
 -   Etc
 
-Par ailleurs sous les vieilles versions de Windows il est possible d'utiliser mimilove.
+Trucs & astuces:
+- Sous les vieilles versions de Windows il est possible d'utiliser mimilove.
+- Il est possible de dumper lsass et de l'analyser offline avec mimikatz.
 
 Défenses
 --------
