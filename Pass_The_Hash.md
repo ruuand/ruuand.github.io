@@ -21,4 +21,4 @@ Avec ces éléments il est alors possible d'executer des commandes sur différen
 Mitigation
 ----------
 
-Voir <https://download.microsoft.com/download/7/7/a/77abc5bd-8320-41af-863c-6ecfb10cb4b9/mitigating%20pass-the-hash%20(pth)%20attacks%20and%20other%20credential%20theft%20techniques_english.pdf>
+Voir [Mitigating Pass the Hash Attacks and Other Credential Theft Version 2](https://download.microsoft.com/download/7/7/A/77ABC5BD-8320-41AF-863C-6ECFB10CB4B9/Mitigating-Pass-the-Hash-Attacks-and-Other-Credential-Theft-Version-2.pdf)
