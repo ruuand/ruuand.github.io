@@ -39,8 +39,8 @@ Arrivée initiale
 
 Protocoles présents:
 
--   LLMNR / Netbios-NS: [Responder](/Responder "wikilink")
--   Connection SMB sur la machine auditeur: [SMBRelay](/SMBRelay "wikilink")
+-   LLMNR / Netbios-NS: Responder
+-   Connection SMB sur la machine auditeur: SMBRelay
 
 A l'attribution d'une adresse IP:
 
@@ -50,7 +50,7 @@ A l'attribution d'une adresse IP:
 Attaques de type man in the middle:
 
 -   Cibler un utilisateur pour faire un arpspoof (ceci permet de découvrir des plages avec lesquelles les utilisateurs intéragissent)
--   [Responder](/Responder "wikilink") (en faisant attention à l'existence d'un wpad)
+-   Responder (en faisant attention à l'existence d'un wpad)
 
 Scans de découverte réseau:
 
@@ -77,17 +77,17 @@ Les attaque de type "Man in the middle" consistent en l'ensemble des attaques da
 
 -   Sniffing de mot de passe
 -   Sniffing de challenge NTLM
--   LLMNR/NetBios-NS Spoofing avec [Responder](/Responder "wikilink")
--   [SMBRelay](/SMBRelay "wikilink")
+-   LLMNR/NetBios-NS Spoofing avec Responder
+-   SMBRelay
 
 <!-- -->
 
--   [Applications Web](/Applications_Web "wikilink")
+-   Applications Web
 -   [Microsoft SQL Server](/Microsoft_SQL_Server "wikilink")
 
 Avec un compte du domaine:
 
--   Mots de passe dans [SYSVOL](/SYSVOL "wikilink") ([Group Policy Preferences](/Group_Policy_Preferences "wikilink"))
+-   Mots de passe dans SYSVOL ([Group Policy Preferences](/Group_Policy_Preferences "wikilink"))
 -   Trouver des partages réseaux via des scans ([nmap](/nmap "wikilink"), [metasploit](/metasploit "wikilink"), [CrackMapExec](/CrackMapExec "wikilink"), [ShareCheck](http://www.sec-1.com/blog/2014/sharecheck)) ou via l'interrogation de l'[Active Directory](/Active_Directory "wikilink")
 -   Attaques liées à [Kerberos](/Kerberos "wikilink") (ex: [Kerberoasting](/Kerberoasting "wikilink"))
 -   Attaques sur le DC

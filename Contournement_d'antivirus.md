@@ -27,4 +27,4 @@ Il est également possible de trouver des informations supplémentaires sur Hype
 
 Powershell
 ----------
-Il est possible de contourner les antivirus qui détectent les outils powershelles (voir [Powershell](/Powershell/)
+Il est possible de contourner les antivirus qui détectent les outils powershells (voir [Powershell](/Powershell/))

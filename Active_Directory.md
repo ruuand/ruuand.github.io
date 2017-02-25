@@ -21,7 +21,7 @@ Authentification AD
 
 Il existe plusieurs mécanismes d'authentification dans Active Directory:
 
--   [Authentification Lan Manager](/Lan_Manager/)
+-   Authentification Lan Manager
 -   [Authentification Kerberos](/Kerberos/)
 
 ### Authentification par carte à puce

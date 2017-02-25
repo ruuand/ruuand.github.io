@@ -10,7 +10,7 @@ Utilisation
 
 ### Connexion
 
-[Impacket](/Impacket "wikilink") posséde un outil *mssqlclient.py*. L'exemple suivant permet de se connecter avec sa/password et d'executer les commandes contenues dans *commands.txt*:
+Impacket posséde un outil *mssqlclient.py*. L'exemple suivant permet de se connecter avec sa/password et d'executer les commandes contenues dans *commands.txt*:
 
 ``` bash
 mssqlclient.py -port 27900 sa:password@192.168.31.227 -file commands.txt
