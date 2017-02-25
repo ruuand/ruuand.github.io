@@ -25,4 +25,4 @@ dig -t axfr @192.168.31.221 thinc.local
 
 <https://blog.bugcrowd.com/discovering-subdomains>
 
-[Category:Protocoles](/Category:Protocoles "wikilink")
+

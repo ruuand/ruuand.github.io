@@ -66,4 +66,4 @@ Resources
 -   [Kernel-Exploits](https://www.kernel-exploits.com/)
 -   [Its Too Funky In Here04 Linux privilege escalation for fun profit and all around mischief](https://www.youtube.com/watch?v=dk2wsyFiosg)
 
-[Category:Méthodologies](/Category:Méthodologies "wikilink")
+

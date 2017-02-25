@@ -51,4 +51,4 @@ Ressources
 -   [Cracking Kerberos TGS Tickets Using Kerberoast – Exploiting Kerberos to Compromise the Active Directory Domain](https://adsecurity.org/?p=2293)
 -   [Kerberoasting Without Mimikatz - Harmj0y](http://www.harmj0y.net/blog/powershell/kerberoasting-without-mimikatz/)
 
-[Category:Méthodologies](/Category:Méthodologies "wikilink") [Category:Active Directory](/Category:Active_Directory "wikilink")
+

@@ -447,4 +447,4 @@ Références
 
 -   [Notes sur Wi-Fi Security Megaprimer](http://41j.com/blog/2011/10/securitytube-wireless-lan-security-megaprimer-notes-parts-1-to-4/)
 
-[Category:Méthodologies](/Category:Méthodologies "wikilink")
+

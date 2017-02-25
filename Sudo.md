@@ -29,4 +29,4 @@ whoami
 root
 ```
 
-[Category:Technologies](/Category:Technologies "wikilink")[Category:Linux](/Category:Linux "wikilink")
+

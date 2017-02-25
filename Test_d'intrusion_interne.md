@@ -127,4 +127,4 @@ Ressources
 -   [Derbycon 2016 - Attacking EvilCorp Anatomy of a Corporate Hack](https://www.youtube.com/watch?v=nJSMJyRNvlM)
 -   [Derbycon 2014 - Passing the Torch Old School Red Teaming New School Tactics David McGuire and Will Schroeder](https://www.youtube.com/watch?v=rpwrKhgMd7E): présente les anciennes et nouvelles méthodes pour faire des pentest internes.
 
-[Category:Méthodologies](/Category:Méthodologies "wikilink")
+

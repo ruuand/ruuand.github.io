@@ -79,4 +79,4 @@ echo Next >> wget.vbs
 echo ts.Close >> wget.vbs
 ```
 
-[Category:Méthodologies](/Category:Méthodologies "wikilink")
+

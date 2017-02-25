@@ -63,4 +63,4 @@ Ressources
 -   [What Is Kerberos Authentication? - Microsoft Technet](https://technet.microsoft.com/en-us/library/cc780469(v=ws.10).aspx)
 -   [Kerberos, Active Directory’s Secret Decoder Ring](http://adsecurity.org/?p=227)
 
-[Category:Protocoles](/Category:Protocoles "wikilink")
+

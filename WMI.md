@@ -24,4 +24,4 @@ Référence
 -   [We Don’t Need No Stinkin’ PSExec](https://www.trustedsec.com/june-2015/no_psexec_needed/)
 -   [Executing code via SMB / DCOM without PSEXEC](https://room362.com/post/2014/2014-04-19-executing-code-via-smb-without-psexec/)
 
-[Category:Technologies](/Category:Technologies "wikilink")
+

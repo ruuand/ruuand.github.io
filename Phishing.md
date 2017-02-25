@@ -12,4 +12,4 @@ Outils
 -   [gophish](https://getgophish.com/)
 -   [Phishing without Failure and Frustration Jay Beale](https://www.youtube.com/watch?v=xSyppB_hcGg&list=PLNhlcxQZJSm9T78xh_QYYiqkTjIt4jYgm&index=51)
 
-[Category:Outils](/Category:Outils "wikilink")
+

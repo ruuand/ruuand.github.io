@@ -120,4 +120,4 @@ Ressources
 -   [Elevating privileges by exploiting weak folder permissions](http://www.greyhathacker.net/?p=738)
 -   [Windows Privilege Escalation Vectors](http://toshellandback.com/2015/11/24/ms-priv-esc/Common)
 
-[Category:Méthodologies](/Category:Méthodologies "wikilink")
+

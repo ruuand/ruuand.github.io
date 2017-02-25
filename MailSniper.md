@@ -17,4 +17,4 @@ Références
 -   Github : <https://github.com/dafthack/MailSniper>
 -   Présentation DerbyCon (MailSniper est présenté dans le dernier tiers de la vidéo, le reste est aussi intéressant cela dit): <https://www.youtube.com/watch?v=snMx6eOBKPU>
 
-[Category:Outils](/Category:Outils "wikilink")
+

@@ -105,4 +105,4 @@ Resources
 
 -   [Dynamic Port Forwarding](http://netsec.ws/?p=278)
 
-[Category:Méthodologies](/Category:Méthodologies "wikilink")
+

@@ -27,4 +27,4 @@ if(isset($_GET["shell"]))
 ?>
 ```
 
-[Category:Technologies](/Category:Technologies "wikilink")
+

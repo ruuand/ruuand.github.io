@@ -49,4 +49,4 @@ Voici une liste d'éléments à vérifier face à un FTP
 -   Est-il possible d'écrire dans un dossier lié à un répertoire web ?
 -   Est-il possible d'écrire dans un dossier où des fichiers sont exécutés ? (ex: fichiers téléchargés par d'autres utilisateurs, scripts exécutés par un job cron, etc.)
 
-[Category:Protocoles](/Category:Protocoles "wikilink")
+

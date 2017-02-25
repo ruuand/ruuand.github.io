@@ -30,4 +30,4 @@ On peut ensuite casser les hashs NetNTLMv2 obtenus avec [hashcat](/hashcat "wiki
 
 Il est possible de désactiver LLMNR et NetBIOS pour empêcher ce type d'attaque. Ces protocoles ne sont à priori pas nécessaire pour un fonctionnement normal dans un environnement Active Directory.
 
-[Category:Outils](/Category:Outils "wikilink")[Category:Protocoles](/Category:Protocoles "wikilink")
+

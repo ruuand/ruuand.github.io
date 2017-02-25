@@ -324,5 +324,4 @@ Emulation
 
 Ressources
 ----------
-
 -   [Android Security Awesome](https://github.com/ashishb/android-security-awesome)

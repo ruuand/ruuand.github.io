@@ -31,4 +31,4 @@ Trouver des *jmp esp* dans user32.dll:
 !mona jmp -r esp -m user32.dll
 ```
 
-[Category:Exploitation](/Category:Exploitation "wikilink") [Category:Outils](/Category:Outils "wikilink")
+

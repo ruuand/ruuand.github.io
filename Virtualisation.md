@@ -15,4 +15,4 @@ Mode de carte réseau
 -   Internal network: machines reliées entre elles mais ne peuvent pas communiquer avec l'hôte (?)
 -   Host-Only: la VM ne peut communiquer qu'avec des machines hébergées localement
 
-[Category:Technologies](/Category:Technologies "wikilink")
+

@@ -124,4 +124,4 @@ Lors de l'utilisation de MSFVenom pour créer un payload il est important d'ajou
 EXITFUNC=SEH
 ```
 
-[Category:Exploitation](/Category:Exploitation "wikilink") [Category:Méthodologies](/Category:Méthodologies "wikilink")
+

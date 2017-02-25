@@ -186,4 +186,4 @@ Ressources
 
 -   [Fuzzy Security - Egg Hunters](http://www.fuzzysecurity.com/tutorials/expDev/4.html)
 
-[Category:Exploitation](/Category:Exploitation "wikilink")
+

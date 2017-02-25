@@ -47,4 +47,4 @@ Ressources
 
 -   [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
 
-[Category:Technologies](/Category:Technologies "wikilink")
+

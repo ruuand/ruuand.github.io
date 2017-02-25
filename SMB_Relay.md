@@ -54,4 +54,4 @@ Références
 -   [Méthodes de défense sur skullsecurity](https://blog.skullsecurity.org/2008/ms08-068-preventing-smbrelay-attacks)
 -   [MS08_068 + MS10_046 = FUN UNTIL 2018](http://room362.com/post/2012/2012-02-11-ms08_068-ms10_046-fun-until-2018/)
 
-[Category:Méthodologies](/Category:Méthodologies "wikilink")
+

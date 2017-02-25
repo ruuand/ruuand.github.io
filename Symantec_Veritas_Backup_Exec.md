@@ -10,4 +10,4 @@ Références
 
 -   [From Read to Domain Admin – Abusing Symantec Backup Exec with Frida](https://blog.silentsignal.eu/2014/02/27/from-read-to-domain-admin-abusing-symantec-backup-exec-with-frida/)
 
-[Category:Technologies](/Category:Technologies "wikilink")
+

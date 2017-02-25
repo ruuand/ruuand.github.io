@@ -50,4 +50,4 @@ Resources
 -   [Article from iodigicatlsec](http://www.iodigitalsec.com/windows-null-session-enumeration/)
 -   [Article from Carnal0wnage](http://carnal0wnage.attackresearch.com/2010/06/more-with-rpcclient.html)
 
-[Category:Protocoles](/Category:Protocoles "wikilink")
+

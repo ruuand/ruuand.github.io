@@ -40,4 +40,4 @@ snmpwalk -c public -v1 192.168.31.222
 snmp-check 192.168.101.196 -c public
 ```
 
-[Category:Protocoles](/Category:Protocoles "wikilink")
+

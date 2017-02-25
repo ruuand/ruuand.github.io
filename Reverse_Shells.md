@@ -73,4 +73,4 @@ Ressources
 
 -   [Reverse Shell Cheat Sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
 
-[Category:Exploitation](/Category:Exploitation "wikilink")
+
