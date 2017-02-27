@@ -8,16 +8,16 @@ permalink: /Mimikatz/
 Conditions
 ----------
 
-Pour utiliser mimikatz il faut pouvoir le lancer en tant qu'administrateur ou SYSTEM. Ensuite on peut récupérer des informations, modulo certaines conditions.
+Pour utiliser mimikatz il faut pouvoir le lancer en tant qu'administrateur ou SYSTEM. Ensuite on peut récupérer des informations, modulo certaines conditions (https://technet.microsoft.com/en-us/windows-server-docs/security/securing-privileged-access/securing-privileged-access-reference-material#a-nameatltbmaadministrative-tools-and-logon-types):
 
-Les hashs LM (et mdp) sont stockés dans certaines conditions (source: <http://www.ampliasecurity.com/research/wce12_uba_ampliasecurity_eng.pdf> & <https://technet.microsoft.com/en-us/library/hh994565(v=ws.11).aspx>):
-
--   Interactive logon sessions at the console
--   Remote logon sessions via RDP
+-   Log on at console
+-   Remote Desktop
 -   RunAs
--   Windows Services running under specific user accounts
--   Windows APIs used by applications
--   Etc
+-   Powershell WiRM with CredSSP
+-   PsExec with explicit creds
+-   Scheduled Task
+-   Tool running as a service
+-   IIS "Basic Authentication"
 
 Trucs & astuces:
 - Sous les vieilles versions de Windows il est possible d'utiliser mimilove.
