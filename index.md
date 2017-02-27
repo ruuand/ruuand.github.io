@@ -81,6 +81,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Mots de passes par défaut](/Mots_de_passes_par_défaut/)
 	- [Messages d'erreurs](/Messages_d'erreurs/)
 	- [Google Search](/Google_Search/)
+	- [Web Cache](/Web_Cache/)
 - Technologies
 	- [Adobe ColdFusion](/Adobe_ColdFusion/)
 	- [Apache](/Apache/)
