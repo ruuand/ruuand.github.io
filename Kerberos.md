@@ -25,8 +25,8 @@ Le principe est le suivant (voir [Explain like I’m 5: Kerberos](http://www.rog
 -   Tous les utilisateurs vont utiliser leur hash NT pour effectuer des opérations permettant de s'authentifier auprès du KDC
 -   Le client demande un **Ticket Granting Ticket** (TGT) au KDC. Ce TGT sera valable pour une durée de 10 heures (renouvelable pour une durée maximale de 7 jours):
     -   (Client) - **PREAUTH** est calculé par le client basé sur le chiffrement d'un timestamp avec le hash NT. Si un écart trop grand de temps est identifié entre le KDC et la machine utilisateur est identifié, un erreur sera renvoyée (KRB_AP_ERR_SKEW)
-    -   (Client -&gt; KDC) - *AS-REQ* contenant le **PREAUTH** afin de faire une demande pour un TGT.
-    -   (KDC -&gt; Client) - *AS-REP* contenant le **Privileged Attribute Certificate** (PAC) qui détaille les groupes de sécurité dont l'utilisateur est membre. Cette partie est chiffrée avec la clé du compte krbtgt et seul le KDC pourra donc le déchiffrer. L**'AS-REP contient également une partie chiffrée avec la clé du client et qui va permettre de communiquer pour récupérer les TGS **(TODO: à valider). Cette partie chiffrée avec la clé de l'utilisateur explique la nécessite de la pré authentification. Sans ce mécanisme, un attaquant pourrait récupérer des *AS-REP* pour n'importe quel utilisateur et faire du brute force offline.
+    -   (Client -&gt; KDC) - **AS-REQ** contenant le **PREAUTH** afin de faire une demande pour un TGT.
+    -   (KDC -&gt; Client) - **AS-REP** contenant le **Privileged Attribute Certificate** (PAC) qui détaille les groupes de sécurité dont l'utilisateur est membre. Cette partie est chiffrée avec la clé du compte krbtgt et seul le KDC pourra donc le déchiffrer. **L'AS-REP contient également une partie chiffrée avec la clé du client et qui va permettre de communiquer pour récupérer les TGS**. Cette partie chiffrée avec la clé de l'utilisateur explique la nécessite de la pré authentification. Sans ce mécanisme, un attaquant pourrait récupérer des *AS-REP* pour n'importe quel utilisateur et faire du brute force offline.
 -   Le client demande ensuite un **Ticket Granting Service** (TGS) au KDC. Ce TGS permettra d'accéder à un service spécifique:
     -   (Client -&gt; KDC) - Le client fournit son TGT au KDC et indique le service auquel il veut accéder grâce à son **Service Principal Name** (SPN)
     -   (KDC) - Le client valide le TGT grâce à sa signature et construit le TGS qui contient une partie chiffrée par krbtgt et une partie chiffrée avec la clé du service (cette partie contient notamment les informations d'appartenance à des groupes)
@@ -34,9 +34,8 @@ Le principe est le suivant (voir [Explain like I’m 5: Kerberos](http://www.rog
 
 Intérêt
 -------
-
--   Les tickets ont une durée de vie limitée
--   Si un ticket est volé, il n'y a pas compromission du mot de passe de l'utilisateur
+-   Les tickets ont une durée de vie limitée.
+-   Si un ticket est volé, il n'y a pas compromission du mot de passe de l'utilisateur.
 
 Attaques possibles
 ------------------
