@@ -28,26 +28,6 @@ Il existe plusieurs mécanismes d'authentification dans Active Directory:
 
 Voir Annexe VII du guide ANSSI: <https://www.ssi.gouv.fr/uploads/IMG/pdf/NP_ActiveDirectory_NoteTech.pdf>
 
-### Stockage de mot de passes
-
--   NTDIS.DIT: hashs des mots de passe des utilisateurs du domaine.
--   Base SAM: hashs des mots de passe des utilisateurs locaux.
--   Processus LSASS: hashs de mot de passe, tickets Kerberos, mots de passe en clair.
-
-### Hashs dans le cache
-
-Par défaut les hashs des mots de passe des utilisateurs du domaine sont conservés en cache. Ceci permet de se connecter même lorsque l'ordinateur n'est plus lié au domaine. Cependant ceci ne sert à rien dans le cas de serveur. Le nombre de credentials gardé en cache est contrôlé par une clé de registre:
-
-``` text
-   HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\Current Version\Winlogon\
-
-   ValueName: CachedLogonsCount
-   Data Type: REG_SZ
-   Values: 0 - 50
-```
-
-Source: <https://support.microsoft.com/en-us/kb/172931>
-
 Groupes AD
 ----------
 
