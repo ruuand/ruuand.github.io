@@ -108,6 +108,5 @@ Antivirus
 ---------
 - Absence d'antivirus
 - Compte de service Antivirus
-
 - Utilisation de NTLMv1
 
