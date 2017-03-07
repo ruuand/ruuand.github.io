@@ -84,6 +84,7 @@ Les attaque de type "Man in the middle" consistent en l'ensemble des attaques da
 
 -   Applications Web
 -   [Microsoft SQL Server](/Microsoft_SQL_Server "wikilink")
+    - Il est possible d'utiliser les SPN pour identifier des serveurs SQL !
 
 Avec un compte du domaine:
 
