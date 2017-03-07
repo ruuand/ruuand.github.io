@@ -7,8 +7,7 @@ permalink: /Kerberos/
 
 Kerberos est un protocole d'authentification utilisé dans les domaines Windows.
 
-Présentation
-------------
+## Présentation
 
 Kerberos est un protocole d'authentification dans les domaines Windows. Il repose principalement sur un système de "tickets" et du chiffrement symétrique utilisant notamment les hashs des utilisateurs (**Note:** connaître le hash d'un utilisateur permet de générer des tickets Kerberos pour celui-ci).
 
@@ -32,13 +31,25 @@ Le principe est le suivant (voir [Explain like I’m 5: Kerberos](http://www.rog
     -   (KDC) - Le client valide le TGT grâce à sa signature et construit le TGS qui contient une partie chiffrée par krbtgt et une partie chiffrée avec la clé du service (cette partie contient notamment les informations d'appartenance à des groupes)
 -   L'utilisateur accéde finalement au service ciblé en lui présentant son TGS. Celui-ci est validé grâce à la clé du service (connue du service et du KDC) et ensuite la validation basée sur les groupes est effectuée.
 
-Intérêt
--------
--   Les tickets ont une durée de vie limitée.
--   Si un ticket est volé, il n'y a pas compromission du mot de passe de l'utilisateur.
+## Délégation Kerberos
+**Cette partie est à revoir et contient des erreurs!**
+Cette section se base sur:
+- [Kerberos Unconstrained Delegation (or How Compromise of a Single Server Can Compromise the Domain)](https://adsecurity.org/?p=1667)
+- [Kerberos Delegation, SPNs and More...](https://www.coresecurity.com/blog/kerberos-delegation-spns-and-more)
+- [Trust? Years to earn, seconds to break](https://labs.mwrinfosecurity.com/blog/trust-years-to-earn-seconds-to-break/)
 
-Attaques possibles
-------------------
+La délégation Kerberos permet à un service (S1) d'accéder à un autre service (S2) avec les droits de l'utilisateur qui accéde à (S). Il existe plusieurs mécanismes de délégation:
+- **Unconstrained Delegation**: le service peut se faire passer pour n'importe quel utilisateur. Dans la pratique, le TGT de l'utilisateur sera stocké dans le TGS pour S1 et stocké dans LSASS. (**Note**: l'utilisation du groupe Protected Users n'est pas compatible avec ce mécanisme).
+- **Constrained Delegation**: le principe est le même, mais on peut configurer auprès de quels services le service peut transférer l'authentification.
+    - L'utilisateur accéde au service (S1)
+    - Le compte du service (S1) récupère auprès du KDC un ticket (TGT ?) avec les privilèges de l'utilisateur. Le KDC accepte cette requête si le compte de service a le flag **TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION** et que le compte de l'utilisateur autorise la délégation (ce qui n'est pas le cas s'il est dans **Protected Users**). Ce ticket est **forwardable**.
+    - Le compte de service S1 renvoie ce TGT (?) au KDC et demande un TGS pour S2. Le KDC vérifie pour quels services le compte de service peut être utilisé pour la délégation et accepte ou non de fournir un TGS. Et voilà.
+   
+   
+ **Point Important**: un TGS valide pour un SPN ldap/service_account peut être modifié simplement pour être valide pour cifs/service_account. **A vérifier**
+    
+    
+## Attaques possibles
 
 ### Attaques génériques
 
@@ -54,8 +65,7 @@ Attaques possibles
 -   [Diamond PAC](/Diamond_PAC "wikilink"): attaque combinant MS14-068 et un Golden Ticket
 -   [Skeleton Key](/Skeleton_Key "wikilink"): malware patchant LSASS sur un DC. Ce malware permet de créer une **skeleton key** qui permet de se logger à n'importe quel compte du domaine.
 
-Ressources
-----------
+## Ressources
 
 -   [Active Directory](/Active_Directory "wikilink")
 -   [Explain Like I'm 5: Kerberos](http://www.roguelynn.com/words/explain-like-im-5-kerberos/)
