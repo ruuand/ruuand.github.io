@@ -40,11 +40,13 @@ Cette section se base sur:
 
 La délégation Kerberos permet à un service (S1) d'accéder à un autre service (S2) avec les droits de l'utilisateur qui accéde à (S). Il existe plusieurs mécanismes de délégation:
 - **Unconstrained Delegation**: le service peut se faire passer pour n'importe quel utilisateur. Dans la pratique, le TGT de l'utilisateur sera stocké dans le TGS pour S1 et stocké dans LSASS. (**Note**: l'utilisation du groupe Protected Users n'est pas compatible avec ce mécanisme).
-- **Constrained Delegation**: le principe est le même, mais on peut configurer auprès de quels services le service peut transférer l'authentification.
-    - L'utilisateur accéde au service (S1)
+- **Constrained Delegation with protocol transition**: le principe est le même, mais on peut configurer auprès de quels services le service peut transférer l'authentification.
+    - L'utilisateur accéde au service (S1) autrement que par Kerberos
     - Le compte du service (S1) récupère auprès du KDC un ticket (TGT ?) avec les privilèges de l'utilisateur. Le KDC accepte cette requête si le compte de service a le flag **TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION** et que le compte de l'utilisateur autorise la délégation (ce qui n'est pas le cas s'il est dans **Protected Users**). Ce ticket est **forwardable**.
     - Le compte de service S1 renvoie ce TGT (?) au KDC et demande un TGS pour S2. Le KDC vérifie pour quels services le compte de service peut être utilisé pour la délégation et accepte ou non de fournir un TGS. Et voilà.
-   
+    - Le problème de ce fonctionnement est que le compte de service intermédiaire S1 peut accéder en tant que n'importe quel utilisateur au service S2, sans que l'utilisateur ne s'authentifie.
+ - **Constrained Delegation without protocol transition**
+    - Ici il est nécessaie que l'utilisateur s'authentifie. (On forward le TGT / TGS ?)
    
  **Point Important**: un TGS valide pour un SPN ldap/service_account peut être modifié simplement pour être valide pour cifs/service_account. **A vérifier**
     
