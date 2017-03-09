@@ -75,9 +75,8 @@ Web
 ---
 Cette section contient différents éléments relatifs aux tests d'intrusions webs.
 
-- Outils
+- Outils & Techniques
 	- [Dirb](/Dirb/)
-- Techniques
 	- [Local File Include](/Local_File_Include/)
 	- [Mots de passes par défaut](/Mots_de_passes_par_défaut/)
 	- [Messages d'erreurs](/Messages_d'erreurs/)
