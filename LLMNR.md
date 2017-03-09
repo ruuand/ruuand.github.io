@@ -22,7 +22,7 @@ L'outil Responder permet de faire ce type d'attaque:
 -   Répondre aux requêtes LLMNR/NetBIOS
 -   Mettre en place des serveurs HTTP, SMB, etc. pour proposer une authentification
 
-Il est également possible de lancer Responder via un outil en USB (l'authentification sera alors toujours demandée). La [LANTurtle](/LANTurtle "wikilink") permet de faire cela.
+Il est également possible de lancer Responder via un outil en USB (l'authentification sera alors toujours demandée). La LANTurtle permet de faire cela (voir [Snagging creds from locked machines](https://room362.com/post/2016/snagging-creds-from-locked-machines/)).
 
 On peut ensuite casser les hashs NetNTLMv2 obtenus avec [hashcat](/hashcat "wikilink").
 
