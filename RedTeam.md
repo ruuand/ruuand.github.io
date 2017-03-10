@@ -11,3 +11,4 @@ permalink: /RedTeam/
 - https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 - https://www.cobaltstrike.com/training
 - https://blog.cobaltstrike.com/category/adversary-simulation/
+- https://github.com/redteamsecurity/PlugBot-Plug
