@@ -18,6 +18,8 @@ Un scan **nmap** permet d'identifier la présence d'un service SNMP
 nmap -sU --open -p 161 192.168.31.201
 ```
 
+Il est également possible d'utiliser des scripts nmap pour brute forcer les community strings.
+
 ### onesixtyone
 
 L'outil **onesixtyone** permet de tester les communities sur une plage d'IPs. Les fichiers community.txt et ips.txt contiennent les éléments à tester:
