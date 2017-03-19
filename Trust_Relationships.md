@@ -18,6 +18,14 @@ Il est également possible de s'en sortir avec mimikatz en générant un golden 
 ## SID Filtering
 Il est possible d'utiliser le mécanisme de "SID Filtering" pour limiter ce type d'attaque. Cependant, l'utilisation de ce mécanisme ne doit pas se faire au sein d'une même forêt, ce qui peut causer des problèmes de réplication (voir http://windowsitpro.com/windows-server/exploiting-sidhistory-ad-attribute). En gros, il vaut mieux mettre le domaine dans une forêt séparée si on ne lui fait pas confiance.
 
+## Interforests Trusts
+Par défaut une trust entre deux forêt n'ouvre aucun accès particulier. Cependant il faut tenir compte de certains éléments:
+- La désactivation du SID Filtering ouvre la possibilité d'usurper des identités avec le SIDHistory
+- Le groupe "Authenticated Users" est calculé de manière dynamique. Il va inclure les utilisateurs de toutes les forêts auxquelles on fait confiance.
+- Donner des accès en administrateur sur un serveur (de la forêt A) à un utilisateur d'une autre forêt (forêt B) crée un risque pour les deux forêts
+  - L'utilisateur de B pourra faire du mimikatz sur le serveur de A et récupérer des credentials
+  - Un administrateur sur le serveur de A pourra récupérer les credentials de l'utilisateur de B
+
 Références
 ----------
 - [Articles de harmj0y](http://www.harmj0y.net/blog/tag/domain-trusts/)
