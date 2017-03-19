@@ -105,20 +105,17 @@ Dans certains cas on aura un accès limité au serveur compromis. Ceci est notam
 -   [Elévation de priviléges (Windows)](/Elévation_de_priviléges_(Windows) "wikilink")
 -   [Elevation de priviléges (Linux)](/Elevation_de_priviléges_(Linux) "wikilink")
 
-<!-- -->
 
 -   [Déplacement latéral](/Déplacement_latéral "wikilink")
 
-Domain Admin
-------------
+## Domain Admin
 
 Avec les priviléges d'administrateurs du domaine il est généralement intéressant de montrer l'impact possible de tels priviléges:
 
 -   Récupérer des fichiers sensibles dans les partages réseaux
 -   Dumper les hashs du domaine
 
-Ressources
-----------
+## Ressources
 
 -   [Présentation d'ADSecurity](https://adsecurity.org/?page_id=1352)
 -   [Attack Methods for Gaining Domain Admin Rights in Active Directory](https://adsecurity.org/?p=2362)

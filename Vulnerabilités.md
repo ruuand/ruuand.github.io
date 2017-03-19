@@ -32,6 +32,12 @@ Serveur / Poste de travail
 - Utilisation de hash LM en local
 - Stockage de hash MsCacheV2 trop élevé
 - Réutilisation du mot de passe d'admin local
+- Problèmes de patching
+- Pas de restriction sur l'execution (AppLocker ou autre)
+
+# Mails / Internet
+- Macros offices autorisées
+- PAs de restrictions sur les fichiers executables télécharges en pièce jointe
 
 Partages réseaux & fichiers
 ---------------------------
