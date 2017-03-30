@@ -15,6 +15,5 @@ un plus grand nombre de ports si on ne sait pas lesquels passent. Il faut alors
 mettre une régle iptable (ou autre) pour rediriger le trafic.
 
 ``` bash
-iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 4444:9000 -j DNAT --to-destination
-192.168.1.101:443 # Tiré de pentestercademy
+iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 4444:9000 -j DNAT --to-destination 192.168.1.101:443 # Tiré de pentestercademy
 ```
