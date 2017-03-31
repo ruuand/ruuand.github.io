@@ -19,15 +19,15 @@ Le mécanisme Kerberos repose sur 4 tiers:
     -   L**'Authentication Server** (AS)
     -   Le **Ticket Granting Service** (TGS)
 
-Le principe est le suivant (voir [Explain like I’m 5: Kerberos](http://www.roguelynn.com/words/explain-like-im-5-kerberos/) qui est l'une des meilleures explications de Kerberos. A noter que cette explication ne parle pas du mécanisme de pré authentification):
+Le principe est le suivant :
 
 -   Tous les utilisateurs vont utiliser leur hash NT pour effectuer des opérations permettant de s'authentifier auprès du KDC
 -   Le client demande un **Ticket Granting Ticket** (TGT) au KDC. Ce TGT sera valable pour une durée de 10 heures (renouvelable pour une durée maximale de 7 jours):
     -   (Client) - **PREAUTH** est calculé par le client basé sur le chiffrement d'un timestamp avec le hash NT. Si un écart trop grand de temps est identifié entre le KDC et la machine utilisateur est identifié, un erreur sera renvoyée (KRB_AP_ERR_SKEW)
-    -   (Client -&gt; KDC) - **AS-REQ** contenant le **PREAUTH** afin de faire une demande pour un TGT.
-    -   (KDC -&gt; Client) - **AS-REP** contenant le **Privileged Attribute Certificate** (PAC) qui détaille les groupes de sécurité dont l'utilisateur est membre. Cette partie est chiffrée avec la clé du compte krbtgt et seul le KDC pourra donc le déchiffrer. **L'AS-REP contient également une partie chiffrée avec la clé du client et qui va permettre de communiquer pour récupérer les TGS**. Cette partie chiffrée avec la clé de l'utilisateur explique la nécessite de la pré authentification. Sans ce mécanisme, un attaquant pourrait récupérer des *AS-REP* pour n'importe quel utilisateur et faire du brute force offline.
+    -   (Client -> KDC) - **AS-REQ** contenant le **PREAUTH** afin de faire une demande pour un TGT.
+    -   (KDC -> Client) - **AS-REP** contenant le **Privileged Attribute Certificate** (PAC) qui détaille les groupes de sécurité dont l'utilisateur est membre. Cette partie est chiffrée avec la clé du compte krbtgt et seul le KDC pourra donc le déchiffrer. **L'AS-REP contient également une partie chiffrée avec la clé du client et qui va permettre de communiquer pour récupérer les TGS**. Cette partie chiffrée avec la clé de l'utilisateur explique la nécessite de la pré authentification. Sans ce mécanisme, un attaquant pourrait récupérer des *AS-REP* pour n'importe quel utilisateur et faire du brute force offline.
 -   Le client demande ensuite un **Ticket Granting Service** (TGS) au KDC. Ce TGS permettra d'accéder à un service spécifique:
-    -   (Client -&gt; KDC) - Le client fournit son TGT au KDC et indique le service auquel il veut accéder grâce à son **Service Principal Name** (SPN)
+    -   (Client -> KDC) - Le client fournit son TGT au KDC et indique le service auquel il veut accéder grâce à son **Service Principal Name** (SPN)
     -   (KDC) - Le client valide le TGT grâce à sa signature et construit le TGS qui contient une partie chiffrée par krbtgt et une partie chiffrée avec la clé du service (cette partie contient notamment les informations d'appartenance à des groupes)
 -   L'utilisateur accéde finalement au service ciblé en lui présentant son TGS. Celui-ci est validé grâce à la clé du service (connue du service et du KDC) et ensuite la validation basée sur les groupes est effectuée.
 
@@ -44,7 +44,7 @@ La délégation Kerberos permet à un service (S1) d'accéder à un autre servic
 - **Unconstrained Delegation (TGT Forwarding)**: le service peut se faire passer pour n'importe quel utilisateur. Dans la pratique, le TGT de l'utilisateur sera stocké dans le TGS pour S1 et stocké dans LSASS. (**Note**: l'utilisation du groupe Protected Users n'est pas compatible avec ce mécanisme).
 - **Constrained Delegation with protocol transition (S4U2Self)**: le principe est le même, mais on peut configurer auprès de quels services le service peut transférer l'authentification.
     - L'utilisateur accéde au service (S1) autrement que par Kerberos
-    - Le compte du service (S1) récupère auprès du KDC un ticket (TGT ?) avec les privilèges de l'utilisateur. Le KDC accepte cette requête si le compte de service a le flag **TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION** et que le compte de l'utilisateur autorise la délégation (ce qui n'est pas le cas s'il est dans **Protected Users**). Ce ticket est **forwardable**.
+    - Le compte du service (S1) récupère auprès du KDC un ticket (?) avec les privilèges de l'utilisateur. Le KDC accepte cette requête si le compte de service a le flag **TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION** et que le compte de l'utilisateur autorise la délégation (ce qui n'est pas le cas s'il est dans **Protected Users**). Ce ticket est **forwardable**.
     - Le compte de service S1 renvoie ce TGT (?) au KDC et demande un TGS pour S2. Le KDC vérifie pour quels services le compte de service peut être utilisé pour la délégation et accepte ou non de fournir un TGS. Et voilà.
     - Le problème de ce fonctionnement est que le compte de service intermédiaire S1 peut accéder en tant que n'importe quel utilisateur au service S2, sans que l'utilisateur ne s'authentifie.
  - **Constrained Delegation (S4U2Proxy)**
@@ -75,5 +75,3 @@ La délégation Kerberos permet à un service (S1) d'accéder à un autre servic
 -   [Explain Like I'm 5: Kerberos](http://www.roguelynn.com/words/explain-like-im-5-kerberos/)
 -   [What Is Kerberos Authentication? - Microsoft Technet](https://technet.microsoft.com/en-us/library/cc780469(v=ws.10).aspx)
 -   [Kerberos, Active Directory’s Secret Decoder Ring](http://adsecurity.org/?p=227)
-
-
