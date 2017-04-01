@@ -27,3 +27,4 @@ Ressources
 
 -   [Projet Github](https://github.com/adaptivethreat/BloodHound)
 -   [BloodHound - Custom Queries](http://www.securityripcord.com/blog/2016/09/28/bloodhound-custom-queries/)
+-   [Extending BloodHound: Track and Visualize Your Compromise](http://porterhau5.com/blog/extending-bloodhound-track-and-visualize-your-compromise/)

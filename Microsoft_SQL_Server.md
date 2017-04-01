@@ -45,6 +45,7 @@ Ressources
 
 ### Outils
 
--   [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
+- [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
+- [SQL Server Link Crawling with PowerUpSQL](https://blog.netspi.com/sql-server-link-crawling-powerupsql/)
 
 
