@@ -41,11 +41,9 @@ Ressources
 
 ### Vidéos
 
--   [DerbyCon 2016 - SQL Server Hacking on Scale using PowerShell - Scott Sutherland](https://www.youtube.com/watch?v=xLbPztByc8M)
+- [Hacking SQL Servers on Scale using PowerShell](https://www.youtube.com/watch?v=npoORzfP7rw&feature=youtu.be)
 
 ### Outils
 
 - [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
 - [SQL Server Link Crawling with PowerUpSQL](https://blog.netspi.com/sql-server-link-crawling-powerupsql/)
-
-
