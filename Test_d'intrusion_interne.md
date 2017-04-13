@@ -80,11 +80,13 @@ Les attaque de type "Man in the middle" consistent en l'ensemble des attaques da
 -   LLMNR/NetBios-NS Spoofing avec Responder
 -   SMBRelay
 
-<!-- -->
-
 -   Applications Web
 -   [Microsoft SQL Server](/Microsoft_SQL_Server "wikilink")
     - Il est possible d'utiliser les SPN pour identifier des serveurs SQL !
+    - Mots de passe par défaut / faibles / comptes du domaine
+    - Avec un compte SQL:
+        - Si admin: execution de code avec xp_cmdshell
+        - Si non admin: SMB Relay / Hash avec xp_dirtree / xp_filexist ou élévation de priviléges
 
 Avec un compte du domaine:
 
