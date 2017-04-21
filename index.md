@@ -10,6 +10,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 - [User Hunting](/User_Hunting/)
 - [DHCP](/DHCP/)
 - [Firewall](/Firewall/)
+- [Windows](/Windows/)
 
 - [Active Directory](/Active_Directory/)
 	- [Group Policy Object](/Group_Policy_Object/)
