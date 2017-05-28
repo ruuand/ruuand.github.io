@@ -95,3 +95,7 @@ section .data ; contient des valeurs statiques comme des chaînes des strings
     label: db "Hello World" ; define byte
     len    equ  $-label   ; contient la longueur de label
 ```
+
+## Références
+- [https://azeria-labs.com/writing-arm-assembly-part-1/](Introduction to ARM Assembly basics)
+- [https://github.com/Billy-Ellis/Exploit-Challenges}(Exploit challenges)
