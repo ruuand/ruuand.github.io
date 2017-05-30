@@ -39,3 +39,4 @@ Références
 
 -   [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)
 -   [Getting the goods with CrackMapExec part 1](https://byt3bl33d3r.github.io/getting-the-goods-with-crackmapexec-part-1.html)
+-   [Getting the goods with CrackMapExec: Part 2](https://byt3bl33d3r.github.io/getting-the-goods-with-crackmapexec-part-2.html)
