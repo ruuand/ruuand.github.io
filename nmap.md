@@ -3,7 +3,7 @@ title: nmap
 permalink: /nmap/
 ---
 
-#nmap
+# nmap
 Nmap est un des outils les plus utiles dans la phase de reconnaissance.
 
 Quelques commandes utiles:
@@ -18,4 +18,8 @@ Options utiles
 - -O: OS detection
 - -A: lance détection de version, d'OS, traceroute et "script scanning"
 
-
+## Scripts
+Liste non exhaustive de scripts à lancer:
+```
+--script smb-security-mode.nse # Permet d'avoir des informations sur le statut de SMB Signing
+```
