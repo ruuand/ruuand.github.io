@@ -62,6 +62,7 @@ Applications & services
 Gestion des patchs
 ------------------
 - Patchs de sécurité manquants
+	- MS17-010,  MS14-068
 - Systèmes obsolétes
 	
 Réseau Wi-Fi
