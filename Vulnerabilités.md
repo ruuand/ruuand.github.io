@@ -12,7 +12,7 @@ Vulnérabilités réseaux
 - Utilisation de LLMNR/NBNS ([Responder](/Responder/))
 - Mauvaise segrégation réseau (accès complet aux autres réseaux, LAN unique)
 - Absence de protection contre les attaques MitM (e.g. ARP Spoofing)
-- Absence de SMB Signing (SMBRelay)
+- Absence de [SMB Signing](/SMB_Relay/) (SMBRelay)
 
 Active Directory
 ----------------
