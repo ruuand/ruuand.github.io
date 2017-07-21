@@ -13,6 +13,7 @@ Vulnérabilités réseaux
 - Mauvaise segrégation réseau (accès complet aux autres réseaux, LAN unique)
 - Absence de protection contre les attaques MitM (e.g. ARP Spoofing)
 - Absence de [SMB Signing](/SMB_Relay/) (SMBRelay)
+- Service / utilisateur tente de s'authentifier sur la machine de l'attaquant
 
 Active Directory
 ----------------
