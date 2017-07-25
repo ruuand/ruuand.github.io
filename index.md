@@ -24,6 +24,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [SMB Relay](/SMB_Relay/)
 	- [Trust Relationships](/Trust_Relationships/)
 	- [MSCacheV2](/MsCacheV2/)
+	- [Local Admin Password Solution](/LAPS/)
 
 - [Poste de travail](/Poste_de_travail/)
 	- [SecureBoot](/SecureBoot/)
