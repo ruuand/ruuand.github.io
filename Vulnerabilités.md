@@ -8,7 +8,7 @@ permalink: /Vulnerabilités/
 Vulnérabilités réseaux
 ----------------------
 - Absence de Network Access Control (NAC) ou contournement possible (MAC Filtering)
-- Protocoles potentiellement dangereux: CDP, STP, OSPF, VTP, HSRP
+- Protocoles potentiellement dangereux: CDP, STP, OSPF, VTP, HSRP (Wireshark)
 - Utilisation de LLMNR/NBNS ([Responder](/Responder/))
 - Mauvaise segrégation réseau (accès complet aux autres réseaux, LAN unique)
 - Absence de protection contre les attaques MitM (e.g. ARP Spoofing)
