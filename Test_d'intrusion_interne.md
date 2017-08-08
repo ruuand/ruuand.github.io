@@ -117,6 +117,13 @@ Avec les priviléges d'administrateurs du domaine il est généralement intéres
 -   Récupérer des fichiers sensibles dans les partages réseaux
 -   Dumper les hashs du domaine
 
+## Divers
+
+Cette section regroup divers éléments sur des sujets trop précis pour faire l'object d'un article à part:
+
+- [Abusing DNSAdmins privilege for escalation in Active Directory](http://www.labofapenetrationtester.com/2017/05/abusing-dnsadmins-privilege-for-escalation-in-active-directory.html): cet article décrit une méthode permettant de devenir administrrrateur du domaine avec un compte administrateur du DNS.
+- [Week of Evading Microsoft ATA](http://www.labofapenetrationtester.com/2017/08/week-of-evading-microsoft-ata-day2.html): différentes méthodes pour contourner Microsoft ATA
+
 ## Ressources
 
 -   [Présentation d'ADSecurity](https://adsecurity.org/?page_id=1352)
