@@ -7,8 +7,14 @@ permalink: /Dump_des_hashs_du_domaine/
 
 Il existe de nombreuses méthodes pour récupérer les hashs d'un domaine une fois qu'on a les priviléges d'administration sur le domaine.
 
-Volume Shadow Copy
-------------------
+## DCSync
+
+On peut utiliser les mécanismes de réplication entre DC pour récupérer des hashs.
+
+Voir:
+* [Mimikatz DCSync Usage, Exploitation, and Detection](https://adsecurity.org/?p=1729)
+
+## Volume Shadow Copy
 
 Il est possible d'utiliser l'utilitaire VSS pour faire une copie du fichier NTDS.dit et SYSTEM qui sont nécessaires pour récupérer les hashs.
 

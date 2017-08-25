@@ -86,6 +86,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Google Search](/Google_Search/)
 	- [Web Cache](/Web_Cache/)
     - [Server Side Request Forgery](/SSRF/)
+    - [XSS](/XSS/)
 - Technologies
 	- [Adobe ColdFusion](/Adobe_ColdFusion/)
 	- [Apache](/Apache/)
