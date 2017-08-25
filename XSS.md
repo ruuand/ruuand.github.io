@@ -13,7 +13,7 @@ Les articles suivants présentent des moyens de contourner certains protections 
 
 ## Liste des events javascripts
 
-``
+``` text
 onclick
 oncontextmenu
 ondblclick
@@ -90,5 +90,5 @@ onoffline
 onshow
 ontoggle
 onwheel
-``
+```
 
