@@ -5,10 +5,9 @@ permalink: /BloodHound/
 
 # BloodHound
 
-Utilisation
------------
+## Utilisation
 
-Il faut importer le module (**Note:** il y a une erreur si Powersploit a déjà été importé):
+Il faut importer le module. **Note:** il y a une erreur si Powersploit a déjà été importé:
 
 ``` powershell
 Import-Module .\BloodHound.ps1
@@ -22,8 +21,11 @@ Get-BloodHoundData | Export-BloodHoundCSV
 
 Puis on importe dans BloodHound. The end.
 
-Ressources
-----------
+## Hardening
+
+Il est possible d'empêcher l'énumération des sessions locales avec l'outil [NetCease](https://gallery.technet.microsoft.com/Net-Cease-Blocking-Net-1e8dcb5b)
+
+## Ressources
 
 -   [Projet Github](https://github.com/adaptivethreat/BloodHound)
 -   [BloodHound - Custom Queries](http://www.securityripcord.com/blog/2016/09/28/bloodhound-custom-queries/)
