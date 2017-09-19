@@ -90,6 +90,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Injection HQL](/HQL/)
 - Technologies
 	- [Adobe ColdFusion](/Adobe_ColdFusion/)
+	- [Adobe Flash](/Flash/)
 	- [Apache](/Apache/)
 	- [Apache Tomcat](/Apache_Tomcat/)
 	- [Web2py](/Web2py/)
