@@ -41,3 +41,10 @@ Str = Str + "AWwBJAG4AdABQAHQAcgBdADoAOgBTAGkAegBlACAALQBlAHEAIAA0ACkAewAkAGIAPQ
 [...]
 ```
 
+### Grep
+
+La commande suivante permet de récupérer les lignes dans cracked.txt qui contiennent un élément de enabled.txt (ex: récupérer les hashs des utilisateurs s'ils sont actifs)
+
+``` bash
+fgrep -f enabled.txt cracked.txt 
+```
