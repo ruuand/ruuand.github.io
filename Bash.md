@@ -48,3 +48,8 @@ La commande suivante permet de récupérer les lignes dans cracked.txt qui conti
 ``` bash
 fgrep -f enabled.txt cracked.txt 
 ```
+
+## Références
+- [Black Magic Parsing with Regular Expressions - Parsing for Pentesters](https://bluescreenofjeff.com/2016-10-14-black-magic-parsing-with-regular-expressions-parsing-for-pentesters/)
+- [Finding Diamonds in the Rough- Parsing for Pentesters](https://bluescreenofjeff.com/2016-07-26-finding-diamonds-in-the-rough-parsing-for-pentesters/)
+- [F’Awk Yeah! Advanced sed and awk Usage (Parsing for Pentesters 3)](https://bluescreenofjeff.com/2016-07-26-finding-diamonds-in-the-rough-parsing-for-pentesters/)
