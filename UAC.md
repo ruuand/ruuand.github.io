@@ -12,3 +12,4 @@ permalink: /UAC/
 
 ### Exemples
 - [Bypassing UAC using App Paths](https://enigma0x3.net/2017/03/14/bypassing-uac-using-app-paths/)
+- [UAC bypass via elevated .NET applications](https://offsec.provadys.com/UAC-bypass-dotnet.html) avec un [POC](https://gist.githubusercontent.com/clavoillotte/f2fba9fa4ba8db14093a62164963d4a9/raw/3184a420c3f6c38c975886027c4c84aba6b66e92/UAC-dotnet-profiler-poc.ps1)
