@@ -42,6 +42,8 @@ Il est difficile de bloquer Kerberoasting qui utilise le fonctionnement normal d
 - [Detecting Kerberoasting Activity](https://adsecurity.org/?p=3458)
 - [Detecting Kerberoasting Activity Part 2 – Creating a Kerberoast Service Account Honeypot](https://adsecurity.org/?p=3513)
 
+Il est également possible de forcer l'utilisation d'AES sur les comptes utilisateurs ayant un SPN. Plus d'informations sur [site de Microsoft](https://blogs.msdn.microsoft.com/openspecification/2011/05/30/windows-configurations-for-kerberos-supported-encryption-type/). Cependant cette méthode est incompatible avec des environnements XP / 2003.
+
 
 Ressources
 ----------
