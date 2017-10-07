@@ -16,7 +16,7 @@ Le mécanisme Kerberos repose sur 4 tiers:
 -   Le **client** (ex: un utilisateur du domaine)
 -   Le **serveur de ressources** (ex: un partage réseau, un serveur SQL, etc.)
 -   Le **Key Distribution Center** (KDC)
-    -   L**'Authentication Server** (AS)
+    -   L'**Authentication Server** (AS)
     -   Le **Ticket Granting Service** (TGS)
 
 Le principe est le suivant :
@@ -51,7 +51,19 @@ La délégation Kerberos permet à un service (S1) d'accéder à un autre servic
     - Ici il est nécessaie que l'utilisateur s'authentifie. (On forward le TGT / TGS ?)
    
  **Point Important**: un TGS valide pour un SPN ldap/service_account peut être modifié simplement pour être valide pour cifs/service_account. **A vérifier**
-    
+
+## Chiffrement
+Les tickets Kerberos contiennent une partie chiffrée qui peut être chiffrée avec RC4, AES128, AE256. Dans le cas d'AES il est difficile d'envisager une attaque [Kerberoasting](/Kerberoasting/).
+
+La décision du protocole de chiffrement utilisée semble reposer entièrement sur le Contrôleur de domaine. RC4 est systématiquement utilisé dans les cas suivants (basé sur le talk [Return From The Underworld The Future Of Red Team Kerberos](https://www.youtube.com/watch?v=E_BNhuGmJwM)) :
+- Le DC est sous W2003 ou antérieur (AES n'était pas supporté)
+- La machine est sous W2003/XP ou antérieur (ceci concerne les comptes machines)
+- La machine n'est pas jointe au domaine (il y a une entrée pour une machine dans l'AD. Ceci peut à priori correspondre à des comptes pour des machines Linux)
+- Comportement par défaut pour un compte utilisateur ayant un SPN.
+
+En revanche AES sera utilisé dans le cas suivant:
+- La machine est sous W2008 ou supérieur et le DC est supérieur à W2008 (ceci concerne les comptes machines)
+- Le compte utilisateur a l'option "The account supports Kerberos AES 128/256". Cependant ceci empêchera Kerberos de fonctionner correctement si le compte machine est utilisé sous un W2003, XP (qui ne supportent pas AES). Plus d'informations sur le [site de Microsoft](https://blogs.msdn.microsoft.com/openspecification/2011/05/30/windows-configurations-for-kerberos-supported-encryption-type/).
     
 ## Attaques possibles
 
@@ -75,3 +87,4 @@ La délégation Kerberos permet à un service (S1) d'accéder à un autre servic
 -   [Explain Like I'm 5: Kerberos](http://www.roguelynn.com/words/explain-like-im-5-kerberos/)
 -   [What Is Kerberos Authentication? - Microsoft Technet](https://technet.microsoft.com/en-us/library/cc780469(v=ws.10).aspx)
 -   [Kerberos, Active Directory’s Secret Decoder Ring](http://adsecurity.org/?p=227)
+-   [Return From The Underworld The Future Of Red Team Kerberos](https://www.youtube.com/watch?v=E_BNhuGmJwM)
