@@ -16,7 +16,10 @@ Les étapes de cette attaque sont:
 2.  Faire des requêtes pour récupérer les tickets Kerberos.
 3.  Exporter les tickets pour les manipuler
 4.  Convertir les tickets en un format manipulable par JtR ou Hashcat.
-5.  Casser les hashs avec hashcat/JtR
+5.  Casser les "hashs" avec hashcat/JtR
+
+**Attention**: dans la plupart des cas les "hashs" récupérés sont basés sur RC4 et donc cassable dans un temps raisonnable. Dans certains cas l'algorithme utilisé sera du AES (avec un grand nombre de répétition) ce qui réduit considérablement l'efficacité du cassage (facteur 20 000). Plus de détail dans l'article sur [Kerberos](/Kerberos/)
+
 
 Pratique
 --------
@@ -50,5 +53,5 @@ Ressources
 -   [t120 Attacking Microsoft Kerberos Kicking the Guard Dog of Hades Tim Medin](https://www.youtube.com/watch?v=PUyhlN-E5MU)
 -   [Cracking Kerberos TGS Tickets Using Kerberoast – Exploiting Kerberos to Compromise the Active Directory Domain](https://adsecurity.org/?p=2293)
 -   [Kerberoasting Without Mimikatz - Harmj0y](http://www.harmj0y.net/blog/powershell/kerberoasting-without-mimikatz/)
-
+-   [Return From The Underworld The Future Of Red Team Kerberos](https://www.youtube.com/watch?v=E_BNhuGmJwM)
 
