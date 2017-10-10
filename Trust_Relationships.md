@@ -19,9 +19,8 @@ Il est également possible de s'en sortir avec mimikatz en générant un golden 
 Il est possible d'utiliser le mécanisme de "SID Filtering" pour limiter ce type d'attaque. Cependant, l'utilisation de ce mécanisme ne doit pas se faire au sein d'une même forêt, ce qui peut causer des problèmes de réplication (voir http://windowsitpro.com/windows-server/exploiting-sidhistory-ad-attribute). En gros, il vaut mieux mettre le domaine dans une forêt séparée si on ne lui fait pas confiance.
 
 Autre élément sur le SID Filtering (https://adsecurity.org/?p=1640):
-```
-It has been noted that enabling SID Filtering between trusts in an Active Directory forest would mitigate this since SID History wouldn’t work. That may be true, though there’s a couple of potential issues with this approach: 1) I have never seen this configured in a production environment, 2) I’m not sure of Microsoft’s support posture on this, and 3) enabling SID filtering on trusts within an AD forest may break applications that rely on universal group membership across domains (this could be a pretty big deal since universal groups are typically used frequently in multi-domain AD forests). These may seem like minor issues, but I have seen several large enterprise AD environments that break when non-standard approaches are taken since the developers didn’t take the config into account when testing.
-```
+
+"It has been noted that enabling SID Filtering between trusts in an Active Directory forest would mitigate this since SID History wouldn’t work. That may be true, though there’s a couple of potential issues with this approach: 1) I have never seen this configured in a production environment, 2) I’m not sure of Microsoft’s support posture on this, and 3) enabling SID filtering on trusts within an AD forest may break applications that rely on universal group membership across domains (this could be a pretty big deal since universal groups are typically used frequently in multi-domain AD forests). These may seem like minor issues, but I have seen several large enterprise AD environments that break when non-standard approaches are taken since the developers didn’t take the config into account when testing."
 
 ## Interforests Trusts
 Par défaut une trust entre deux forêt n'ouvre aucun accès particulier. Cependant il faut tenir compte de certains éléments:
