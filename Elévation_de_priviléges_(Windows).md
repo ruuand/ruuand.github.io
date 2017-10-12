@@ -8,6 +8,18 @@ permalink: /Elévation_de_priviléges_(Windows)/
 
 The following elements are based on <http://toshellandback.com/2015/11/24/ms-priv-esc/>
 
+## PowerSploit
+
+Le module [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) permet de faire la plupart des contrôles ci-dessous de manière complétement automatisée.
+
+## Vulnérabilités systèmes
+
+Il est possible de trouver des vulnérabilités non patchées sur le système. L'outil [Windows Exploit Suggester (Tool)](https://github.com/GDSSecurity/Windows-Exploit-Suggester) facilite cette vérification.
+
+## Mot de passes
+
+De nombreux fichiers peuvent contenir des mots de passes sensibles. Voir [https://pentestlab.blog/2017/04/19/stored-credentials/](https://pentestlab.blog/2017/04/19/stored-credentials/).
+
 ## Trusted Service Paths
 
 Si le "Service path" d'un service n'est pas mis entre quote il est possible d'effectuer une attaque. Pour l'exemple on considère le Service Path suivant:
@@ -63,9 +75,7 @@ sc qc PFNet
 
 Il est parfois possible de changer le binaire lui même.
 
-AlwaysInstallElevated
----------------------
-
+## AlwaysInstallElevated
 Regarder si l'option `AlwaysInstallElevated` est active:
 
 ``` text
@@ -106,10 +116,10 @@ schtasks /run /tn MASUPERTACHE
 -   [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) pour identifier des possibilité d'élévation de priviléges.
 -   [BypassUAC](https://github.com/FuzzySecurity/PowerShell-Suite/tree/master/Bypass-UAC) pour contourner l'UAC.
 -   Attaque [Hot Potato](https://foxglovesecurity.com/2016/01/16/hot-potato/)
+-   [Windows Exploit Suggester (Tool)](https://github.com/GDSSecurity/Windows-Exploit-Suggester)
 
 ### Documents
 
--   [Windows Exploit Suggester (Tool)](https://github.com/GDSSecurity/Windows-Exploit-Suggester)
 -   [Encylopaedia of Windows Privilege Escalation (Video)](https://www.youtube.com/watch?v=kMG8IsCohHA)
 -   [Windows Privilege Escalation Fundamentals](http://www.fuzzysecurity.com/tutorials/16.html)
 -   [All roads lead to SYSTEM (PDF)](https://labs.mwrinfosecurity.com/system/assets/760/original/Windows_Services_-_All_roads_lead_to_SYSTEM.pdf)
