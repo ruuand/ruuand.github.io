@@ -104,11 +104,12 @@ Il peut être intéressant de prendre le contrôle d'un élément en identifiant
 
 Dans certains cas on aura un accès limité au serveur compromis. Ceci est notamment le cas lorsqu'on a compromis un service qui tournait avec un utilisateur aux droits limités.
 
--   [Elévation de priviléges (Windows)](/Elévation_de_priviléges_(Windows) "wikilink")
--   [Elevation de priviléges (Linux)](/Elevation_de_priviléges_(Linux) "wikilink")
+- [Elévation de priviléges (Windows)](/Elévation_de_priviléges_(Windows) "wikilink")
+- [Elevation de priviléges (Linux)](/Elevation_de_priviléges_(Linux) "wikilink")
 
+## Déplacement latéral
 
--   [Déplacement latéral](/Déplacement_latéral "wikilink")
+Voir l'article [Déplacement latéral](/Déplacement_latéral "wikilink").
 
 ## Domain Admin
 
