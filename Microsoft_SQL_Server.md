@@ -25,6 +25,10 @@ Eléments à tester pour Microsoft SQL server:
     - xp_dirtree ou xp_filexist pour faire du SMB Relay (si le compte BDD est intéressant)
     - Elevation de priviléges (Voir PowerUpSQL)
 
+### Transparent Data Encryption (TDE)
+
+Système de chiffrement de MSSQL, très souvent mis en place pour des raisons de compliance. Peu utile dans la pratique (voir [The Anatomy and (In)Security of Microsoft SQL Server Transparent Data Encryption (TDE), or How to Break TDE](https://simonmcauliffe.com/technology/tde/)
+
 ## Ressources
 
 ### Vidéos
