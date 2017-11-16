@@ -5,9 +5,7 @@ permalink: /XSS/
 
 # Cross-Site Scripting
 
-## Tips & tricks
-
-### Payloads
+## Payloads
 
 Les payloads suivants peuvent être utiles:
 
@@ -18,6 +16,15 @@ Les payloads suivants peuvent être utiles:
 ```text
 " onclick=alert(1)//<button ' onclick=alert(1)//>*/alert(1)//
 ```
+
+## ASP.Net
+
+ASP.Net a le mécanisme de "Request Validation" qui bloque de nombreuses tentatives XSS. Globalement tout payload de la forme "<a" (où a est une lettre ou le caractère ! sera bloqué).
+
+Quelques bypass sont possibles:
+- Sur les vieilles versions d'IE le payload <#tag
+- Si on a une stored il est possible d'injecter un payload en unicode (voir [Bypassing ASP.NET “ValidateRequest” for Stored XSS attacks](https://infosecauditor.wordpress.com/2013/05/27/bypassing-asp-net-validaterequest-for-script-injection-attacks/)). Ceci est dû à une conversion qui est faite par la base de données (les caractères unicodes étant convertis en leur équivalent "standard"): 
+``%uff1cscript%uff1ealert('XSS');%uff1c/script%uff1e``
 
 ## Références
 
