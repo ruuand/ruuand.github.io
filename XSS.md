@@ -25,6 +25,7 @@ Quelques bypass sont possibles:
 - Sur les vieilles versions d'IE le payload <#tag
 - Si on a une stored il est possible d'injecter un payload en unicode (voir [Bypassing ASP.NET “ValidateRequest” for Stored XSS attacks](https://infosecauditor.wordpress.com/2013/05/27/bypassing-asp-net-validaterequest-for-script-injection-attacks/)). Ceci est dû à une conversion qui est faite par la base de données (les caractères unicodes étant convertis en leur équivalent "standard"): 
 ``%uff1cscript%uff1ealert('XSS');%uff1c/script%uff1e``
+- Sur les vieilles versions de IE et de ASP.net (patch en 2007) le payload suivant marche: ```</XSS STYLE=xss:expression(alert('XSS'))>```
 
 ## Références
 
