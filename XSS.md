@@ -27,6 +27,8 @@ Quelques bypass sont possibles:
 ``%uff1cscript%uff1ealert('XSS');%uff1c/script%uff1e``
 - Sur les vieilles versions de IE et de ASP.net (patch en 2007) le payload suivant marche: ```</XSS STYLE=xss:expression(alert('XSS'))>```
 
+D'autres bypass [Bypassing .Net ValidateRequest](http://www.procheckup.com/media/39734/bypassing-dot-net-validaterequest.pdf)
+
 ## Références
 
 - [Master the art of Cross Site Scripting](https://brutelogic.com.br/blog/)
