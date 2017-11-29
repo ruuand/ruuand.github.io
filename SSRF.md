@@ -5,7 +5,9 @@ permalink: /SSRF/
 
 # Server Side Request Forgery
 
-## Astuces
+## Payloads
+
+Voir [PayloadAllTheThings](PayloadsAllTheThings)
 
 * http://0/ est équivalent à http://localhost/
 

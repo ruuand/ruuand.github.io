@@ -62,4 +62,5 @@ Ressources
 
 ### Liens externes
 
--   [64 Bits Linux Stack Based Buffer Overflow](https://www.exploit-db.com/docs/33698.pdf)
+- [64 Bits Linux Stack Based Buffer Overflow](https://www.exploit-db.com/docs/33698.pdf)
+- [Windows Exploit Development - Part 1](http://www.shogunlab.com/blog/2017/08/19/zdzg-windows-exploit-1.html)

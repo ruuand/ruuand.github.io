@@ -38,6 +38,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [Mimikatz](/Mimikatz/)
 	- [BloodHound](/BloodHound/)
 	- [MailSniper](/MailSniper/)
+    - [Responder](/Responder/)
     - [nmap](/nmap/)
 
 - Antivirus
@@ -80,6 +81,7 @@ Web
 Cette section contient différents éléments relatifs aux tests d'intrusions webs.
 
 - Outils & Techniques
+    - [CyberChef](https://gchq.github.io/CyberChef): une page HTML permettant d'effectuer des opérations sur des chaînes (base64, puis URLencode, etc.)
 	- [Dirb](/Dirb/)
 	- [Local File Include](/Local_File_Include/)
 	- [Mots de passes par défaut](/Mots_de_passes_par_défaut/)
@@ -93,6 +95,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Injection SQL](/SQL_Injection/)
     - [Local File Inclusion](/LFI/)
     - [Cross Site Request Forgery](/CSRF/)
+    - [CRLF](/CRLF/)
 - Technologies
 	- [Adobe ColdFusion](/Adobe_ColdFusion/)
 	- [Adobe Flash](/Flash/)
