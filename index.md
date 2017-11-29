@@ -92,6 +92,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [CSV Injection](/CSV_Injection/)
 	- [Injection SQL](/SQL_Injection/)
     - [Local File Inclusion](/LFI/)
+    - [Cross Site Request Forgery](/CSRF/)
 - Technologies
 	- [Adobe ColdFusion](/Adobe_ColdFusion/)
 	- [Adobe Flash](/Flash/)
