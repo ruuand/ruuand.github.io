@@ -74,8 +74,8 @@ Cette section contient différents services (e.g. DNS, FTP, etc).
 - [Microsoft SQL Server (tcp/1433)](/Microsoft_SQL_Server/)
 - [MongoDB (tcp/27017)](/MongoDB/)
 - [Remote Desktop Protcol (tcp/3389)](/RDP/)
-- [Remote SHell (tcp/54)](/RSH/)
-- [Network File System](/NFS/)
+- [RSH (Remote SHell) (tcp/54)](/RSH/)
+- [NFS (Network File System)](/NFS/)
 - Applications web: voir section **Web**
 
 Web
