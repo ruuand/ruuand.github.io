@@ -1,3 +1,8 @@
+---
+title: CRLF Injection
+permalink: /CRLF/
+---
+
 # CRLF Injection
 
 ## Points de contrôles
