@@ -27,3 +27,5 @@ Après avoir eu un accès:
 
 ## Références
 - [From Printer To Pwnd: Leveraging Multifunction Printers During Penetration Testing](https://www.youtube.com/watch?v=bAgMUXtxNa8)
+- [Run PJL Commands From A Shell Script](https://jacobsalmela.com/2017/01/10/run-pjl-commands-from-a-shell-script/)
+- [Hacking Network Printers](https://www.irongeek.com/i.php?page=security/networkprinterhacking)
