@@ -1,6 +1,6 @@
 ---
 title: Imprimantes
-permalink: /imprimantes/
+permalink: /Imprimantes/
 ---
 
 # Imprimantes
