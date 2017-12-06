@@ -25,7 +25,15 @@ Après avoir eu un accès:
 - "Passback" attaque
 - Fonctionnalités de backup, etc.
 
+## Checklist
+
+Voir [Printer Security Testing Cheat Sheet](http://hacking-printers.net/wiki/index.php/Printer_Security_Testing_Cheat_Sheet)
+
+- Identification des imprimantes: scanner les port 9091, 515, 631 et souvent 21, 23, 80, 443.
+- Service SNMP: ```snmpwalk -v1 -c public $ip```
+
 ## Références
 - [From Printer To Pwnd: Leveraging Multifunction Printers During Penetration Testing](https://www.youtube.com/watch?v=bAgMUXtxNa8)
 - [Run PJL Commands From A Shell Script](https://jacobsalmela.com/2017/01/10/run-pjl-commands-from-a-shell-script/)
 - [Hacking Network Printers](https://www.irongeek.com/i.php?page=security/networkprinterhacking)
+- [Hacking Printer Wiki](http://hacking-printers.net/wiki/index.php/Main_Page)
