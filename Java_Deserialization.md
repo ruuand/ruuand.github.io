@@ -10,3 +10,4 @@ permalink: Java_Deserialization
 - [Serialization Dumper](https://github.com/NickstaDB/SerializationDumper)
 - https://diablohorn.com/2017/09/09/understanding-practicing-java-deserialization-exploits/
 - https://deadcode.me/blog/2016/09/02/Blind-Java-Deserialization-Commons-Gadgets.html
+- https://github.com/khai-tran/BurpJDSer
