@@ -79,26 +79,27 @@ Cette section contient différents services (e.g. DNS, FTP, etc).
 - [NFS (Network File System)](/NFS/)
 - Applications web: voir section **Web**
 
-Web
+Web & Applicatifs
 ---
-Cette section contient différents éléments relatifs aux tests d'intrusions webs.
+Cette section contient différents éléments relatifs aux tests d'intrusions webs & clients lourds.
 
 - Outils & Techniques
     - [CyberChef](https://gchq.github.io/CyberChef): une page HTML permettant d'effectuer des opérations sur des chaînes (base64, puis URLencode, etc.)
-	- [Dirb](/Dirb/)
-	- [Local File Include](/Local_File_Include/)
-	- [Mots de passes par défaut](/Mots_de_passes_par_défaut/)
-	- [Messages d'erreurs](/Messages_d'erreurs/)
-	- [Google Search](/Google_Search/)
-	- [Web Cache](/Web_Cache/)
-	- [Server Side Request Forgery](/SSRF/)
-	- [XSS](/XSS/)
-	- [Injection HQL](/HQL/)
-	- [CSV Injection](/CSV_Injection/)
-	- [Injection SQL](/SQL_Injection/)
+    - [Dirb](/Dirb/)
+    - [Local File Include](/Local_File_Include/)
+    - [Mots de passes par défaut](/Mots_de_passes_par_défaut/)
+    - [Messages d'erreurs](/Messages_d'erreurs/)
+    - [Google Search](/Google_Search/)
+    - [Web Cache](/Web_Cache/)
+    - [Server Side Request Forgery](/SSRF/)
+    - [XSS](/XSS/)
+    - [Injection HQL](/HQL/)
+    - [CSV Injection](/CSV_Injection/)
+    - [Injection SQL](/SQL_Injection/)
     - [Local File Inclusion](/LFI/)
     - [Cross Site Request Forgery](/CSRF/)
     - [CRLF](/CRLF/)
+    - [Java Deserialization](/Java_Deserialization/)
 - Technologies
 	- [Adobe ColdFusion](/Adobe_ColdFusion/)
 	- [Adobe Flash](/Flash/)
@@ -109,6 +110,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [WordPress](/WordPress/)
 	- [Microsoft Silverlight](/Silverlight/)
 	- [Amazon Web Services (AWS)](/AWS/)
+	- [Java](/JAVA/)
 
 Exploitation
 ------------
