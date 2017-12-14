@@ -83,6 +83,8 @@ Web & Applicatifs
 ---
 Cette section contient différents éléments relatifs aux tests d'intrusions webs & clients lourds.
 
+- [Test d'intrusion Web](/web/)
+
 - Outils & Techniques
     - [CyberChef](https://gchq.github.io/CyberChef): une page HTML permettant d'effectuer des opérations sur des chaînes (base64, puis URLencode, etc.)
     - [Dirb](/Dirb/)
