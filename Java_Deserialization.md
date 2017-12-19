@@ -27,3 +27,4 @@ L'outil [ysoserial](https://github.com/frohoff/ysoserial) permet de générer fa
 - [Attacking Java Deserialization](https://nickbloor.co.uk/2017/08/13/attacking-java-deserialization/)
 - https://diablohorn.com/2017/09/09/understanding-practicing-java-deserialization-exploits/
 - https://deadcode.me/blog/2016/09/02/Blind-Java-Deserialization-Commons-Gadgets.html
+- [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/)
