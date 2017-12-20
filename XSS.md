@@ -22,7 +22,7 @@ Quelques bypass sont possibles:
 D'autres bypass [Bypassing .Net ValidateRequest](http://www.procheckup.com/media/39734/bypassing-dot-net-validaterequest.pdf)
 
 ## Références
-
+- [JSFuck](http://www.jsfuck.com/)
 - [Master the art of Cross Site Scripting](https://brutelogic.com.br/blog/)
 - [XSS without event handlers](https://brutelogic.com.br/blog/xss-without-event-handlers/): pour les situations où les events du type onerror sont bloqués
 - [XSS Filter Evasion](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
