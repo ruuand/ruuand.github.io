@@ -9,8 +9,11 @@ permalink: /XSS/
 
 Voir [PayloadAllTheThings](https://github.com/ruuand/PayloadsAllTheThings/tree/master/XSS%20injection)
 
-## ASP.Net
+## Exploitation
 
+Cette section contient des tips & trics sur l'exploitation de XSS.
+
+### ASP.Net
 ASP.Net a le mécanisme de "Request Validation" qui bloque de nombreuses tentatives XSS. Globalement tout payload de la forme "<a" (où a est une lettre ou le caractère ! sera bloqué).
 
 Quelques bypass sont possibles:
@@ -20,6 +23,10 @@ Quelques bypass sont possibles:
 - Sur les vieilles versions de IE et de ASP.net (patch en 2007) le payload suivant marche: ```</XSS STYLE=xss:expression(alert('XSS'))>```
 
 D'autres bypass [Bypassing .Net ValidateRequest](http://www.procheckup.com/media/39734/bypassing-dot-net-validaterequest.pdf)
+
+### Champs hidden
+
+Il est possbible d'exploiter une XSS dans un champ hidden. Voir [XSS in Hidden Input Fields](http://blog.portswigger.net/2015/11/xss-in-hidden-input-fields.html)
 
 ## Références
 - [JSFuck](http://www.jsfuck.com/)
