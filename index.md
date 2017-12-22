@@ -100,6 +100,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
     - [Injection SQL](/SQL_Injection/)
     - [Local File Inclusion](/LFI/)
     - [Cross Site Request Forgery](/CSRF/)
+    - [Server Side Template Injection](/SSTI/)
     - [CRLF](/CRLF/)
     - [Java Deserialization](/Java_Deserialization/)
 - Technologies
