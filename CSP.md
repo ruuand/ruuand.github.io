@@ -1,7 +1,7 @@
---
+---
 title: Content Security Policy
 permalink: /CSP/
---
+---
 
 # Content Security Policy (CSP)
 
