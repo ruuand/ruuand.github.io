@@ -104,6 +104,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
     - [CRLF](/CRLF/)
     - [Java Deserialization](/Java_Deserialization/)
     - [Content Security Policy](/CSP/)
+    - [Subdomain Takeover](/Subdomain_Takeover/)
 - Technologies
 	- [Adobe ColdFusion](/Adobe_ColdFusion/)
 	- [Adobe Flash](/Flash/)
