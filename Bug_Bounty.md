@@ -9,3 +9,4 @@ permalink: /Bug_Bounty/
 
 - [Web Hacking 101](https://krober.biz/wp-content/uploads/2017/03/web-hacking-101.pdf)
 - [The Bug Hunters Methodology](https://github.com/jhaddix/tbhm)
+- [Bug Bounty Cheatsheet](https://github.com/EdOverflow/bugbounty-cheatsheet)
