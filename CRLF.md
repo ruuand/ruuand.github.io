@@ -17,7 +17,7 @@ Les points suivants sont à vérifier:
 
 ### HTTP Response Splitting
 
-Les attaques du type "HTTP Response Splitting" ne semblent pas marcher dans la vraie vie. Firefox & Chrome checkent les réponses et renvoie une erreur quand certains headers apparaissent en double (voir https://stackoverflow.com/questions/13578428/duplicate-headers-received-from-server et https://www.mozilla.org/en-US/security/advisories/mfsa2011-39/).
+Les attaques du type "HTTP Response Splitting" ne semblent pas marcher dans la vraie vie. Firefox & Chrome checkent les réponses et renvoie une erreur quand certains headers apparaissent en double (voir [Duplicate headers received from server](https://stackoverflow.com/questions/13578428/duplicate-headers-received-from-server) et [Firefox Advisory](https://www.mozilla.org/en-US/security/advisories/mfsa2011-39/)).
 
 ### Modification de la réponse
 
