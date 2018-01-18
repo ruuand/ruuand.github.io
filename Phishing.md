@@ -10,6 +10,7 @@ Les macros Word sont un moyen efficace de prendre le contrôle d'un poste via un
 
 ## DDE Word
 - [Macro-less Code Exec in MSWord](https://sensepost.com/blog/2017/macro-less-code-exec-in-msword/)
+- [Microsoft Office – DDE Attacks](https://pentestlab.blog/2018/01/16/microsoft-office-dde-attacks/)
 
 ## Références
 -   [Frenzy E-Mail Phishing Framework](http://www.darknet.org.uk/2016/04/phishing-frenzy-e-mail-phishing-framework/)
