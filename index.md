@@ -108,7 +108,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
     - [Java Deserialization](/Java_Deserialization/)
     - [Content Security Policy (CSP)](/CSP/)
     - [Subdomain Takeover](/Subdomain_Takeover/)
-    - [DNS Rebinding](/DSN_Rebinding/)
+    - [DNS Rebinding](/DNS_Rebinding/)
 - Technologies
 	- [Adobe ColdFusion](/Adobe_ColdFusion/)
 	- [Adobe Flash](/Flash/)
