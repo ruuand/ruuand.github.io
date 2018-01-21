@@ -37,3 +37,4 @@ Voir [Printer Security Testing Cheat Sheet](http://hacking-printers.net/wiki/ind
 - [Run PJL Commands From A Shell Script](https://jacobsalmela.com/2017/01/10/run-pjl-commands-from-a-shell-script/)
 - [Hacking Network Printers](https://www.irongeek.com/i.php?page=security/networkprinterhacking)
 - [Hacking Printer Wiki](http://hacking-printers.net/wiki/index.php/Main_Page)
+- [An Introduction to Printer Exploitation #1](https://0x00sec.org/t/an-introduction-to-printer-exploitation-1/3565)
