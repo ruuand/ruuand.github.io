@@ -120,6 +120,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Microsoft Silverlight](/Silverlight/)
 	- [Amazon Web Services (AWS)](/AWS/)
 	- [Java](/JAVA/)
+	- [Cloudflare](/Cloudflare/)
 
 Exploitation
 ------------
