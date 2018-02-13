@@ -5,27 +5,50 @@ permalink: /web/
 
 # Test d'intrusion Web
 
-Article générique contenant différents éléments relatifs aux tests d'intrusions web.
+## Reconnaissance
 
 ## Headers
 
-Article général [En-têtes et vous ? Comment ajouter de la protection dans ses échanges](https://www.lexsi.com/securityhub/en-tetes-et-vous-comment-ajouter-de-la-protection-dans-ses-echanges/)
+- [ ] **X-Frame-Options**
+- [ ] **X-XSS-Protection**
+- [ ] **Cross Origin Ressource Sharing (CORS)**
+- [ ] **Content Security Policy (CSP)**
+- [ ] **Strict Transport Security (HSTS)**
 
-### Host
+## Authentification & gestion de la session
 
-Le header **Host** est utilisé pour déterminer le Hostname auquel on cherche à accéder. L'application peut répondre de plusieurs manières:
-- Ignorer le hostname: dans ce cas on devrait avoir la même application en tapant directement sur l'IP.
-- Changer l'application: c'est généralement le cas si on a un reverse proxy ou des virtual hosts.
+- [ ] **Complexité de mot de passe**
+- [ ] **Blocage de compte**: Blocage de compte ? Peut on énumérer des comptes via le blocage ?
+- [ ] **Actions sensibles (re-authent)**: Les actions sensibles nécessitent elles une ré-authent (ex: site bancaire)
+- [ ] **Renouvellement cookie de session**: Le cookie est il renouvelé après authentification (Session Fixation)
+- [ ] **Changement de mot de passe**: Faut il confirmer son ancien mot de passe ?
+- [ ] **Oubli de mot de passe**: Envoi d'un lien à usage unique ? Valeur aléatoire du lien ? Ou alors nouveau mot de passe par mail ?
+- [ ] **Aléa cookie de session**: Sequencer de Burp. Modifier le cookie pour voir si toutes les parties sont utiles.
+- [ ] **Expiration du cookie de session**: réutiliser un cookie obtenu en début de semaine.
+- [ ] **Déconnexion**: la session est elle bien invalidée à la déconnexion ?
+- [ ] **JSON Web Tokens**
+- [ ] **Comptes triviaux**
+- [ ] **Enumération des utilisateurs**: formulaire d'authentification, de création de compte, de renouvellement de mot de passe.
 
-Plusieurs articles & vulnérabilités:
-- [Cracking the Lens: Targeting HTTP's Hidden Attack-Surface](http://blog.portswigger.net/2017/07/cracking-lens-targeting-https-hidden.html): attaques sur les équipements qui font des actions en fonction du champ Host (Proxy, Cache, etc.).
-- [Don't Trust the Host Header for Sending Password Reset Emails](https://lightningsecurity.io/blog/host-header-injection/): le hostname est utilisé pour générer les mails de récupération de mot de passe (lien de la forme http://$HOST/password.php)
+## Chiffrement communications
 
-**Checklist**
+- [ ] **Présence de chiffrement**
+- [ ] **Vulnérabilités SSL/TLS**
+- [ ] **Certificat**: certificat valide ? Algorithme de signature ?
 
-- [x] Vérifier si le champ Host est utilisé dans une fonction (notamment envoi de mails).
-- [x] Insérer un domaine contrôlé dans le champ Host et monitorer les éventuelles requêtes. Les requetes peuvent arriver bien plus tard.
+## Chiffrement (divers)
 
-### Content Security Policy
+- [ ] **Mot de passe utilisateur**: En clair ? Chiffrement réversible ? Stockage sous forme de hash ? Algorithme utilisé ? Utilisation d'un sel ?
 
-Voir article sur la [CSP](/CSP/).
+## Entrées utilisateurs
+
+Les formulaires et l'ensemble des paramètres sont des entrées utilisateurs et peuvent donc être la cible des attaques suivantes:
+
+- [ ] **Command Injection**
+- [ ] **[Injection SQL](/SQL_Injection/)**
+- [ ] **[XSS (Stored, Reflected, DOM)](/XSS/)**
+- [ ] **Open redirect**: à tester quand une redirection a lieu.
+- [ ] **Injections XML / LDAP / etc.**
+- [ ] **XML External Entity (XXE)**: à tester systématiquement quand on sait que du contenu XML est interprété côté serveur. Notamment dans les cas où on peut uploader des fichiers Word / Excel qui sont des fichiers XML
+- [ ] **Path Traversal**
+- [ ] **Server Side Request Forgery**
