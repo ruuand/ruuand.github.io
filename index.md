@@ -110,8 +110,8 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
     - [Subdomain Takeover](/Subdomain_Takeover/)
     - [DNS Rebinding](/DNS_Rebinding/)
     - Headers HTTP:
-    -- [Header Host](/Host_Header/)
-    -- [Content Security Policy (CSP)](/CSP/)
+    	- [Header Host](/Host_Header/)
+    	- [Content Security Policy (CSP)](/CSP/)
 - Technologies
 	- [Adobe ColdFusion](/Adobe_ColdFusion/)
 	- [Adobe Flash](/Flash/)
