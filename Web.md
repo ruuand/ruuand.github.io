@@ -36,8 +36,11 @@ permalink: /web/
 - [ ] **Vulnérabilités SSL/TLS**
 - [ ] **Certificat**: certificat valide ? Algorithme de signature ?
 
-## Chiffrement (divers)
+## Base de données
 
+Si on parvient à lire le contenu de la base de données:
+
+- [ ] **Priviléges utilisateurs BDD**: L'utilisateur BDD est il admin ? Peut il accéder à d'autres bases ?
 - [ ] **Mot de passe utilisateur**: En clair ? Chiffrement réversible ? Stockage sous forme de hash ? Algorithme utilisé ? Utilisation d'un sel ?
 
 ## Entrées utilisateurs
@@ -52,3 +55,10 @@ Les formulaires et l'ensemble des paramètres sont des entrées utilisateurs et 
 - [ ] **XML External Entity (XXE)**: à tester systématiquement quand on sait que du contenu XML est interprété côté serveur. Notamment dans les cas où on peut uploader des fichiers Word / Excel qui sont des fichiers XML
 - [ ] **Path Traversal**
 - [ ] **Server Side Request Forgery**
+
+## Formulaire d'upload
+
+- [ ] **Contrôle antivirus**: peut-on uploader un fichier contenant EICAR ? .exe ou autre ?
+- [ ] **Contournement des contrôles**: il y a t'il des restrictions ? Peut on les contourner
+- [ ] **Accès aux documents**: peut on accéder aux documents uploadés ? (Lien simple, pas d'accès, validation utilisateur, etc.)
+- [ ] **Interprétation contenu**: comment est interprété le contenu uploadé ? Les fichiers sont ils interprétés côté serveur (ex: .php, .jsp, etc.) ? Côté client (ex: .html) ?
