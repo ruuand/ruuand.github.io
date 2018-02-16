@@ -37,5 +37,6 @@ Système de chiffrement de MSSQL, très souvent mis en place pour des raisons de
 
 ### Outils
 
+- [MSDAT: Microsoft SQL Database Attacking Tool](https://github.com/quentinhardy/msdat
 - [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
 - [SQL Server Link Crawling with PowerUpSQL](https://blog.netspi.com/sql-server-link-crawling-powerupsql/)
