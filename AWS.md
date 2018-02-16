@@ -59,4 +59,4 @@ aws --profile ruuand s3 ls # Liste les buckets avec le profil ruuand
 ```
 
 # Références
-- http://flaws.cloud
+- [FLAWS](http://flaws.cloud)
