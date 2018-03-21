@@ -47,6 +47,7 @@ La délégation Kerberos permet à un service (S1) d'accéder à un autre servic
     - Le compte du service (S1) récupère auprès du KDC un ticket (?) avec les privilèges de l'utilisateur. Le KDC accepte cette requête si le compte de service a le flag **TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION** et que le compte de l'utilisateur autorise la délégation (ce qui n'est pas le cas s'il est dans **Protected Users**). Ce ticket est **forwardable**.
     - Le compte de service S1 renvoie ce TGT (?) au KDC et demande un TGS pour S2. Le KDC vérifie pour quels services le compte de service peut être utilisé pour la délégation et accepte ou non de fournir un TGS. Et voilà.
     - Le problème de ce fonctionnement est que le compte de service intermédiaire S1 peut accéder en tant que n'importe quel utilisateur au service S2, sans que l'utilisateur ne s'authentifie.
+    - Ceci est particuliérement critique si on autorise l'accès à des services sensibles (ex: LDAP)
  - **Constrained Delegation (S4U2Proxy)**
     - Dans ce mode, le service ne peut s'authentifier qu'à des services bien précis. Si on parvient à prendre le contrôle du compte de service utilisant Kerberos, alors on peut s'authentifier sur les services autorisés.
    
