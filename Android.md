@@ -325,4 +325,4 @@ Emulation
 Ressources
 ----------
 - [Android Security Awesome](https://github.com/ashishb/android-security-awesome)
-- [Tests d’intrusion d’applications Android](https://www.xmco.fr/actu-secu/XMCO-ActuSecu-41-Tests-Intrusion-Android.pdf)
+- [Tests d’intrusion d’applications Android (XMCO)](https://www.xmco.fr/actu-secu/XMCO-ActuSecu-41-Tests-Intrusion-Android.pdf)
