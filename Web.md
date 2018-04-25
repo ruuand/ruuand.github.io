@@ -51,7 +51,7 @@ Les formulaires et l'ensemble des paramètres sont des entrées utilisateurs et 
 - [ ] **[Injection SQL](/SQL_Injection/)**
 - [ ] **[XSS (Stored, Reflected, DOM)](/XSS/)**
 - [ ] **Open redirect**: à tester quand une redirection a lieu.
-- [ ] **Injections XML / LDAP / etc.**
+- [ ] **Injections XML / [LDAP](/LDAP_Injection/) / etc.**
 - [ ] **XML External Entity (XXE)**: à tester systématiquement quand on sait que du contenu XML est interprété côté serveur. Notamment dans les cas où on peut uploader des fichiers Word / Excel qui sont des fichiers XML
 - [ ] **Path Traversal**
 - [ ] **Server Side Request Forgery**
