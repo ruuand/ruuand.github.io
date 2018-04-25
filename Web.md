@@ -62,3 +62,4 @@ Les formulaires et l'ensemble des paramètres sont des entrées utilisateurs et 
 - [ ] **Contournement des contrôles**: il y a t'il des restrictions ? Peut on les contourner
 - [ ] **Accès aux documents**: peut on accéder aux documents uploadés ? (Lien simple, pas d'accès, validation utilisateur, etc.)
 - [ ] **Interprétation contenu**: comment est interprété le contenu uploadé ? Les fichiers sont ils interprétés côté serveur (ex: .php, .jsp, etc.) ? Côté client (ex: .html) ?
+- [ ] **Upload de fichier ZIP**: dans le cas où les zip sont décompressés. (Voir /ZIP/).
