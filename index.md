@@ -135,7 +135,6 @@ Exploitation
 - [Corelan Exploit Course](/Corelan_Exploit_Course/)
 - [Ecriture d'exploit](/Ecriture_d'exploit/)
 - [Egg Hunter](/Egg_Hunter/)
-- [Mona](/Mona/)
 - [SEH](/SEH/)
 - [Assembleur](/Assembleur/)
 
