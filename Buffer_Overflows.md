@@ -70,6 +70,23 @@ nasm > jmp esp
 00000000  FFE4              jmp esp
 ```
 
+## SEH Overflows
+
+Les commandes mona suivantes permettent l'exploitation :
+``` bash
+!mona exchain # Affiche les enregistrements SEH (on peut aussi faire ALT+S)
+!mona safeseh # Affiche les modules sans SafeSEH
+!mona seh -m strmdll.dll # Chercher un pop,pop,ret dans le module indiqué
+```
+
+Il faut trouver un payload de la forme suivante:
+``` bash
+[JUNK][Short JMP          ][Address to POP, POP, RET][NOPs][Shellcode]
+[????][Address to next SEH][Address of SEH Handler  ][???????????????]
+```
+
+Si on utilise msfvenom il faut préciser EXITFUNC=SEH.
+
 Ressources
 ----------
 
