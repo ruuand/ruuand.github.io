@@ -87,10 +87,20 @@ Il faut trouver un payload de la forme suivante:
 
 Si on utilise msfvenom il faut préciser EXITFUNC=SEH.
 
-Ressources
-----------
+## Unicode
+
+msfvenom dispose d'un encoder pour générer des payloads compatibles avec de l'unicode:
+
+``` bash
+msfvenom -p windows/exec -e x86/unicode_mixed CMD=calc.exe BufferRegister=eax --format=py
+```
+
+Il est cependant nécessaire d'initialiser la valeur de registre eax pour qu'elle pointe vers le début du buffer. FuzzySecurity montre une démarche (voir détail complet dans le [tutorial](http://www.fuzzysecurity.com/tutorials/expDev/5.html)). 
+
+## Ressources
 
 ### Liens externes
 
 - [64 Bits Linux Stack Based Buffer Overflow](https://www.exploit-db.com/docs/33698.pdf)
 - [Windows Exploit Development - Part 1](http://www.shogunlab.com/blog/2017/08/19/zdzg-windows-exploit-1.html)
+- [Tutorials Fuzzy Security](http://www.fuzzysecurity.com/tutorials.html)
