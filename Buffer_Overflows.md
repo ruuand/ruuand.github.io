@@ -5,23 +5,37 @@ permalink: /Buffer_Overflows/
 
 # Buffer Overflows
 
-Offset
-------
+## Généralités
 
-Générer un pattern de 2700 caractères avec metasploit:
+Cette section contient des commandes générales utiles pour l'exploitation de buffer overflows.
 
-``` bash
-/usr/share/metasploit-framework/tools/exploit/pattern_create.rb 2700
-```
-
-Trouver l'offset pour le pattern **\\x39\\x69\\x44\\x38**:
+Générer des patterns avec metasploit:
 
 ``` bash
-/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb 39694438
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb 2700 # Génération du pattern
+/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb 39694438 # Trouver l'offset
 ```
 
-Bad characters
---------------
+Trouver un jmp avec mona dans un module spécifique:
+
+``` bash
+!mona jmp -!mona jmp -r esp -m user32.dll
+```
+
+### Bad characters
+
+Pour rechercher des bad chars on peut générer un payload avec mona:
+
+``` bash
+!mona bytearray # Tous les caractères
+!mona bytearray -cpb "\x00\x0a" # Tous sauf \x00 \x0a
+```
+
+On peut comparer un fichier avec le contenu en mémoire:
+
+``` bash
+!mona compare -f C:/mona/minishare/bytearray.bin -a 01010101 
+```
 
 Cette chaîne peut être utilisée pour chercher les "**bad chars**":
 
@@ -46,8 +60,7 @@ buf+="\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff"
 
 Il faut également s'assurer que les bad chars n'empêchent pas le crash pour pouvoir facilement trouver à quel char on s'est arrêté.
 
-Jump to shellcode
------------------
+### Générer shellcodes
 
 On peut utiliser metasploit pour trouver les équivalents opcode de certaines instructions:
 
