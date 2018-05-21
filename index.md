@@ -133,7 +133,6 @@ Exploitation
 ------------
 - [Buffer Overflows](/Buffer_Overflows/)
 - [Corelan Exploit Course](/Corelan_Exploit_Course/)
-- [Ecriture d'exploit](/Ecriture_d'exploit/)
 - [Egg Hunter](/Egg_Hunter/)
 - [SEH](/SEH/)
 - [Assembleur](/Assembleur/)
