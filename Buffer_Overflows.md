@@ -107,6 +107,24 @@ Les commandes mona suivantes sont utiles pour les exploits ROP:
 !mona rop -m MSRMfilter03.dll -cpb '\x00\x09\x0a' # Liste les gadgets dans MSRMfilter03.dll. Cette commande génère plusieurs fichiers. Le fichier rop_chains.txt contient la structure (valeurs à mettre dans les registres, etc.) pour faire un exploit valide.
 ```
 
+## Contournement de protections
+
+### Stack Cookies
+
+Méthodes de contournement:
+- Cookie prévisible (statique, faible entropie, etc.)
+- Attaque SEH
+
+### Data Execution Prevention (DEP)
+
+Méthodes de contournement:
+- Return Oriented Programming
+- Return to LIBC
+
+### Address Space Layout Randomization (ASLR)
+
+Méthodes de contournement:
+- Partial EIP Overwrite (voir [tutorial Corelan](https://www.corelan.be/index.php/2009/09/21/exploit-writing-tutorial-part-6-bypassing-stack-cookies-safeseh-hw-dep-and-aslr/))
 
 ## Ressources
 
