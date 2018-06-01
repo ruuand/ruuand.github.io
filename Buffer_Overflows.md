@@ -108,8 +108,27 @@ Les commandes mona suivantes sont utiles pour les exploits ROP:
 !mona ropfunc -m MSRMfilter03.dll -cpb '\x00\x09\x0a' # Liste les fonctions utiles pour ROP dans MSRMfilter03.dll (VirtualAlloc, etc.)
 !mona rop -m MSRMfilter03.dll -cpb '\x00\x09\x0a' # Liste les gadgets dans MSRMfilter03.dll. Cette commande génère plusieurs fichiers. Le fichier rop_chains.txt contient la structure (valeurs à mettre dans les registres, etc.) pour faire un exploit valide.
 ```
+## Heap attacks
 
-## Heap Spraying
+## Structure de la Heap
+
+La Heap est remplie de chunks. Ils peuvent soit etre en utilisation ou libre.
+
+- Chunk utilisé:
+``` bash
+[Previous Chunk Size][Chunk Size + Flags][Data              ]
+[4 bytes            ][4 bytes           ][(8 + (n/8)*8 bytes]
+[*(buffer - 2)      ][*(buffer - 1)     ][*buffer           ]
+```
+
+ - Chunk libre:
+ ``` bash
+[Previous Chunk Size][Chunk Size + Flags][FD (pointer to next free chunk)][BK (pointer to previous free chunk)]
+[4 bytes            ][4 bytes           ][4 bytes                        ][4 bytes                            ]
+[*(buffer - 2)      ][*(buffer - 1)     ][*buffer                        ][*(buffer + 1)                      ]
+```
+
+### Heap Spraying
 
 Le Heap Spraying est une méthode utilisée pour mettre le shellcode en mémoire. Via du JavaScript on met le shellcode précédé d'un large nopsled. Ceci permet de mettre dans EIP une adresse où on a une forte chance de tomber sur le nopsled.
 
