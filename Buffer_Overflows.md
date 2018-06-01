@@ -128,6 +128,10 @@ La Heap est remplie de chunks. Ils peuvent soit etre en utilisation ou libre.
 [*(buffer - 8)      ][*(buffer - 4)     ][*buffer                        ][*(buffer + 4)                      ]
 ```
 
+### Heap overflow
+
+Une attaque de type heap overflow permet d'écraser des valeurs sur le tas. Ceci peut permettre de contourner certains contrôles (ex: valeur "privs" à modifier) ou éventuellement executer du code (ex: le tas contient un pointeur qui est ensuite utilisé via strcpy. On peut alors modifier ce pointeur pour que le strcpy modifie une adresse de retour).
+
 ### Heap Spraying
 
 Le Heap Spraying est une méthode utilisée pour mettre le shellcode en mémoire. Via du JavaScript on met le shellcode précédé d'un large nopsled. Ceci permet de mettre dans EIP une adresse où on a une forte chance de tomber sur le nopsled.
