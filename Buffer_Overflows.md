@@ -118,14 +118,14 @@ La Heap est remplie de chunks. Ils peuvent soit etre en utilisation ou libre.
 ``` bash
 [Previous Chunk Size][Chunk Size + Flags][Data              ]
 [4 bytes            ][4 bytes           ][(8 + (n/8)*8 bytes]
-[*(buffer - 2)      ][*(buffer - 1)     ][*buffer           ]
+[*(buffer - 8)      ][*(buffer - 4)     ][*buffer           ]
 ```
 
  - Chunk libre:
  ``` bash
 [Previous Chunk Size][Chunk Size + Flags][FD (pointer to next free chunk)][BK (pointer to previous free chunk)]
 [4 bytes            ][4 bytes           ][4 bytes                        ][4 bytes                            ]
-[*(buffer - 2)      ][*(buffer - 1)     ][*buffer                        ][*(buffer + 1)                      ]
+[*(buffer - 8)      ][*(buffer - 4)     ][*buffer                        ][*(buffer + 4)                      ]
 ```
 
 ### Heap Spraying
