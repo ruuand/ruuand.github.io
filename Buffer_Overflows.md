@@ -136,6 +136,15 @@ Une attaque de type heap overflow permet d'écraser des valeurs sur le tas. Ceci
 
 Le Heap Spraying est une méthode utilisée pour mettre le shellcode en mémoire. Via du JavaScript on met le shellcode précédé d'un large nopsled. Ceci permet de mettre dans EIP une adresse où on a une forte chance de tomber sur le nopsled.
 
+### Commandes
+
+Les commandes suivantes sont utiles pour l'exploitation de vulnérabilités liées à la heap:
+
+``` bash
+info proc mappings # Permet d'afficher les mappings de la heap, stack, etc.
+x/64xw 0x804a000 # Permet d'afficher le contenu à l'adresse indiquée (adresse de la heap à récupérer)
+```
+
 ## Format String
 
 Une vulnérabilité de type format string permet de lire du contenu en mémoire mais aussi de le modifier ce qui permet de faire un RCE.
