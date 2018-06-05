@@ -116,9 +116,10 @@ La Heap est remplie de chunks. Ils peuvent soit etre en utilisation ou libre.
 
 - Chunk utilisé:
 ``` bash
-[Previous Chunk Size][Chunk Size + Flags][Data              ]
-[4 bytes            ][4 bytes           ][(8 + (n/8)*8 bytes]
-[*(buffer - 8)      ][*(buffer - 4)     ][*buffer           ]
+[Previous Chunk Size(*)][Chunk Size + Flags][Data              ]
+[4 bytes               ][4 bytes           ][(8 + (n/8)*8 bytes]
+[*(buffer - 8)         ][*(buffer - 4)     ][*buffer           ]
+(*) n'est configuré que si le chunk précédent est libre !
 ```
 
  - Chunk libre:
