@@ -134,7 +134,6 @@ Exploitation
 - [Buffer Overflows](/Buffer_Overflows/)
 - [Corelan Exploit Course](/Corelan_Exploit_Course/)
 - [Egg Hunter](/Egg_Hunter/)
-- [SEH](/SEH/)
 - [Assembleur](/Assembleur/)
 
 Linux
