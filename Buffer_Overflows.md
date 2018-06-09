@@ -182,13 +182,20 @@ shellcode += '%5\$hn'          # On écrase la fin 0xf80c
 ### Références
 - [Les failles Format String](https://repo.zenk-security.com/Techniques%20d.attaques%20%20.%20%20Failles/Les%20failles%20Format%20String.pdf)
 
-## Contournement de protections
+## Protections
 
 ### Stack Cookies
 
 Méthodes de contournement:
 - Cookie prévisible (statique, faible entropie, etc.)
-- Attaque SEH
+
+#### Linux
+
+Sous Linux, les stack cookies se terminent par \x00 pour rendre plus difficile leur remplacement (strcpy et d'autres fonctions s'arrêtant après le \x00).
+
+#### Windows
+
+Sous Windows il est possible de contourner un stack cookie via SEH. L'exception intervenant avant la vérification de la valeur du stack cookie.
 
 ### Data Execution Prevention (DEP)
 
