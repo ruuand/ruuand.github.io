@@ -62,6 +62,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [Wifi](/Wifi/)
 	- [Elévation de priviléges (Windows)](/Elévation_de_priviléges_(Windows)/)
 	- [Imprimantes](/Imprimantes/)
+	- [Logging](/Logging/)
 
 Services
 --------
