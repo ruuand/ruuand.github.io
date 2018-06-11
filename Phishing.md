@@ -12,6 +12,12 @@ Les macros Word sont un moyen efficace de prendre le contrôle d'un poste via un
 - [Macro-less Code Exec in MSWord](https://sensepost.com/blog/2017/macro-less-code-exec-in-msword/)
 - [Microsoft Office – DDE Attacks](https://pentestlab.blog/2018/01/16/microsoft-office-dde-attacks/)
 
+## Autres méthodes
+
+Cette section regroupe d'autres méthodes utiles en phishing:
+- [The Tale of SettingContent-ms Files](https://posts.specterops.io/the-tale-of-settingcontent-ms-files-f1ea253e4d39): dans cet article Matt Nelson contourne ASR (Attack Surface Reduction) et des restrictions de Word sur les fichiers qui peuvent être inclus. Ce contournement utilise des fichiers ".SettingContent-ms"
+
+
 ## Références
 -   [Frenzy E-Mail Phishing Framework](http://www.darknet.org.uk/2016/04/phishing-frenzy-e-mail-phishing-framework/)
 -   [gophish](https://getgophish.com/)
