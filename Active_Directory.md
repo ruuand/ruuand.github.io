@@ -42,8 +42,14 @@ Les 4 groupes les plus sensibles sont:
 
 Il est à noter que les privilèges qu'ont les membres de ces groupes font qu'ils peuvent généralement s'attribuer les priviléges pour aller dans n'importe quel autre groupe.
 
-Ressources
-----------
+## Ressources
 
+### Outils
+
+- [PingCastle](https://www.pingcastle.com/): petit tool pour des audits AD. A tester.
+
+### Articles
 -   [Attack Methods for Gaining Domain Admin Rights in Active Directory](https://adsecurity.org/?p=2362)
 -   [Red vs Blue Modern Active Directory Attacks Defense - Sean Metcalf](https://www.youtube.com/watch?v=Lz6haohGAMc&feature=youtu.be)
+
+
