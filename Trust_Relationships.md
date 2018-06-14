@@ -7,6 +7,14 @@ permalink: /Trust_Relationships/
 
 Les relations d'approbation permettent à plusieurs domaines de communiquer entre eux.
 
+## Commandes
+
+Les commandes suivantes permettent d'obtenir des informations concernant les trusts:
+
+``` 
+nltest.exe /domain_trusts
+```
+
 ## Elevation de priviléges
 Plusieurs outils permettent de profiter des relations d'approbations pour élever ses priviléges, notamment en partant d'un domaine enfant vers un domaine parent. Ceci exploite notamment les "SIDHistory". L'outil **raiseChild.py** présent dans impacket fait cela:
 ```
