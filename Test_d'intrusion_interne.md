@@ -66,9 +66,7 @@ nmap -sS -sV -A -F 192.168.199.0/24 -oA scan_nmap_192.168.199.0_24
 nmap sP 192.168.160.0/24
 ```
 
-Compromission initiale
-----------------------
-
+## Compromission initiale
 L'objectif de cette partie est de trouver et d'exploiter une vulnérabilité qui va nous permettre d'étendre notre contrôle sur le réseau. De très nombreuses possibilités existent.
 
 ### Attaques de type MiTM
@@ -88,17 +86,22 @@ Les attaque de type "Man in the middle" consistent en l'ensemble des attaques da
         - Si admin: execution de code avec xp_cmdshell
         - Si non admin: SMB Relay / Hash avec xp_dirtree / xp_filexist ou élévation de priviléges
 
-Avec un compte du domaine:
+### Avec un compte du domaine:
 
--   Mots de passe dans SYSVOL ([Group Policy Preferences](/Group_Policy_Preferences "wikilink"))
--   Trouver des partages réseaux via des scans ([nmap](/nmap "wikilink"), [metasploit](/metasploit "wikilink"), [CrackMapExec](/CrackMapExec "wikilink"), [ShareCheck](http://www.sec-1.com/blog/2014/sharecheck)) ou via l'interrogation de l'[Active Directory](/Active_Directory "wikilink")
--   Attaques liées à [Kerberos](/Kerberos "wikilink") (ex: [Kerberoasting](/Kerberoasting "wikilink"))
--   Attaques sur le DC
-    -   MS14-068 (Elévation de privilèges d'utilisateur à Domain Admin)
+- Mots de passe dans SYSVOL ([Group Policy Preferences](/Group_Policy_Preferences "wikilink"))
+- Trouver des partages réseaux via des scans ([nmap](/nmap "wikilink"), [metasploit](/metasploit "wikilink"), [CrackMapExec](/CrackMapExec "wikilink"), [ShareCheck](http://www.sec-1.com/blog/2014/sharecheck)) ou via l'interrogation de l'[Active Directory](/Active_Directory "wikilink"))
+- Attaques liées à [Kerberos](/Kerberos "wikilink") (ex: [Kerberoasting](/Kerberoasting "wikilink"))
+- Attaques sur le DC:
+    - MS14-068 (Elévation de privilèges d'utilisateur à Domain Admin)
 
 ### Mot de passe triviaux
 
-Il peut être intéressant de prendre le contrôle d'un élément en identifiant des mots de passes par défaut.
+Il peut être intéressant de prendre le contrôle d'un élément en identifiant des mots de passes par défaut. Les applications suivntes permettent parfois de devenir administrateur sur le serveur:
+
+- Tomcat Manager: déploiement d'une application malveillante.
+- Jenkins: execution de script Groovy.
+- ADManager (outil de gestion Active Directory)
+- Imprimantes: dans certains cas un compte à privilége peut avoir été utilisé pour les configurer.
 
 ### Local Privilege Escalation
 
