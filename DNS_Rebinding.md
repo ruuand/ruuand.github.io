@@ -7,7 +7,7 @@ permalink: /DNS_Rebinding/
 
 ## Exploitation
 
-Une application est vulnérable à l'attaque DNS Rebinding s'il est possible d'y accéder en modifiant le champ "Host:" et en le remplacant par une valeur arbitraire.
+Une application est vulnérable à l'attaque DNS Rebinding s'il est possible d'y accéder en modifiant le champ "Host:" et en le remplacant par une valeur arbitraire. Cette attaque permet de bypasser la [Same Origin Policy](/SOP/)
 
 ## Références
 ### Outils
@@ -15,4 +15,5 @@ Une application est vulnérable à l'attaque DNS Rebinding s'il est possible d'y
 
 ### Articles
 - [Walking Past Same-origin Policy, NAT, and Firewall for Ethereum Wallet Control](https://medium.com/@rhodey/walking-past-same-origin-policy-nat-and-firewall-for-ethereum-wallet-control-30c29b73a057)
+- [Attacking Private Networks from the Internet with DNS Rebinding](https://medium.com/@brannondorsey/attacking-private-networks-from-the-internet-with-dns-rebinding-ea7098a2d325)
 - [CVE-2018-5702 in transmission](https://github.com/transmission/transmission/pull/468)
