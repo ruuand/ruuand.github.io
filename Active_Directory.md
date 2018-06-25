@@ -7,8 +7,8 @@ permalink: /Active_Directory/
 
 Active Directory est un des éléments centraux d'un environnement Windows. Le site <https://adsecurity.org/> est une référence à consulter.
 
-Points à étudier
-----------------
+## Points à étudier
+
 
 -   AdminSDHolder: <https://adsecurity.org/?p=1906>
 -   adminCount
@@ -16,8 +16,8 @@ Points à étudier
 -   Sites AD: <https://technet.microsoft.com/en-us/library/cc754697(v=ws.11).aspx>
 -   Managed Services Accounts
 
-Authentification AD
--------------------
+## Authentification AD
+
 
 Il existe plusieurs mécanismes d'authentification dans Active Directory:
 
@@ -28,8 +28,8 @@ Il existe plusieurs mécanismes d'authentification dans Active Directory:
 
 Voir Annexe VII du guide ANSSI: <https://www.ssi.gouv.fr/uploads/IMG/pdf/NP_ActiveDirectory_NoteTech.pdf>
 
-Groupes AD
-----------
+## Groupes AD
+
 
 La page suivante donne des informations sur les principaux groupes Active Directory: <https://blogs.technet.microsoft.com/lrobins/2011/06/23/admin-free-active-directory-and-windows-part-1-understanding-privileged-groups-in-ad/>
 
