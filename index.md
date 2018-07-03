@@ -133,12 +133,12 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Cloudflare](/Cloudflare/)
 	- [HP ILO](/HP_ILO/)
 
-Exploitation
-------------
+## Exploitation & RE
 - [Buffer Overflows](/Buffer_Overflows/)
 - [Corelan Exploit Course](/Corelan_Exploit_Course/)
 - [Egg Hunter](/Egg_Hunter/)
 - [Assembleur](/Assembleur/)
+- [Reverse Engineering](/RE/)
 
 Linux
 -----
