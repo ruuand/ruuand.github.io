@@ -74,6 +74,7 @@ En revanche AES sera utilisé dans le cas suivant:
 -   [Attaque sur AS-REP](http://www.harmj0y.net/blog/activedirectory/roasting-as-reps/): Cette attaque cible les comptes pour lesquels la pré authentification (la partie **PREAUTH**) est désactivé.
 -   [Silver Ticket](/Silver_Ticket "wikilink"): forger un TGS
 -   [Golden Ticket](/Golden_Ticket "wikilink"): forger un TGT
+-   [Pass The Hash](/https://malicious.link/post/2018/pass-the-hash-with-kerberos/): il est possible de faire une attaque de type pass the hash via Kerberos
 -   Il est possible de faire des attaques de type Man in the Middle sur le protocole Kerberos. On peut ensuite faire du cracking offline avec hashcat.
 
 ### Attaques spécifiques
@@ -89,3 +90,4 @@ En revanche AES sera utilisé dans le cas suivant:
 -   [What Is Kerberos Authentication? - Microsoft Technet](https://technet.microsoft.com/en-us/library/cc780469(v=ws.10).aspx)
 -   [Kerberos, Active Directory’s Secret Decoder Ring](http://adsecurity.org/?p=227)
 -   [Return From The Underworld The Future Of Red Team Kerberos](https://www.youtube.com/watch?v=E_BNhuGmJwM)
+-   [Pass The Hash with Kerberos](/https://malicious.link/post/2018/pass-the-hash-with-kerberos/): il est possible de faire une attaque de type pass the hash via Kerberos
