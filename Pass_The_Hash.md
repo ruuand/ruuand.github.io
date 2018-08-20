@@ -22,3 +22,7 @@ Mitigation
 ----------
 
 Voir [Mitigating Pass the Hash Attacks and Other Credential Theft Version 2](https://download.microsoft.com/download/7/7/A/77ABC5BD-8320-41AF-863C-6ECFB10CB4B9/Mitigating-Pass-the-Hash-Attacks-and-Other-Credential-Theft-Version-2.pdf)
+
+
+## Références
+-   [Pass The Hash with Kerberos](/https://malicious.link/post/2018/pass-the-hash-with-kerberos/): il est possible de faire une attaque de type pass the hash via Kerberos
