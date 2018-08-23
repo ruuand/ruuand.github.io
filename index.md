@@ -109,12 +109,13 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Cross Site Request Forgery (CSRF)](/CSRF/)
 	- [Server Side Template Injection (SSTI)](/SSTI/)
 	- [CRLF](/CRLF/)
-	- [Java Deserialization](/Java_Deserialization/)
 	- [Content Security Policy (CSP)](/CSP/)
 	- [Subdomain Takeover](/Subdomain_Takeover/)
 	- [DNS Rebinding](/DNS_Rebinding/)
 	- [XSLT](/XSLT/)
 	- [ZIP](/ZIP/)
+	- Deserialization:
+		- [Java Deserialization](/Java_Deserialization/)
 	- Headers HTTP:   
 		- [Header Host](/Host_Header/)
 		- [Content Security Policy (CSP)](/CSP/)
