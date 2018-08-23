@@ -20,8 +20,9 @@ L'outil [ysoserial](https://github.com/frohoff/ysoserial) permet de générer fa
 
 ## Références
 ### Outils
+- [ysoserial](https://github.com/frohoff/ysoserial)
 - [Serialization Dumper](https://github.com/NickstaDB/SerializationDumper)
-- https://github.com/khai-tran/BurpJDSer
+- [BurpJDSer](https://github.com/khai-tran/BurpJDSer)
 
 ### Articles
 - [Attacking Java Deserialization](https://nickbloor.co.uk/2017/08/13/attacking-java-deserialization/)
