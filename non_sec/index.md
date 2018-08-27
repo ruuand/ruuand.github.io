@@ -20,3 +20,4 @@ Page contenant des éléments non liés à la sécurité.
 - [ ] Il était une fois le gène (Siddartha Mukherjee)
 - [ ] Les années de persécution (Saul Friedländer, 940.53 FRI)
 - [ ] Les années d'extermination (Saul Friedländer, 940.53 FRI)
+- [ ] Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)
