@@ -1,51 +1,61 @@
 Page contenant des éléments non liés à la sécurité.
 
 ## Films
-- [x] BlacKkKlansman 
-- [x] Silent Voice
-- [x] Le monde est à toi
-- [x] Under The Silver Lake
-- [x] The Guilty
-- [x] Ant-Man
-- [x] Burning
-- [ ] Invasion
+
+|Titre|Status||
+|-----|------|-----------|
+|BlacKkKlansman|Vu|:\||
+|Silent Voice|Vu|<3|
+|Le monde est à toi|Vu|:)|
+|Under The Silver Lake|Vu|:(|
+|The Guilty|Vu|:\||
+|Ant-Man|Vu|:\||
+|Burning|Vu|<3|
+|Mile 22|Vu|:(|
+|Equalizer 2|Vu|:\|
+|Invasion|A voir||
 
 ## Livres (2018)
 ### Non fiction
-- [ ] Tout peut changer: capitalisme et changement climatique (Naomi Klein, 363.7 KLE)
-- [ ] La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)
-- [ ] Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)
-- [ ] Storytelling: la machine à fabriquer des histoires et à formater des esprits (Christian Salmon, 302.2 SAL)
-- [ ] Les origines du totalitarisme (Hannah Arendt, 320.5 ARE)
-- [ ] L'empereur de toutes les maladies (Siddartha Mukherjee)
-- [ ] Il était une fois le gène (Siddartha Mukherjee)
-- [x] Les années de persécution (Saul Friedländer, 940.53 FRI)
-- [ ] Les années d'extermination (Saul Friedländer, 940.53 FRI)
-- [ ] Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)
-- [ ] Quand la beauté fait mal (Naomi Wolf)
-- [ ] Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)
-- [ ] L'ordre du monde (Henry Kissinger)
-- [x] No Logo: La tyrannie des marques (Naomi Klein)
-- [ ] The Disaster Artist: Ma vie avec the Room (Greg Sestero)
-- [ ] D'abord ils ont tué mon père (Loung Ung)
-- [x] Les marchands de doute (Naomi Oreskes, Erik M. Conway)
-- [x] La Civilisation de l'occident médieval (Jacques le Goff)
-- [x] Little Rock, 1957 (Thomas Snégaroff)
-- [x] La Grande Histoire du Monde (François Reynaert)
-- [x] De la tyrannie (Timothy Snyder)
-- [x] La part d'ange en nous (Steven Pinker)
-- [x] Sapiens (Yuval Noah Harari)
-- [x] Homo Deus (Yuval Noah Harari)
-- [x] Généraux, Gangsters et Jihadistes (Jean-Pierre Filiu)
-- [ ] Enlightenment Now (Steven Pinker)
-- [x] Non ce n'était pas mieux avant (Johan Norber)
-- [x] Utopies Réalistes (Rutger Bregman)
-- [x] Aventures chez les transhumanistes (Mark O'Connel)
-- [x] Superintelligence (Nick Bostrom)
-- [x] Factfulness (Hans, Ola & Anna Rosling)
-- [x] De l'inégalité parmi les sociétés (Jared Diamond)
-- [x] Effondrement (Jared Diamond)
-- [ ] Le monde jusqu'à hier (Jared Diamond)
+|Titre|Lu||
+|-----|------|-----------|
+|Tout peut changer: capitalisme et changement climatique (Naomi Klein, 363.7 KLE)|Non||
+|La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
+|Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Non||
+|Storytelling: la machine à fabriquer des histoires et à formater des esprits (Christian Salmon, 302.2 SAL)|Non||
+|Les origines du totalitarisme (Hannah Arendt, 320.5 ARE)|Non||
+|L'empereur de toutes les maladies (Siddartha Mukherjee)|A relire||
+|Il était une fois le gène (Siddartha Mukherjee)|Non||
+|Les années de persécution (Saul Friedländer, 940.53 FRI)|Oui|:)|
+|Les années d'extermination (Saul Friedländer, 940.53 FRI)|Non||
+|Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)|Non||
+|Quand la beauté fait mal (Naomi Wolf)|Non||
+|Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
+|L'ordre du monde (Henry Kissinger)|Non||
+|No Logo: La tyrannie des marques (Naomi Klein)|Oui|<3|
+|The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non||
+|D'abord ils ont tué mon père (Loung Ung)|Non||
+|Les marchands de doute (Naomi Oreskes, Erik M. Conway)|Oui|<3|
+|La Civilisation de l'occident médieval (Jacques le Goff)|Oui|:\||
+|Little Rock, 1957 (Thomas Snégaroff)|Oui|:)|
+|La Grande Histoire du Monde (François Reynaert)|Oui|:\||
+|De la tyrannie (Timothy Snyder)|Oui|:\||
+|La part d'ange en nous (Steven Pinker)|Oui|<3|
+|Sapiens (Yuval Noah Harari)|Oui|<3|
+|Homo Deus (Yuval Noah Harari)|Oui|:)|
+|Généraux, Gangsters et Jihadistes (Jean-Pierre Filiu)|Oui|:(|
+|Enlightenment Now (Steven Pinker)|Non||
+|Non ce n'était pas mieux avant (Johan Norber)|Oui|:\||
+|Utopies Réalistes (Rutger Bregman)|Oui|:)|
+|Aventures chez les transhumanistes (Mark O'Connel)|Oui|:\||
+|Superintelligence (Nick Bostrom)|Oui|:)|
+|Factfulness (Hans, Ola & Anna Rosling)|Oui|:)|
+|De l'inégalité parmi les sociétés (Jared Diamond)|Oui|<3|
+|Effondrement (Jared Diamond)|Oui|:)|
+|Le monde jusqu'à hier (Jared Diamond)|Non||
+
+
+
 
 
 ### Fictions
