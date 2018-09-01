@@ -5,18 +5,19 @@ Page contenant des éléments non liés à la sécurité.
 |Titre|Status||
 |-----|------|-----------|
 |BlacKkKlansman|Vu|:\||
-|Silent Voice|Vu|<3|
+|Silent Voice|Vu|♥|
 |Le monde est à toi|Vu|:)|
 |Under The Silver Lake|Vu|:(|
 |The Guilty|Vu|:\||
 |Ant-Man|Vu|:\||
-|Burning|Vu|<3|
+|Burning|Vu|♥|
 |Mile 22|Vu|:(|
 |Equalizer 2|Vu|:\|
 |Invasion|A voir||
 
 ## Livres (2018)
 ### Non fiction
+
 |Titre|Lu||
 |-----|------|-----------|
 |Tout peut changer: capitalisme et changement climatique (Naomi Klein, 363.7 KLE)|Non||
