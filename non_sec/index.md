@@ -5,7 +5,7 @@ Page contenant des éléments non liés à la sécurité.
 |Titre|Status||
 |-----|------|-----------|
 |BlacKkKlansman|Vu|:\||
-|Silent Voice|Vu|♥|
+|Silent Voice|Vu|♥♥|
 |Le monde est à toi|Vu|:)|
 |Under The Silver Lake|Vu|:(|
 |The Guilty|Vu|:\||
@@ -33,16 +33,16 @@ Page contenant des éléments non liés à la sécurité.
 |Quand la beauté fait mal (Naomi Wolf)|Non||
 |Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
 |L'ordre du monde (Henry Kissinger)|Non||
-|No Logo: La tyrannie des marques (Naomi Klein)|Oui|<3|
+|No Logo: La tyrannie des marques (Naomi Klein)|Oui|♥♥|
 |The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non||
 |D'abord ils ont tué mon père (Loung Ung)|Non||
-|Les marchands de doute (Naomi Oreskes, Erik M. Conway)|Oui|<3|
+|Les marchands de doute (Naomi Oreskes, Erik M. Conway)|Oui|♥♥|
 |La Civilisation de l'occident médieval (Jacques le Goff)|Oui|:\||
 |Little Rock, 1957 (Thomas Snégaroff)|Oui|:)|
 |La Grande Histoire du Monde (François Reynaert)|Oui|:\||
 |De la tyrannie (Timothy Snyder)|Oui|:\||
-|La part d'ange en nous (Steven Pinker)|Oui|<3|
-|Sapiens (Yuval Noah Harari)|Oui|<3|
+|La part d'ange en nous (Steven Pinker)|Oui|♥|
+|Sapiens (Yuval Noah Harari)|Oui|♥|
 |Homo Deus (Yuval Noah Harari)|Oui|:)|
 |Généraux, Gangsters et Jihadistes (Jean-Pierre Filiu)|Oui|:(|
 |Enlightenment Now (Steven Pinker)|Non||
@@ -51,7 +51,7 @@ Page contenant des éléments non liés à la sécurité.
 |Aventures chez les transhumanistes (Mark O'Connel)|Oui|:\||
 |Superintelligence (Nick Bostrom)|Oui|:)|
 |Factfulness (Hans, Ola & Anna Rosling)|Oui|:)|
-|De l'inégalité parmi les sociétés (Jared Diamond)|Oui|<3|
+|De l'inégalité parmi les sociétés (Jared Diamond)|Oui|♥|
 |Effondrement (Jared Diamond)|Oui|:)|
 |Le monde jusqu'à hier (Jared Diamond)|Non||
 
