@@ -74,5 +74,5 @@ Page contenant des éléments non liés à la sécurité.
 |Au revoir là-haut (Pierre Lemaitre)|Oui|:)|
 |No Home (Yaa Gyasi)|Oui|:)|
 |Le Talon de Fer (Jack London)|Oui|♥|
-|Space O.P.A. (Greg Costikyan)|:||
-|La case de l'oncle Tom (Harriet Beecher-Stowe)|:)|
+|Space O.P.A. (Greg Costikyan)|Oui|:||
+|La case de l'oncle Tom (Harriet Beecher-Stowe)|Oui|:)|
