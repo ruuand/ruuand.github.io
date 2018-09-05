@@ -60,16 +60,19 @@ Page contenant des éléments non liés à la sécurité.
 
 
 ### Fictions
-- [x] Robe de Marié (Pierre Lemaître)
-- [x] Némésis (Philip Roth)
-- [x] La dénonciation (Bandi)
-- [x] Le Joueur (Dostoïevski)
-- [x] L'ordre du Jour (Eric Vuillard)
-- [x] Couleurs de l'incendie (Pierre Lemaitre)
-- [x] Blue (Joël Houssin)
-- [x] De sang-froid (Truman Capote)
-- [x] Au revoir là-haut (Pierre Lemaitre)
-- [x] No Home (Yaa Gyasi)
-- [x] Le Talon de Fer (Jack London)
-- [x] Space O.P.A. (Greg Costikyan)
-- [x] La case de l'oncle Tom (Harriet Beecher-Stowe)
+
+|Titre|Lu||
+|-----|------|-----------|
+|Robe de Marié (Pierre Lemaître)|Oui|:||
+|Némésis (Philip Roth)|Oui|Non|
+|La dénonciation (Bandi)|Oui|:||
+|Le Joueur (Dostoïevski)|Oui|:)|
+|L'ordre du Jour (Eric Vuillard)|Oui|:||
+|Couleurs de l'incendie (Pierre Lemaitre)|Oui|:)|
+|Blue (Joël Houssin)|Oui|:(|
+|De sang-froid (Truman Capote)|Oui|:||
+|Au revoir là-haut (Pierre Lemaitre)|Oui|:)|
+|No Home (Yaa Gyasi)|Oui|:)|
+|Le Talon de Fer (Jack London)|Oui|♥|
+|Space O.P.A. (Greg Costikyan)|:||
+|La case de l'oncle Tom (Harriet Beecher-Stowe)|:)|
