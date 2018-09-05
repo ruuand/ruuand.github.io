@@ -64,7 +64,7 @@ Page contenant des éléments non liés à la sécurité.
 |Titre|Lu||
 |-----|------|-----------|
 |Robe de Marié (Pierre Lemaître)|Oui|:||
-|Némésis (Philip Roth)|Oui|Non|
+|Némésis (Philip Roth)|Oui|:||
 |La dénonciation (Bandi)|Oui|:||
 |Le Joueur (Dostoïevski)|Oui|:)|
 |L'ordre du Jour (Eric Vuillard)|Oui|:||
