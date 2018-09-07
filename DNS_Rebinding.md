@@ -5,9 +5,18 @@ permalink: /DNS_Rebinding/
 
 # DNS Rebinding
 
-## Exploitation
+## Principe
 
-Une application est vulnérable à l'attaque DNS Rebinding s'il est possible d'y accéder en modifiant le champ "Host:" et en le remplacant par une valeur arbitraire. Cette attaque permet de bypasser la [Same Origin Policy](/SOP/)
+DNS Rebinding consiste à faire changer l'adresse IP associée à attacker.com pour la faire passer à une adresse IP correspondant à l'application ciblée. Un navigateur sur attacker.com effectuera des requêtes vers cette cible en pensant qu'il s'agit légitimement de attacker.com.
+
+Une application est vulnérable à l'attaque DNS Rebinding s'il est possible d'y accéder en modifiant le champ "Host:" et en le remplacant par une valeur arbitraire. Cette attaque permet de bypasser la [Same Origin Policy](/SOP/). 
+
+L'attaque a cependant des limites:
+- **Validation du Host**: Si le champ "Host" est validé alors l'attaque ne fonctionne pas
+- **Authentification**: On ne peut pas accéder à du contenu nécessitant une authentification (le champ Host étant changé les cookies ne seront pas envoyés).
+- **HTTPS**: Si HTTPS est utilisé l'attaque échouera. L'application cible ayant un certificat TLS ne matchant pas le domaine attacker.com
+
+De ce fait l'attaque est intéressante pour cibler des applications accessibles uniquement en réseau interne ou en local (ex: transmission).
 
 ## Références
 ### Outils
