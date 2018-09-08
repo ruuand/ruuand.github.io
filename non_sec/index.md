@@ -9,11 +9,12 @@ Page contenant des éléments non liés à la sécurité.
 |Le monde est à toi|Vu|:)|
 |Under The Silver Lake|Vu|:(|
 |The Guilty|Vu|:\||
-|Ant-Man|Vu|:\||
+|Ant-Man|Vu|:)|
 |Burning|Vu|♥|
 |Mile 22|Vu|:(|
 |Equalizer 2|Vu|:\|
-|Invasion|A voir||
+|Invasion|Vu|:\||
+|Bonhomme|Vu|♥|
 
 ## Livres (2018)
 ### Non fiction
@@ -63,16 +64,16 @@ Page contenant des éléments non liés à la sécurité.
 
 |Titre|Lu||
 |-----|------|-----------|
-|Robe de Marié (Pierre Lemaître)|Oui|:||
-|Némésis (Philip Roth)|Oui|:||
-|La dénonciation (Bandi)|Oui|:||
+|Robe de Marié (Pierre Lemaître)|Oui|:\||
+|Némésis (Philip Roth)|Oui|:\||
+|La dénonciation (Bandi)|Oui|:\||
 |Le Joueur (Dostoïevski)|Oui|:)|
-|L'ordre du Jour (Eric Vuillard)|Oui|:||
+|L'ordre du Jour (Eric Vuillard)|Oui|:\||
 |Couleurs de l'incendie (Pierre Lemaitre)|Oui|:)|
 |Blue (Joël Houssin)|Oui|:(|
-|De sang-froid (Truman Capote)|Oui|:||
+|De sang-froid (Truman Capote)|Oui|:\||
 |Au revoir là-haut (Pierre Lemaitre)|Oui|:)|
 |No Home (Yaa Gyasi)|Oui|:)|
 |Le Talon de Fer (Jack London)|Oui|♥|
-|Space O.P.A. (Greg Costikyan)|Oui|:||
+|Space O.P.A. (Greg Costikyan)|Oui|:\||
 |La case de l'oncle Tom (Harriet Beecher-Stowe)|Oui|:)|
