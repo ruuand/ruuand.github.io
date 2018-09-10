@@ -15,6 +15,7 @@ Page contenant des éléments non liés à la sécurité.
 |Equalizer 2|Vu|:\|
 |Invasion|Vu|:\||
 |Bonhomme|Vu|♥|
+|Venom|A voir||
 
 ## Livres (2018)
 ### Non fiction
@@ -55,8 +56,6 @@ Page contenant des éléments non liés à la sécurité.
 |De l'inégalité parmi les sociétés (Jared Diamond)|Oui|♥|
 |Effondrement (Jared Diamond)|Oui|:)|
 |Le monde jusqu'à hier (Jared Diamond)|Non||
-
-
 
 
 
