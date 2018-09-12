@@ -30,7 +30,7 @@ Page contenant des éléments non liés à la sécurité.
 |L'empereur de toutes les maladies (Siddartha Mukherjee)|A relire||
 |Il était une fois le gène (Siddartha Mukherjee)|Non||
 |Les années de persécution (Saul Friedländer, 940.53 FRI)|Oui|:)|
-|Les années d'extermination (Saul Friedländer, 940.53 FRI)|Non||
+|Les années d'extermination (Saul Friedländer, 940.53 FRI)|Oui|♥|
 |Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)|Non||
 |Quand la beauté fait mal (Naomi Wolf)|Non||
 |Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
