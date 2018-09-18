@@ -92,12 +92,14 @@ sc qc PFNet
 Il est parfois possible de changer le binaire lui même.
 
 ## AlwaysInstallElevated
-Regarder si l'option `AlwaysInstallElevated` est active:
+Regarder si l'option `AlwaysInstallElevated` est active. Cette option permet à un utilisateur lambda d'installer des logiciels comme s'il disposait des droits systèmes.
 
 ``` text
 reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
 reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
 ```
+
+Voir [Always Install Elevated](https://pentestlab.blog/2017/02/28/always-install-elevated/)
 
 ## Alternatives à RunAs
 
