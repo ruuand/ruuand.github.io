@@ -22,7 +22,7 @@ Avec ces éléments il est alors possible d'executer des commandes sur différen
 Plusieurs éléments permettent de limiter l'impact des attaques Pass The Hash:
 
 - **Comptes locaux**: on peut désactiver ces comptes ou empêcher une authentification par le réseau.
-- **Comptes du domaine**: ici Kerberos peut aussi être utilisé avec Pass the hash donc désactiver l'authentification NTLM ne sert à rien et il n'est pas possible de désactiver l'authentification par le réseau. En soit il n'est pas vraiment possible de bloquer Pass The Hash sans tout casser. La stratégie repose alors plutôt sur limiter la probabilité que l'attaquant récupère les credentials (Credential Guard, Restricted RDP, Protected Users, etc.)
+- **Comptes du domaine**: ici Kerberos peut aussi être utilisé avec Pass the hash donc désactiver l'authentification NTLM ne sert à rien et il n'est pas possible de désactiver l'authentification par le réseau. En soit il n'est pas vraiment possible de bloquer Pass The Hash sans tout casser. La stratégie repose alors plutôt sur limiter la probabilité que l'attaquant récupère les credentials (Credential Guard, Restricted RDP, Protected Users, Smart Card Logon, etc.)
 
 Voir [Mitigating Pass the Hash Attacks and Other Credential Theft Version 2](https://download.microsoft.com/download/7/7/A/77ABC5BD-8320-41AF-863C-6ECFB10CB4B9/Mitigating-Pass-the-Hash-Attacks-and-Other-Credential-Theft-Version-2.pdf)
 
