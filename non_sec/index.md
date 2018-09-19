@@ -57,7 +57,8 @@ Page contenant des éléments non liés à la sécurité.
 |Effondrement (Jared Diamond)|Oui|:)|
 |Le monde jusqu'à hier (Jared Diamond)|Non||
 |Une mémoire infaillible.: Briller en société sans sortir son smartphone (Sébastien Martinez)|Oui|:)|
-|Hippocrate aux enfers (Michel Cymes)|Oui|:\| 
+|Hippocrate aux enfers (Michel Cymes)|Oui|:\||
+|21 leçons pour le XXIe siècle (Yuval Noah Harari)|Non||
 
 
 
