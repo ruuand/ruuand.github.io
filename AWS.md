@@ -60,3 +60,4 @@ aws --profile ruuand s3 ls # Liste les buckets avec le profil ruuand
 
 # Références
 - [FLAWS](http://flaws.cloud)
+- [A deep dive into AWS S3 access controls – taking full control over your assets](https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/)
