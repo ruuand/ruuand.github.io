@@ -71,4 +71,8 @@ vuln.php?page=../../../../../../../../../../../../../../../../../../../../etc/pa
 vuln.php?page=/etc/passwd/../../../../../../../../../../../../../../../../../../../..
 ```
 
+## Références
 
+- [LFI](https://github.com/lucyoa/ctf-wiki/tree/master/web/file-inclusion)
+- [Wrapper phar://](https://0x1337seichi.wordpress.com/2015/03/15/codgate-2015-ctf-quals-owlur-writeup-web-200/)
+- [Les PATH truncations: The old one](https://www.dailysecurity.fr/les-path-truncations/)
