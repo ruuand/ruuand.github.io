@@ -9,7 +9,20 @@ permalink: /Web_Cache/
 
 Les caches web permettent d'accélérer la vitesse de chargement des pages et d'alléger les opérations côté serveur en sauvegardant certaines ressources dans un cache, plus proche de l'utilisateur. Ceci concerne généralement des ressources statiques (images, CSS, etc.)
 
-## Références
+## Web Cache Deception Attack
+
+Cette attaque utilise une configuration de serveurs dans laquelle les pages suivantes sont identiques:
+
+- http://www.example.com/home.php
+- http://www.example.com/home.php/non-existent.css
+
+La page contient des informations sensibles. Cependant elle peut être mise en cache par un proxy si l'utilisateur y accéde via http://www.example.com/home.php/non-existent.css en raison de l'extension finale. La page apparaît comme le fichier non-existent.css du répertoire home.php.
+
+### Références
+
 - [Web Cache Deception Attack](https://omergil.blogspot.fr/2017/02/web-cache-deception-attack.html)
+- [Web Cache Deception Scanner (Burp)](https://portswigger.net/bappstore/7c1ca94a61474d9e897d307c858d52f0)
+
+## Références
 - [Practical Web Cache Poisoning](https://portswigger.net/blog/practical-web-cache-poisoning)
 - [Cracking the lens: targeting HTTP's hidden attack-surface](https://portswigger.net/blog/cracking-the-lens-targeting-https-hidden-attack-surface): l'article présente un exemple d'exploitation sur le cache dans la dernière partie.
