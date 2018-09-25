@@ -105,7 +105,6 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [CSV Injection](/CSV_Injection/)
 	- [Injection SQL](/SQL_Injection/)
 	- [Injection LDAP](/LDAP_Injection/)
-	- [Local File Inclusion (LFI)](/LFI/)
 	- [Cross Site Request Forgery (CSRF)](/CSRF/)
 	- [Server Side Template Injection (SSTI)](/SSTI/)
 	- [CRLF](/CRLF/)
