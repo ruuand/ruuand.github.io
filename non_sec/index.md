@@ -24,6 +24,7 @@ Page contenant des éléments non liés à la sécurité.
 
 |Titre|Lu||
 |-----|------|-----------|
+|No Logo: La tyrannie des marques (Naomi Klein)|Oui|♥♥|
 |Tout peut changer: capitalisme et changement climatique (Naomi Klein, 363.7 KLE)|Oui|:)|
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
 |Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Non||
@@ -37,7 +38,6 @@ Page contenant des éléments non liés à la sécurité.
 |Quand la beauté fait mal (Naomi Wolf)|Non||
 |Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
 |L'ordre du monde (Henry Kissinger)|Non||
-|No Logo: La tyrannie des marques (Naomi Klein)|Oui|♥♥|
 |The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non||
 |D'abord ils ont tué mon père (Loung Ung)|Non||
 |Les marchands de doute (Naomi Oreskes, Erik M. Conway)|Oui|♥♥|
@@ -46,6 +46,7 @@ Page contenant des éléments non liés à la sécurité.
 |La Grande Histoire du Monde (François Reynaert)|Oui|:\||
 |De la tyrannie (Timothy Snyder)|Oui|:\||
 |La part d'ange en nous (Steven Pinker)|Oui|♥|
+|21 leçons pour le XXIe siècle (Yuval Noah Harari)|Non||
 |Sapiens (Yuval Noah Harari)|Oui|♥|
 |Homo Deus (Yuval Noah Harari)|Oui|:)|
 |Généraux, Gangsters et Jihadistes (Jean-Pierre Filiu)|Oui|:(|
@@ -60,8 +61,6 @@ Page contenant des éléments non liés à la sécurité.
 |Le monde jusqu'à hier (Jared Diamond)|Non||
 |Une mémoire infaillible.: Briller en société sans sortir son smartphone (Sébastien Martinez)|Oui|:)|
 |Hippocrate aux enfers (Michel Cymes)|Oui|:\||
-|21 leçons pour le XXIe siècle (Yuval Noah Harari)|Non||
-
 
 
 ### Fictions
