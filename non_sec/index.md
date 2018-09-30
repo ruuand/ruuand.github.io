@@ -15,6 +15,8 @@ Page contenant des éléments non liés à la sécurité.
 |Equalizer 2|Vu|:\|
 |Invasion|Vu|:\||
 |Bonhomme|Vu|♥|
+|Mademoiselle de Joncquières|Vu|:\||
+|Première Année|Vu|:\||
 |Venom|A voir||
 
 ## Livres (2018)
@@ -39,7 +41,7 @@ Page contenant des éléments non liés à la sécurité.
 |The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non||
 |D'abord ils ont tué mon père (Loung Ung)|Non||
 |Les marchands de doute (Naomi Oreskes, Erik M. Conway)|Oui|♥♥|
-|La Civilisation de l'occident médieval (Jacques le Goff)|Oui|:\||
+|La Civilisation de l'occident médieval (Jacques le Goff)|Oui|:(|
 |Little Rock, 1957 (Thomas Snégaroff)|Oui|:)|
 |La Grande Histoire du Monde (François Reynaert)|Oui|:\||
 |De la tyrannie (Timothy Snyder)|Oui|:\||
