@@ -62,8 +62,6 @@ Page contenant des éléments non liés à la sécurité.
 |Une mémoire infaillible.: Briller en société sans sortir son smartphone (Sébastien Martinez)|Oui|:)|
 |Hippocrate aux enfers (Michel Cymes)|Oui|:\||
 |Psychologie des foules (Gustave Le Bon)|Non||
-|The Four Loves (C.S. Lewis)|Non||
-
 
 ### Fictions
 
