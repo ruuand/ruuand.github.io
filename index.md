@@ -175,3 +175,4 @@ Divers
 - [Bug Bounty](/Bug_Bounty/)
 - [Actualités](/Actualité/)
 - [Python](/python/)
+- [Multi Factor Authentication](/MFA/)
