@@ -17,6 +17,7 @@ Page contenant des éléments non liés à la sécurité.
 |Bonhomme|Vu|♥|
 |Mademoiselle de Joncquières|Vu|:\||
 |Première Année|Vu|:\||
+|La saveur des Ramens|Vu|:)|
 |Venom|A voir||
 
 ## Livres (2018)
