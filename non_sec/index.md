@@ -48,7 +48,7 @@ Page contenant des éléments non liés à la sécurité.
 |La Grande Histoire du Monde (François Reynaert)|Oui|:\||
 |De la tyrannie (Timothy Snyder)|Oui|:\||
 |La part d'ange en nous (Steven Pinker)|Oui|♥|
-|21 leçons pour le XXIe siècle (Yuval Noah Harari)|Non||
+|21 leçons pour le XXIe siècle (Yuval Noah Harari)|Oui|:\||
 |Sapiens (Yuval Noah Harari)|Oui|♥|
 |Homo Deus (Yuval Noah Harari)|Oui|:)|
 |Généraux, Gangsters et Jihadistes (Jean-Pierre Filiu)|Oui|:(|
