@@ -52,7 +52,7 @@ Page contenant des éléments non liés à la sécurité.
 |Sapiens (Yuval Noah Harari)|Oui|♥|
 |Homo Deus (Yuval Noah Harari)|Oui|:)|
 |Généraux, Gangsters et Jihadistes (Jean-Pierre Filiu)|Oui|:(|
-|Enlightenment Now (Steven Pinker)|Non||
+|Enlightenment Now (Steven Pinker)|Oui|:)|
 |Non ce n'était pas mieux avant (Johan Norber)|Oui|:\||
 |Utopies Réalistes (Rutger Bregman)|Oui|:)|
 |Aventures chez les transhumanistes (Mark O'Connel)|Oui|:\||
