@@ -39,6 +39,7 @@ Page contenant des éléments non liés à la sécurité.
 |Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)|Non||
 |Quand la beauté fait mal (Naomi Wolf)|Non||
 |Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
+|Le cygne noir: la puissance de l'imprévisible|Non||
 |L'ordre du monde (Henry Kissinger)|Non||
 |The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non||
 |D'abord ils ont tué mon père (Loung Ung)|Non||
