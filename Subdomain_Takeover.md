@@ -15,6 +15,7 @@ Le header contenait "Mashery Proxy".
 ### Articles
 - [The Principles of a Subdomain Takeover](https://blog.sweepatic.com/subdomain-takeover-principles/)
 - [LTR101: My First CloudFront Domain Takeover/Hijack](https://blog.zsec.uk/subdomainhijack/)
+- [Can I take over XYZ](https://github.com/EdOverflow/can-i-take-over-xyz/blob/master/README.md)
 
 ### Aquatone
 - [Subdomain takeover detection with AQUATONE](http://michenriksen.com/blog/subdomain-takeover-detection-with-aquatone/)
