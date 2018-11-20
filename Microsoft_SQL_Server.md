@@ -27,7 +27,7 @@ Eléments à tester pour Microsoft SQL server:
 
 ### Transparent Data Encryption (TDE)
 
-Système de chiffrement de MSSQL, très souvent mis en place pour des raisons de compliance. Peu utile dans la pratique (voir [The Anatomy and (In)Security of Microsoft SQL Server Transparent Data Encryption (TDE), or How to Break TDE](https://simonmcauliffe.com/technology/tde/)
+Système de chiffrement de MSSQL, très souvent mis en place pour des raisons de compliance. Peu utile dans la pratique (voir [The Anatomy and (In)Security of Microsoft SQL Server Transparent Data Encryption (TDE), or How to Break TDE])(https://simonmcauliffe.com/technology/tde/)
 
 ## Ressources
 
@@ -37,6 +37,6 @@ Système de chiffrement de MSSQL, très souvent mis en place pour des raisons de
 
 ### Outils
 
+- [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL): outil en PowerShell contenant de nombreuses fonctions pour interagir avec un serveur SQL.
 - [MSDAT: Microsoft SQL Database Attacking Tool](https://github.com/quentinhardy/msdat)
-- [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
 - [SQL Server Link Crawling with PowerUpSQL](https://blog.netspi.com/sql-server-link-crawling-powerupsql/)
