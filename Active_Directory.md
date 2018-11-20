@@ -51,5 +51,6 @@ Il est à noter que les privilèges qu'ont les membres de ces groupes font qu'il
 ### Articles
 -   [Attack Methods for Gaining Domain Admin Rights in Active Directory](https://adsecurity.org/?p=2362)
 -   [Red vs Blue Modern Active Directory Attacks Defense - Sean Metcalf](https://www.youtube.com/watch?v=Lz6haohGAMc&feature=youtu.be)
+-   [Active Directory Kill Chain Attack & Defense](https://github.com/infosecn1nja/AD-Attack-Defense): liste d'articles sur des problématiques liées à Active Directory.
 
 
