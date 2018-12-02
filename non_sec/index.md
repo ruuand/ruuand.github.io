@@ -20,6 +20,8 @@ Page contenant des éléments non liés à la sécurité.
 |La saveur des Ramens|Vu|:)|
 |Girl|Vu|:)|
 |Capharnaüm|Vu|♥|
+|Les Chatouilles|Vu|♥♥|
+|Amanda|Vu|:)|
 
 ## Livres (2018)
 ### Non fiction
