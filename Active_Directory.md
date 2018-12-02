@@ -5,42 +5,30 @@ permalink: /Active_Directory/
 
 # Active Directory
 
-Active Directory est un des éléments centraux d'un environnement Windows. Le site <https://adsecurity.org/> est une référence à consulter.
+Active Directory est un des éléments centraux d'un environnement Windows. Le site <https://adsecurity.org/> est une référence à consulter. Cette page est un index 
 
-## Points à étudier
+- Authentification
+  - [Kerberos](/Kerberos/)
+  - [MsCacheV2](/MsCacheV2/)
+	- [NTLM & NetNTLM](/NTLM/)
 
+- Attaques
+  - [Kerberoasting](/Kerberoasting/)
+  - [Pass the hash](/Pass_The_Hash/)
+	- [Dump des hashs du domaine](/Dump_des_hashs_du_domaine/)
+	- [SMB Relay](/SMB_Relay/)
+  
+- Divers
+	- [Group Policy Object](/Group_Policy_Object/)
+	- [Just Enough Administration](/Just_Enough_Administration/)
+	- [WMI](/WMI/)
+	- [LLMNR](/LLMNR/)
+	- [Trust Relationships](/Trust_Relationships/)
+	- [Local Admin Password Solution](/LAPS/)
+	- [Read Only Domain Controllers](/RODC/)
+  - AdminSDHolder: objet AD qui contient les permissions à appliquer aux groupes administratifs. Si on supprime des permissions sur le groupe Domain Admins, une routine viendra les rétablir en se basant sur les permissions de l'objet AdminSDHolder. Ceci peut être utile pour faire une backdoor (voir [ADSecurity](https://adsecurity.org/?p=1906))
+  - [Restricted RDP](https://blogs.technet.microsoft.com/kfalde/2013/08/14/restricted-admin-mode-for-rdp-in-windows-8-1-2012-r2/)
 
--   AdminSDHolder: <https://adsecurity.org/?p=1906>
--   adminCount
--   RestrictedAdmin: <https://blogs.technet.microsoft.com/kfalde/2013/08/14/restricted-admin-mode-for-rdp-in-windows-8-1-2012-r2/>
--   Sites AD: <https://technet.microsoft.com/en-us/library/cc754697(v=ws.11).aspx>
--   Managed Services Accounts
-
-## Authentification AD
-
-
-Il existe plusieurs mécanismes d'authentification dans Active Directory:
-
--   Authentification Lan Manager
--   [Authentification Kerberos](/Kerberos/)
-
-### Authentification par carte à puce
-
-Voir Annexe VII du guide ANSSI: <https://www.ssi.gouv.fr/uploads/IMG/pdf/NP_ActiveDirectory_NoteTech.pdf>
-
-## Groupes AD
-
-
-La page suivante donne des informations sur les principaux groupes Active Directory: <https://blogs.technet.microsoft.com/lrobins/2011/06/23/admin-free-active-directory-and-windows-part-1-understanding-privileged-groups-in-ad/>
-
-Les 4 groupes les plus sensibles sont:
-
--   Enterprise Admins: existe à la racine d'une forêt. Ils sont administrateurs de l'ensemble des domaines de la forêt et peuvent effectuer des modifications sur l'ensemble de celle-ci.
--   Domain Admins: peuvent administrer un domaine et l'ensemble des serveurs / postes de travails liés à celui-ci.
--   Administrators: peuvent administrer un domaine mais n'ont pas de privilèges particuliers sur les postes de travails & serveurs.
--   Schema Admins: existe seulement à la racine d'une forêt. Le groupe est destiné à n'être utilisé que quand des modifications du schéma de la forêt sont effectués.
-
-Il est à noter que les privilèges qu'ont les membres de ces groupes font qu'ils peuvent généralement s'attribuer les priviléges pour aller dans n'importe quel autre groupe.
 
 ## Ressources
 
