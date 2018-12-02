@@ -1,6 +1,6 @@
 ---
 title: MS-RPRN
-permalink: MS_RPRN
+permalink: /MS_RPRN/
 ---
 
 # MS-RPRN
