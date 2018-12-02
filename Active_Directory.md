@@ -17,7 +17,7 @@ Active Directory est un des éléments centraux d'un environnement Windows. Le s
   - [Pass the hash](/Pass_The_Hash/)
   - [Dump des hashs du domaine](/Dump_des_hashs_du_domaine/)
   - [SMB Relay](/SMB_Relay/)
-  - [MS RPN](/MS_RPN/)
+  - [MS RPRN](/MS_RPRN/)
   
 - Divers
 	- [Group Policy Object](/Group_Policy_Object/)
