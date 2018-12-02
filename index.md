@@ -16,10 +16,9 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 
 - [Active Directory](/Active_Directory/)
 	- [Group Policy Object](/Group_Policy_Object/)
-	- Authentification
-		- [Kerberos](/Kerberos/)
-		- [Kerberoasting](/Kerberoasting/)
-		- [Pass The Hash](/Pass_The_Hash/)
+	- [Kerberos](/Kerberos/)
+	- [Kerberoasting](/Kerberoasting/)
+	- [Pass The Hash](/Pass_The_Hash/)
 	- [Dump des hashs du domaine](/Dump_des_hashs_du_domaine/)
 	- [Just Enough Administration](/Just_Enough_Administration/)
 	- [WMI](/WMI/)
