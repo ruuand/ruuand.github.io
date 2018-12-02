@@ -18,7 +18,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [Group Policy Object](/Group_Policy_Object/)
 	- [Kerberos](/Kerberos/)
 	- [Kerberoasting](/Kerberoasting/)
-	- [MS-RPN](/MS_RPN/)
+	- [MS-RPRN](/MS_RPRN/)
 	- [Pass The Hash](/Pass_The_Hash/)
 	- [Dump des hashs du domaine](/Dump_des_hashs_du_domaine/)
 	- [Just Enough Administration](/Just_Enough_Administration/)
