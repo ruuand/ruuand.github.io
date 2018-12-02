@@ -1,7 +1,7 @@
---
+---
 title: NTLM
 permalink: /NTLM/
---
+---
 
 # NTLM
 
