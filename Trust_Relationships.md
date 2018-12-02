@@ -26,7 +26,7 @@ Il est également possible de s'en sortir avec mimikatz en générant un golden 
 ## SID Filtering
 Il est possible d'utiliser le mécanisme de "SID Filtering" pour limiter ce type d'attaque. Cependant, l'utilisation de ce mécanisme ne doit pas se faire au sein d'une même forêt, ce qui peut causer des problèmes de réplication (voir http://windowsitpro.com/windows-server/exploiting-sidhistory-ad-attribute). En gros, il vaut mieux mettre le domaine dans une forêt séparée si on ne lui fait pas confiance.
 
-Autre élément sur le SID Filtering (https://adsecurity.org/?p=1640):
+Autre élément sur le SID Filtering ([AdSecurity](https://adsecurity.org/?p=1640)):
 
 "It has been noted that enabling SID Filtering between trusts in an Active Directory forest would mitigate this since SID History wouldn’t work. That may be true, though there’s a couple of potential issues with this approach: 1) I have never seen this configured in a production environment, 2) I’m not sure of Microsoft’s support posture on this, and 3) enabling SID filtering on trusts within an AD forest may break applications that rely on universal group membership across domains (this could be a pretty big deal since universal groups are typically used frequently in multi-domain AD forests). These may seem like minor issues, but I have seen several large enterprise AD environments that break when non-standard approaches are taken since the developers didn’t take the config into account when testing."
 
@@ -37,7 +37,8 @@ Par défaut une trust entre deux forêt n'ouvre aucun accès particulier. Cepend
 - Donner des accès en administrateur sur un serveur (de la forêt A) à un utilisateur d'une autre forêt (forêt B) crée un risque pour les deux forêts
   - L'utilisateur de B pourra faire du mimikatz sur le serveur de A et récupérer des credentials
   - Un administrateur sur le serveur de A pourra récupérer les credentials de l'utilisateur de B
+- Un article de SpecterOps détaille une méthode pour casser la frontière de sécurité entre deux forêts (voir [Not A Security Boundary: Breaking Forest Trusts](https://posts.specterops.io/not-a-security-boundary-breaking-forest-trusts-cd125829518d))
 
-Références
-----------
+## Références
+- [A Guide to Attacking Domain Trusts](http://www.harmj0y.net/blog/redteaming/a-guide-to-attacking-domain-trusts/)
 - [Articles de harmj0y](http://www.harmj0y.net/blog/tag/domain-trusts/)
