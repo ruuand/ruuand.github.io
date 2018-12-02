@@ -1,11 +1,11 @@
 ---
-title: MS-RPN
-permalink: MS_RPN
+title: MS-RPRN
+permalink: MS_RPRN
 ---
 
-# MS-RPN
+# MS-RPRN
 
-MS-RPN est un protocole utilisé pour les printers. Il est cependant utilisable pour obtenir un accès administratif dans une forêt ou **sur une autre forêt avec laquelle on un trust**. (Voir [Not A Security Boundary: Breaking Forest Trusts](https://posts.specterops.io/not-a-security-boundary-breaking-forest-trusts-cd125829518d)).
+MS-RPRN est un protocole utilisé pour les printers. Il est cependant utilisable pour obtenir un accès administratif dans une forêt ou **sur une autre forêt avec laquelle on un trust**. (Voir [Not A Security Boundary: Breaking Forest Trusts](https://posts.specterops.io/not-a-security-boundary-breaking-forest-trusts-cd125829518d)).
 
 ## Exploitation
 
