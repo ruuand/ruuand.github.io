@@ -41,7 +41,7 @@ Cette section se base sur:
 
 
 La délégation Kerberos permet à un service (S1) d'accéder à un autre service (S2) avec les droits de l'utilisateur qui accéde à (S). Il existe plusieurs mécanismes de délégation:
-- **Unconstrained Delegation (TGT Forwarding)**: le service peut se faire passer pour n'importe quel utilisateur. Dans la pratique, le TGT de l'utilisateur sera stocké dans le TGS pour S1 et stocké dans LSASS. (**Note**: l'utilisation du groupe Protected Users n'est pas compatible avec ce mécanisme).
+- **Unconstrained Delegation (TGT Forwarding)**: le service peut se faire passer pour n'importe quel utilisateur. Dans la pratique, le TGT de l'utilisateur sera stocké dans le TGS pour S1 et stocké dans LSASS. (**Note**: l'utilisation du groupe Protected Users n'est pas compatible avec ce mécanisme). Ce mécanisme peut être exploité pour récupérer des TGT (voir [MS-RPRN](/MS_RPRN/))
 - **Constrained Delegation with protocol transition (S4U2Self)**: le principe est le même, mais on peut configurer auprès de quels services le service peut transférer l'authentification.
     - L'utilisateur accéde au service (S1) autrement que par Kerberos
     - Le compte du service (S1) récupère auprès du KDC un ticket (?) avec les privilèges de l'utilisateur. Le KDC accepte cette requête si le compte de service a le flag **TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION** et que le compte de l'utilisateur autorise la délégation (ce qui n'est pas le cas s'il est dans **Protected Users**). Ce ticket est **forwardable**.
