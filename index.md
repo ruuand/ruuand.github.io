@@ -111,6 +111,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Content Security Policy (CSP)](/CSP/)
 	- [Subdomain Takeover](/Subdomain_Takeover/)
 	- [DNS Rebinding](/DNS_Rebinding/)
+	- [Cross Origin Ressource Sharing (CORS)](/CORS/)
 	- [XSLT](/XSLT/)
 	- [ZIP](/ZIP/)
 	- Deserialization:
