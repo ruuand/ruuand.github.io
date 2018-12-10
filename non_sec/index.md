@@ -72,7 +72,7 @@ Page contenant des éléments non liés à la sécurité.
 
 |Titre|Lu||
 |-----|------|-----------|
-|Robe de Marié (Pierre Lemaître)|Oui|:\||
+|Robe de Marié (Pierre Lemaître)|Oui|:)|
 |Némésis (Philip Roth)|Oui|:\||
 |La dénonciation (Bandi)|Oui|:\||
 |Le Joueur (Dostoïevski)|Oui|:)|
@@ -86,3 +86,6 @@ Page contenant des éléments non liés à la sécurité.
 |Space O.P.A. (Greg Costikyan)|Oui|:\||
 |La case de l'oncle Tom (Harriet Beecher-Stowe)|Oui|:)|
 |Chroniques martiennes (Ray Bradbury)|Oui|:)|
+|Le syndrome du scaphandrier (Serge Brussolo)|Oui|:)
+|L'échiquier du mal (Dan Simmons)|Non||
+|Ubik (Philip K. Dick)|Non||
