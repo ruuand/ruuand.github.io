@@ -114,6 +114,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Cross Origin Ressource Sharing (CORS)](/CORS/)
 	- [XSLT](/XSLT/)
 	- [ZIP](/ZIP/)
+	- [Gestion de version](/Gestion_Version) (Git, SVN)
 	- Deserialization:
 		- [Java Deserialization](/Java_Deserialization/)
 	- Headers HTTP:   
