@@ -28,6 +28,7 @@ Page contenant des éléments non liés à la sécurité.
 
 |Titre|Lu||
 |-----|------|-----------|
+|Peur (Bob Woodward)|Non||
 |No Logo: La tyrannie des marques (Naomi Klein)|Oui|♥♥|
 |Tout peut changer: capitalisme et changement climatique (Naomi Klein, 363.7 KLE)|Oui|:)|
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
@@ -86,6 +87,7 @@ Page contenant des éléments non liés à la sécurité.
 |Space O.P.A. (Greg Costikyan)|Oui|:\||
 |La case de l'oncle Tom (Harriet Beecher-Stowe)|Oui|:)|
 |Chroniques martiennes (Ray Bradbury)|Oui|:)|
-|Le syndrome du scaphandrier (Serge Brussolo)|Oui|:)
-|L'échiquier du mal (Dan Simmons)|Non||
+|Le syndrome du scaphandrier (Serge Brussolo)|Oui|:)|
+|L'échiquier du mal (Dan Simmons)|Oui|:)|
+|L'échiquier du mal Tome 2 (Dan Simmons)|Oui|:)|
 |Ubik (Philip K. Dick)|Non||
