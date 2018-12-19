@@ -10,6 +10,14 @@ Les Antivirus peuvent souvent être utilisés pour élever ses privilèges sur u
 - Avec droits admins: checker avec mimikatz si des creds sont en mémoire, notamment quand on lance un update de l'AV
 - Sans droits admins: la même chose mais en interceptant un éventuel challenge / response vers un serveur de mise à jour (déjà vu sur Sophos)
 
+### Windows Defender
+
+Désactiver les scans real time en ligne de commande:
+
+``` powershell
+Set-MpPreference -DisableRealtimeMonitoring $true
+```
+
 ## Références
 
 - [GreHack 2018: Abusing Privileged File Manipulation - Clement Lavoillotte](https://www.youtube.com/watch?v=OfPTkx36EWs)
