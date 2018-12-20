@@ -101,6 +101,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Certificate Transparency](/Certificate_Transparency/)
 	- [Server Side Request Forgery](/SSRF/)
 	- [XSS](/XSS/)
+	- [XML eXternal Entity (XXE)](/XXE/)
 	- [Injection HQL](/HQL/)
 	- [CSV Injection](/CSV_Injection/)
 	- [Injection SQL](/SQL_Injection/)
