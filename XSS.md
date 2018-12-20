@@ -145,6 +145,7 @@ Il est possbible d'exploiter une XSS dans un champ hidden. Voir [XSS in Hidden I
 - [XSS without event handlers](https://brutelogic.com.br/blog/xss-without-event-handlers/): pour les situations où les events du type onerror sont bloqués
 - [XSS Filter Evasion](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
 - [PassiveXssScan](https://github.com/jkadijk/burp-plugins): un plugin pour identifier automatiquement les éléments "reflected" dans Burp.
+- [HTML5sec](https://html5sec.org/)
 
 ### Challenges
 - [FindBUG XSS Challenge](http://blog.bi.tk/2017/01/20/findbug/)
