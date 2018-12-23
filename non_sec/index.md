@@ -68,6 +68,12 @@ Page contenant des éléments non liés à la sécurité.
 |Une mémoire infaillible.: Briller en société sans sortir son smartphone (Sébastien Martinez)|Oui|:)|
 |Hippocrate aux enfers (Michel Cymes)|Oui|:\||
 |Psychologie des foules (Gustave Le Bon)|Non||
+|Remplacer l'humain : critique de l'automatisation de la société (Nicholas Carr)|Oui|:(|
+|La sixième extinction : comment l'homme détruit la vie (Elizabeth Kolbert)|Oui|:\||
+|Introduction à l'économie (Jacques Généreux)|Oui|:\||
+|Freakonomics (Steven D. Levitt)|Oui|:\||
+|Superfreakonomics (Steven D. Levitt)|Oui|:\||
+
 
 ### Fictions
 
