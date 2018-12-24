@@ -29,7 +29,7 @@ Page contenant des éléments non liés à la sécurité.
 |Titre|Lu||
 |-----|------|-----------|
 |Why Nations Fail (Daron Acemoglu et James A. Robinson)|Oui|♥|
-|Peur (Bob Woodward)|Non||
+|Peur (Bob Woodward)|Oui|:\||
 |No Logo: La tyrannie des marques (Naomi Klein)|Oui|♥♥|
 |Tout peut changer: capitalisme et changement climatique (Naomi Klein, 363.7 KLE)|Oui|:)|
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
@@ -80,6 +80,7 @@ Page contenant des éléments non liés à la sécurité.
 
 |Titre|Lu||
 |-----|------|-----------|
+|Misery (Stephen King)|Oui|:)|
 |Robe de Marié (Pierre Lemaître)|Oui|:)|
 |Némésis (Philip Roth)|Oui|:\||
 |La dénonciation (Bandi)|Oui|:\||
