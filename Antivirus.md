@@ -22,6 +22,9 @@ Set-MpPreference -DisableRealtimeMonitoring $true
 
 - [GreHack 2018: Abusing Privileged File Manipulation - Clement Lavoillotte](https://www.youtube.com/watch?v=OfPTkx36EWs)
 
+### AMSI
+- [How to bypass AMSI and execute ANY malicious Powershell code](https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html)
+
 ### Symantec
 
 -   [From Read to Domain Admin – Abusing Symantec Backup Exec with Frida](https://blog.silentsignal.eu/2014/02/27/from-read-to-domain-admin-abusing-symantec-backup-exec-with-frida/)
