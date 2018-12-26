@@ -35,6 +35,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 - [Poste de travail](/Poste_de_travail/)
 	- [SecureBoot](/SecureBoot/)
 	- [Windows 10](/Windows_10/)
+	- [Mode Kiosque](/Kiosk_Mode/)
 
 - Outils
 	- [Powershell](/Powershell/)
