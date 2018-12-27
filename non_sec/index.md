@@ -43,7 +43,7 @@ Page contenant des éléments non liés à la sécurité.
 |Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)|Non||
 |Quand la beauté fait mal (Naomi Wolf)|Non||
 |Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
-|Le cygne noir: la puissance de l'imprévisible|Non||
+|Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
 |L'ordre du monde (Henry Kissinger)|Non||
 |The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non||
 |D'abord ils ont tué mon père (Loung Ung)|Non||
@@ -66,7 +66,7 @@ Page contenant des éléments non liés à la sécurité.
 |De l'inégalité parmi les sociétés (Jared Diamond)|Oui|♥|
 |Effondrement (Jared Diamond)|Oui|:)|
 |Le monde jusqu'à hier (Jared Diamond)|Non||
-|Une mémoire infaillible.: Briller en société sans sortir son smartphone (Sébastien Martinez)|Oui|:)|
+|Une mémoire infaillible : Briller en société sans sortir son smartphone (Sébastien Martinez)|Oui|:)|
 |Hippocrate aux enfers (Michel Cymes)|Oui|:\||
 |Psychologie des foules (Gustave Le Bon)|Non||
 |Remplacer l'humain : critique de l'automatisation de la société (Nicholas Carr)|Oui|:(|
@@ -74,6 +74,7 @@ Page contenant des éléments non liés à la sécurité.
 |Introduction à l'économie (Jacques Généreux)|Oui|:\||
 |Freakonomics (Steven D. Levitt)|Oui|:\||
 |Superfreakonomics (Steven D. Levitt)|Oui|:\||
+|S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|En cours||
 
 
 ### Fictions
