@@ -36,7 +36,7 @@ Page contenant des éléments non liés à la sécurité.
 |Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Non||
 |Storytelling: la machine à fabriquer des histoires et à formater des esprits (Christian Salmon, 302.2 SAL)|Oui|:\||
 |Les origines du totalitarisme (Hannah Arendt, 320.5 ARE)|Non||
-|L'empereur de toutes les maladies (Siddartha Mukherjee)|A relire||
+|L'empereur de toutes les maladies (Siddartha Mukherjee)|Oui|:)|
 |Il était une fois le gène (Siddartha Mukherjee)|Non||
 |Les années de persécution (Saul Friedländer, 940.53 FRI)|Oui|:)|
 |Les années d'extermination (Saul Friedländer, 940.53 FRI)|Oui|♥|
