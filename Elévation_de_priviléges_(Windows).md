@@ -134,7 +134,7 @@ schtasks /run /tn MASUPERTACHE
 
 -   [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) pour identifier des possibilité d'élévation de priviléges.
 -   [BypassUAC](https://github.com/FuzzySecurity/PowerShell-Suite/tree/master/Bypass-UAC) pour contourner l'UAC.
--   Attaque [Hot Potato](https://foxglovesecurity.com/2016/01/16/hot-potato/)
+-   Attaque [Hot Potato](https://foxglovesecurity.com/2016/01/16/hot-potato/) (MS16-075)
 -   [Windows Exploit Suggester (Tool)](https://github.com/GDSSecurity/Windows-Exploit-Suggester)
 
 ### Documents
