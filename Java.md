@@ -16,6 +16,10 @@ CLASSPATH : .;%JAVA_HOME%\lib;%JAVA_HOME%\jre\lib
 PATH      : your-unique-entries;%JAVA_HOME%\bin
 ```
 
+## Interception HTTPS
+
+Voir [Burp Suite Proxy with java application](https://stackoverflow.com/questions/50157307/burp-suite-proxy-with-java-application/50177906?noredirect=1)
+
 ## JavaSnoop
 
 JavaSnoop est un outil permettant de se hooker à une application Java. JavaSnoop utilise Java 1.6 (http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html)
