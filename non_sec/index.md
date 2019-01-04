@@ -2,6 +2,14 @@ Page contenant des éléments non liés à la sécurité.
 
 ## Films
 
+### 2019
+
+|Titre|Status||
+|-----|------|-----------|
+|Une affaire de famille|Vu|:)|
+
+### 2018
+
 |Titre|Status||
 |-----|------|-----------|
 |BlacKkKlansman|Vu|:\||
@@ -22,24 +30,18 @@ Page contenant des éléments non liés à la sécurité.
 |Capharnaüm|Vu|♥|
 |Les Chatouilles|Vu|♥♥|
 |Amanda|Vu|:)|
+|Bird Box|Vu|:\||
 
-## Livres (2018)
-### Non fiction
+## Livres 
+### 2019
 
+#### Non-fictions
 |Titre|Lu||
 |-----|------|-----------|
-|Why Nations Fail (Daron Acemoglu et James A. Robinson)|Oui|♥|
-|Peur (Bob Woodward)|Oui|:\||
-|No Logo: La tyrannie des marques (Naomi Klein)|Oui|♥♥|
-|Tout peut changer: capitalisme et changement climatique (Naomi Klein, 363.7 KLE)|Oui|:)|
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
 |Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Non||
-|Storytelling: la machine à fabriquer des histoires et à formater des esprits (Christian Salmon, 302.2 SAL)|Oui|:\||
 |Les origines du totalitarisme (Hannah Arendt, 320.5 ARE)|Non||
-|L'empereur de toutes les maladies (Siddartha Mukherjee)|Oui|:)|
 |Il était une fois le gène (Siddartha Mukherjee)|Non||
-|Les années de persécution (Saul Friedländer, 940.53 FRI)|Oui|:)|
-|Les années d'extermination (Saul Friedländer, 940.53 FRI)|Oui|♥|
 |Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)|Non||
 |Quand la beauté fait mal (Naomi Wolf)|Non||
 |Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
@@ -47,6 +49,29 @@ Page contenant des éléments non liés à la sécurité.
 |L'ordre du monde (Henry Kissinger)|Non||
 |The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non||
 |D'abord ils ont tué mon père (Loung Ung)|Non||
+|Le monde jusqu'à hier (Jared Diamond)|Non||
+|Psychologie des foules (Gustave Le Bon)|Non||
+|S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|En cours||
+
+#### Fictions
+|Titre|Lu||
+|-----|------|-----------|
+|Ubik (Philip K. Dick)|Non||
+
+
+### 2018
+#### Non fiction
+
+|Titre|Lu||
+|-----|------|-----------|
+|Why Nations Fail (Daron Acemoglu et James A. Robinson)|Oui|♥|
+|Peur (Bob Woodward)|Oui|:\||
+|No Logo: La tyrannie des marques (Naomi Klein)|Oui|♥♥|
+|Tout peut changer: capitalisme et changement climatique (Naomi Klein, 363.7 KLE)|Oui|:)|
+|Storytelling: la machine à fabriquer des histoires et à formater des esprits (Christian Salmon, 302.2 SAL)|Oui|:\||
+|L'empereur de toutes les maladies (Siddartha Mukherjee)|Oui|:)|
+|Les années de persécution (Saul Friedländer, 940.53 FRI)|Oui|:)|
+|Les années d'extermination (Saul Friedländer, 940.53 FRI)|Oui|♥|
 |Les marchands de doute (Naomi Oreskes, Erik M. Conway)|Oui|♥♥|
 |La Civilisation de l'occident médieval (Jacques le Goff)|Oui|:(|
 |Little Rock, 1957 (Thomas Snégaroff)|Oui|:)|
@@ -65,19 +90,17 @@ Page contenant des éléments non liés à la sécurité.
 |Factfulness (Hans, Ola & Anna Rosling)|Oui|:)|
 |De l'inégalité parmi les sociétés (Jared Diamond)|Oui|♥|
 |Effondrement (Jared Diamond)|Oui|:)|
-|Le monde jusqu'à hier (Jared Diamond)|Non||
 |Une mémoire infaillible : Briller en société sans sortir son smartphone (Sébastien Martinez)|Oui|:)|
 |Hippocrate aux enfers (Michel Cymes)|Oui|:\||
-|Psychologie des foules (Gustave Le Bon)|Non||
 |Remplacer l'humain : critique de l'automatisation de la société (Nicholas Carr)|Oui|:(|
 |La sixième extinction : comment l'homme détruit la vie (Elizabeth Kolbert)|Oui|:\||
 |Introduction à l'économie (Jacques Généreux)|Oui|:\||
 |Freakonomics (Steven D. Levitt)|Oui|:\||
 |Superfreakonomics (Steven D. Levitt)|Oui|:\||
-|S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|En cours||
 
 
-### Fictions
+
+#### Fictions
 
 |Titre|Lu||
 |-----|------|-----------|
@@ -99,4 +122,4 @@ Page contenant des éléments non liés à la sécurité.
 |Le syndrome du scaphandrier (Serge Brussolo)|Oui|:)|
 |L'échiquier du mal (Dan Simmons)|Oui|:)|
 |L'échiquier du mal Tome 2 (Dan Simmons)|Oui|:)|
-|Ubik (Philip K. Dick)|Non||
+
