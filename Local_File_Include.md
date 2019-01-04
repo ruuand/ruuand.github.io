@@ -48,6 +48,13 @@ vuln.php?page=php://filter/resource=/etc/passwd
 vuln.php?page=zip://path/to/file.zip%23shell.php
 ```
 
+### Linux
+
+Quelques fichiers utiles à inclure:
+
+- /etc/passwd: utilisateurs locaux
+- /proc/self/cmdline: indique la ligne de commande qui a été utilisée pour lancer le service
+
 ### Divers
 
 Il est possible d'inclure certains fichiers qui peuvent contenir des entrées utilisateurs si on veut executer du code (ex: User-Agent, etc.):
