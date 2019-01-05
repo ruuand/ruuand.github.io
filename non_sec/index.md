@@ -36,6 +36,7 @@ Page contenant des éléments non liés à la sécurité.
 ### 2019
 
 #### Non-fictions
+
 |Titre|Lu||
 |-----|------|-----------|
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
@@ -54,6 +55,7 @@ Page contenant des éléments non liés à la sécurité.
 |S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|En cours||
 
 #### Fictions
+
 |Titre|Lu||
 |-----|------|-----------|
 |Ubik (Philip K. Dick)|Non||
