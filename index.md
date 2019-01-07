@@ -100,6 +100,19 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Google Search](/Google_Search/)
 	- [Web Cache](/Web_Cache/)
 	- [Certificate Transparency](/Certificate_Transparency/)
+	- [Content Security Policy (CSP)](/CSP/)
+	- [Cross Origin Ressource Sharing (CORS)](/CORS/)
+	- [XSLT](/XSLT/)
+	- Headers HTTP:   
+		- [Header Host](/Host_Header/)
+		- [Content Security Policy (CSP)](/CSP/)
+	- [Websockets](/Websockets/)
+	- [ZIP](/ZIP/)
+	- [Gestion de version](/Gestion_Version) (Git, SVN)
+
+- Vulnérabilités
+	- Deserialization:
+		- [Java Deserialization](/Java_Deserialization/)
 	- [Server Side Request Forgery](/SSRF/)
 	- [XSS](/XSS/)
 	- [XML eXternal Entity (XXE)](/XXE/)
@@ -111,19 +124,8 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Cross Site Request Forgery (CSRF)](/CSRF/)
 	- [Server Side Template Injection (SSTI)](/SSTI/)
 	- [CRLF](/CRLF/)
-	- [Content Security Policy (CSP)](/CSP/)
 	- [Subdomain Takeover](/Subdomain_Takeover/)
 	- [DNS Rebinding](/DNS_Rebinding/)
-	- [Cross Origin Ressource Sharing (CORS)](/CORS/)
-	- [XSLT](/XSLT/)
-	- [ZIP](/ZIP/)
-	- [Gestion de version](/Gestion_Version) (Git, SVN)
-	- Deserialization:
-		- [Java Deserialization](/Java_Deserialization/)
-	- Headers HTTP:   
-		- [Header Host](/Host_Header/)
-		- [Content Security Policy (CSP)](/CSP/)
-	- [Websockets](/Websockets/)
 	
 - Technologies
 	- [Adobe ColdFusion](/Adobe_ColdFusion/)
