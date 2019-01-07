@@ -7,3 +7,4 @@ permalink: /XXE/
 
 ## Références
 - [Exploiting XXE with local DTD files](https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/)
+- [XXE Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20injection)
