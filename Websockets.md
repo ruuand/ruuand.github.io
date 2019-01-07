@@ -17,8 +17,9 @@ websocketExample.close();
 
 ## Vulnérabilités
 
-Les Websockets ne sont pas soumises à la [Same-Origin Policy](/SOP/) ! Ceci doit être pris en compte lors de leur utilisation. Un risque est présent quand l'établissement de la Websocket repose uniquement sur des cookies utilisateurs.
+Les Websockets ne sont pas soumises à la [Same-Origin Policy](/SOP/) ! Ceci doit être pris en compte lors de leur utilisation. Un risque est présent quand l'établissement de la Websocket repose uniquement sur des cookies utilisateurs. Il est possible d'utiliser le header "Origin" pour contrôler la source de la requête (pour du web).
 
 ## Références
 - [The problems and some security implications of websockets - Cross-site WebSockets Scripting (XSWS)](https://gist.github.com/subudeepak/9897212)
 - [Cross-Site WebSocket Hijacking (CSWSH)](http://www.christian-schneider.net/CrossSiteWebSocketHijacking.html)
+- [WebSocket Security](https://devcenter.heroku.com/articles/websocket-security)
