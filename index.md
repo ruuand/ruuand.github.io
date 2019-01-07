@@ -98,7 +98,6 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Mots de passes par défaut](/Mots_de_passes_par_défaut/)
 	- [Messages d'erreurs](/Messages_d'erreurs/)
 	- [Google Search](/Google_Search/)
-	- [Web Cache](/Web_Cache/)
 	- [Certificate Transparency](/Certificate_Transparency/)
 	- [Content Security Policy (CSP)](/CSP/)
 	- [Cross Origin Ressource Sharing (CORS)](/CORS/)
@@ -124,6 +123,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Server Side Request Forgery](/SSRF/)
 	- [Server Side Template Injection (SSTI)](/SSTI/)
 	- [Subdomain Takeover](/Subdomain_Takeover/)
+	- [Web Cache (Attaques)](/Web_Cache/)
 	- [XSS](/XSS/)
 	- [XML eXternal Entity (XXE)](/XXE/)
 
