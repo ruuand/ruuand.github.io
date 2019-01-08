@@ -7,6 +7,7 @@ Page contenant des éléments non liés à la sécurité.
 |Titre|Status||
 |-----|------|-----------|
 |Une affaire de famille|Vu|:)|
+|Spider-Man: Into the Spider-Verse|Vu|:)|
 
 ### 2018
 
@@ -39,6 +40,13 @@ Page contenant des éléments non liés à la sécurité.
 
 |Titre|Lu||
 |-----|------|-----------|
+|S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|En cours||
+|D'abord, ils ont tué mon père (Loung Ung)|Non||
+|Une histoire populaire de la France (Gérard Noiriel)|Non||
+|Sortir du chaos (Gilles Kepel)|Non||
+|Homo Domesticus (James C. Scott)|Non||
+|Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
+|Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
 |Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Non||
 |Les origines du totalitarisme (Hannah Arendt, 320.5 ARE)|Non||
@@ -46,13 +54,12 @@ Page contenant des éléments non liés à la sécurité.
 |Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)|Non||
 |Quand la beauté fait mal (Naomi Wolf)|Non||
 |Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
-|Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
 |L'ordre du monde (Henry Kissinger)|Non||
 |The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non||
 |D'abord ils ont tué mon père (Loung Ung)|Non||
 |Le monde jusqu'à hier (Jared Diamond)|Non||
 |Psychologie des foules (Gustave Le Bon)|Non||
-|S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|En cours||
+
 
 #### Fictions
 
