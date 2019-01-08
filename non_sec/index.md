@@ -55,8 +55,7 @@ Page contenant des éléments non liés à la sécurité.
 |Quand la beauté fait mal (Naomi Wolf)|Non||
 |Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
 |L'ordre du monde (Henry Kissinger)|Non||
-|The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non||
-|D'abord ils ont tué mon père (Loung Ung)|Non||
+|The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non|||
 |Le monde jusqu'à hier (Jared Diamond)|Non||
 |Psychologie des foules (Gustave Le Bon)|Non||
 
