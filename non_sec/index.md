@@ -40,8 +40,8 @@ Page contenant des éléments non liés à la sécurité.
 
 |Titre|Lu||
 |-----|------|-----------|
-|S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|En cours||
-|D'abord, ils ont tué mon père (Loung Ung)|Non||
+|S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|Oui|:)|
+|D'abord, ils ont tué mon père (Loung Ung)|En cours||
 |Une histoire populaire de la France (Gérard Noiriel)|Non||
 |Sortir du chaos (Gilles Kepel)|Non||
 |Homo Domesticus (James C. Scott)|Non||
@@ -105,8 +105,6 @@ Page contenant des éléments non liés à la sécurité.
 |Introduction à l'économie (Jacques Généreux)|Oui|:\||
 |Freakonomics (Steven D. Levitt)|Oui|:\||
 |Superfreakonomics (Steven D. Levitt)|Oui|:\||
-
-
 
 #### Fictions
 
