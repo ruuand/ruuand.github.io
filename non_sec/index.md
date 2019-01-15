@@ -47,6 +47,7 @@ Page contenant des éléments non liés à la sécurité.
 |Homo Domesticus (James C. Scott)|Non||
 |Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
 |Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
+|1491: Les Ameriques avant l'arrivee de Christophe Colomb|||
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
 |Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Non||
 |Les origines du totalitarisme (Hannah Arendt, 320.5 ARE)|Non||
