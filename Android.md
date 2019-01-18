@@ -5,59 +5,7 @@ permalink: /Android/
 
 # Android
 
-Contenu basé en grande partie sur le cours Android de <http://www.pentesteracademy.com/>.
-
-Commandes utiles
-----------------
-
-Chercher une chaîne dans plusieurs fichiers en affichant la ligne
-
-``` bash
-grep -iRn 'string'
-```
-
-Architecture d'Android
-----------------------
-
-4 niveaux:
-
--   Linux Kernel
--   Librairies
--   Application Framework
--   Applications
-
-Il y a aussi "Android Runtime"
-
-2 niveau de sécurité: Linux & Android. Tournent en parallèle.
-
-Chaque application a un UID et GID géré par Linux.
-
-Android gère les permissions d'accès aux différents applications.
-
-Les applications sont dans /data/data/
-
-Il y a un utilisateur générique pour chaque application (on peut faire un ls -la pour voir les permissions). Ceci permet de séparer les applications au niveau Linux.
-
-Plusieurs niveau d'API en fonction de la version. Version vont de 1.0 à 5.x et API va de 1 à 15+
-
-### Composants
-
-Principaux composants:
-
--   Activities: écran d'une application Android
--   Services: événements qui tournent en tâche de fond (téléchargement de fichier, musique, etc.)
--   Intents: permettent aux activités et services de communiquer entre eux. Permet d'invoquer des activités de lancer des services.
--   Activity Manager: permet de gérer les activities
--   Content Providers: permet de stocker et partager les données de l'application
--   Shared Preferences: stockage d'informations. Situé dans shared_prefs/
--   Broadcast Receivers: permet de recevoir des événements des autres applications & du système
-
-Analyse statique
-----------------
-
-Cette section comporte l'ensemble des analyses qui peuvent être effectuées sur l'application de manière statique, sans avoir à l'executer.
-
-### Décompilation d'APK
+## Décompilation d'APK
 
 Pour décompiler APK on peut utiliser apktool. Cet outil va permettre de récupérer le code .smali, les ressources et également le Manifest
 
@@ -90,7 +38,7 @@ La décompilation permet d'obtenir plusieurs informations intéressantes:
 
 Application Android tourne dans une machine virtuelle (Dalvik Virtual Machine) Java Source &gt; Java Byte Code &gt; Dalvik Byte Code -&gt; Dalvik executable
 
-### Analyse des permissions
+## Analyse des permissions
 
 Permissions Android définies dans AndroidManifest.xml. Contient également les services, versions de SDK supportées, intents, receivers, etc. Le fichier AndroidManifest.xml n'est pas directement lisible (il est nécessaire de le décoder avec apktool). Regarder les permissions permet notamment d'identifier des applications malveillantes.
 
@@ -98,7 +46,7 @@ Il peut arriver que l'application définisse des permissions qui peuvent être u
 
 A revoir: <http://resources.infosecinstitute.com/cracking-damn-insecure-and-vulnerable-app-diva-part-4/#article>
 
-### Signing
+## Signing
 
 Les applications doivent être signées (pas d'autorité de certification). On peut signer une application avec keytool (génération de clé) et jarsigner (pour signer avec la clé générée). Ceci est nécessaire quand on modifie une application.
 
@@ -110,7 +58,7 @@ Pluisuers fichiers sont liés au processus de signature:
 
 **Note:** les informations contenues sont faiblement utiles pour un TI classique. Possiblement pus intéressant dans le cas de malwares (réutilisation de la clé).
 
-### Content provider
+## Content provider
 
 Composant qui permet d'intéragir avec des bases de données SQLite, fichiers XML, etc.
 
@@ -124,14 +72,7 @@ adb shell content query --uri content://com.threebanana.notes.provider.NotePad/n
 
 Il est possible d'exploiter un Content Provider vulnérable pour bénéficier de privilèges additionels (ex: une appli malveillante utilise le Content Provider d'Adobe Reader pour obtenir un accès à la carte SD)
 
-### Analyse de .dex
-
-A voir:
-
--   dexdump
-
-Analyse dynamique
------------------
+## Analyse dynamique
 
 L'analyse dynamique consiste à executer l'application pour analyser son comportement.
 
@@ -174,11 +115,6 @@ Avec adb il est possible de regarder les données sauvegardées par l'applicatio
 -   Fichiers dans le répertoire de l'application (/data/data/com.application)
 -   Fichiers sur la carte SD. Ceci est critique car n'importe quelle application pourrait ensuite y accéder. (getExternalStorageDirectory)
 
-**TODO**
-
--   Revoir le cours pour un affichage "propre" de SQLite
--   Revoir la notion de fichiers temporaires (createTempfile)
-
 Plusieurs points à vérifier:
 
 -   Quelles sont les données stockées ?
@@ -216,10 +152,6 @@ Des librairies tierces peuvent être utilisées (dans /data/data/com.application
 ``` bash
 strings lib.so
 ```
-
-### Analyse du traffic
-
-On peut faire une analyse active (Burp, Charles, Mallory) ou passive (tcpdump).
 
 ### SSL Pinning
 
@@ -316,13 +248,16 @@ On a les éléments suivants:
 -   Ordinateur connecté au Wi-Fi et au réseau ethernet. Définir la route 0.0.0.0 comme étant celle sur l'ethernet. Burp redirigera le traffic reçu sur cette route.
 -   Android connecté au Wi-Fi: Configurer le proxy Wi-Fi de l'Android pour pointer vers la machine avec Burp.
 
-Emulation
----------
+## Emulation
+### Android Studio
 
--   [Genymotion](https://www.genymotion.com/)
--   [MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
+```
+cd "C:\Users\[user]\AppData\Local\Android\Sdk\emulator"
+emulator.exe -writable-system -camera-back none -camera-front none -netdelay none -netspeed full -avd "Pentest_Device_4.4_" -http-proxy 127.0.0.1:8080
+```
 
-Ressources
-----------
+### Ressources
+
+- [MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
 - [Android Security Awesome](https://github.com/ashishb/android-security-awesome)
 - [Tests d’intrusion d’applications Android (XMCO)](https://www.xmco.fr/actu-secu/XMCO-ActuSecu-41-Tests-Intrusion-Android.pdf)
