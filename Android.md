@@ -29,15 +29,6 @@ Alternativement on peut utiliser jadx pour générer directement le code .java.
 
 **Note:** il peut arriver que jadx et dex2jar n'arrivent pas à decompiler une fonction / classe.
 
-La décompilation permet d'obtenir plusieurs informations intéressantes:
-
--   Informations sur les permissions requises avec l'étude du Manifest
--   Compréhension du code de l'application
--   Récupération des informations codées en dur (clé secrètes, URLs, etc.)
--   Sauvegarde d'informations sensibles
-
-Application Android tourne dans une machine virtuelle (Dalvik Virtual Machine) Java Source &gt; Java Byte Code &gt; Dalvik Byte Code -&gt; Dalvik executable
-
 ## Analyse des permissions
 
 Permissions Android définies dans AndroidManifest.xml. Contient également les services, versions de SDK supportées, intents, receivers, etc. Le fichier AndroidManifest.xml n'est pas directement lisible (il est nécessaire de le décoder avec apktool). Regarder les permissions permet notamment d'identifier des applications malveillantes.
@@ -93,6 +84,7 @@ adb install com.threebanana.notes # installe l'application
 adb uninstall com.threebanana.notes # désinstalle
 adb backup com.threebanana.notes -f folder # fait un backup des données de l'applications
 adb logcat # capture l'ensemble des logs du téléphone
+adb shell 'pm list packages -f' # List les packages installés
 ```
 
 Ensuite il est possible d'executer les commandes linux traditionnelles dans le shell.
