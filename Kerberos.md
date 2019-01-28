@@ -32,26 +32,12 @@ Le principe est le suivant :
 -   L'utilisateur accéde finalement au service ciblé en lui présentant son TGS. Celui-ci est validé grâce à la clé du service (connue du service et du KDC) et ensuite la validation basée sur les groupes est effectuée.
 
 ## Délégation Kerberos
-**Cette partie est à revoir et contient des erreurs!**
-Cette section se base sur:
+Voir les articles suivants:
 - [Kerberos Unconstrained Delegation (or How Compromise of a Single Server Can Compromise the Domain)](https://adsecurity.org/?p=1667)
 - [Kerberos Delegation, SPNs and More...](https://www.coresecurity.com/blog/kerberos-delegation-spns-and-more)
 - [Trust? Years to earn, seconds to break](https://labs.mwrinfosecurity.com/blog/trust-years-to-earn-seconds-to-break/)
 - [Delegate to the Top: Abusing Kerberos for arbitrary impersonations and RCE](https://www.blackhat.com/docs/asia-17/materials/asia-17-Hart-Delegate-To-The-Top-Abusing-Kerberos-For-Arbitrary-Impersonations-And-RCE-wp.pdf)
 
-
-La délégation Kerberos permet à un service (S1) d'accéder à un autre service (S2) avec les droits de l'utilisateur qui accéde à (S). Il existe plusieurs mécanismes de délégation:
-- **Unconstrained Delegation (TGT Forwarding)**: le service peut se faire passer pour n'importe quel utilisateur. Dans la pratique, le TGT de l'utilisateur sera stocké dans le TGS pour S1 et stocké dans LSASS. (**Note**: l'utilisation du groupe Protected Users n'est pas compatible avec ce mécanisme). Ce mécanisme peut être exploité pour récupérer des TGT (voir [MS-RPRN](/MS_RPRN/))
-- **Constrained Delegation with protocol transition (S4U2Self)**: le principe est le même, mais on peut configurer auprès de quels services le service peut transférer l'authentification.
-    - L'utilisateur accéde au service (S1) autrement que par Kerberos
-    - Le compte du service (S1) récupère auprès du KDC un ticket (?) avec les privilèges de l'utilisateur. Le KDC accepte cette requête si le compte de service a le flag **TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION** et que le compte de l'utilisateur autorise la délégation (ce qui n'est pas le cas s'il est dans **Protected Users**). Ce ticket est **forwardable**.
-    - Le compte de service S1 renvoie ce TGT (?) au KDC et demande un TGS pour S2. Le KDC vérifie pour quels services le compte de service peut être utilisé pour la délégation et accepte ou non de fournir un TGS. Et voilà.
-    - Le problème de ce fonctionnement est que le compte de service intermédiaire S1 peut accéder en tant que n'importe quel utilisateur au service S2, sans que l'utilisateur ne s'authentifie.
-    - Ceci est particuliérement critique si on autorise l'accès à des services sensibles (ex: LDAP)
- - **Constrained Delegation (S4U2Proxy)**
-    - Dans ce mode, le service ne peut s'authentifier qu'à des services bien précis. Si on parvient à prendre le contrôle du compte de service utilisant Kerberos, alors on peut s'authentifier sur les services autorisés.
-   
- **Point Important**: un TGS valide pour un SPN ldap/service_account peut être modifié simplement pour être valide pour cifs/service_account. **A vérifier**
 
 ## Chiffrement
 Les tickets Kerberos contiennent une partie chiffrée qui peut être chiffrée avec RC4, AES128, AE256. Dans le cas d'AES il est difficile d'envisager une attaque [Kerberoasting](/Kerberoasting/).
