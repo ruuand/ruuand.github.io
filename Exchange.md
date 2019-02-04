@@ -17,3 +17,4 @@ L'attaque [PrivExchange](https://github.com/dirkjanm/privexchange/) permet de pa
 
 ### Outils
 - [PrivExchange](https://github.com/dirkjanm/privexchange/)
+- [SharpExchangePriv](https://github.com/panagioto/SharpExchangePriv)
