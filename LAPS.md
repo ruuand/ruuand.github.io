@@ -10,3 +10,4 @@ Resources
 
 - [Dump LAPS password](https://room362.com/post/2017/dump-laps-passwords-with-ldapsearch/)
 - [Malicious use of Microsoft "Local Administrator Password Solution" (Hack.lu 2017)](https://www.youtube.com/watch?v=opSctm4L8kE)
+- [Microsoft LAPS Security & Active Directory LAPS Configuration Recon](https://adsecurity.org/?p=3164)
