@@ -10,6 +10,8 @@ Page contenant des éléments non liés à la sécurité.
 |Spider-Man: Into the Spider-Verse|Vu|:)|
 |Glass|Vu|:\||
 |My Beautiful Son|Vu|:)|
+|Vice|Vu|:)|
+|Grâce à Dieu|Vu|:)|
 
 ### 2018
 
@@ -44,8 +46,10 @@ Page contenant des éléments non liés à la sécurité.
 |-----|------|-----------|
 |S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|Oui|:)|
 |D'abord, ils ont tué mon père (Loung Ung)|Oui|♥♥|
-|Sortir du chaos (Gilles Kepel)|Vu|:)|
+|Sortir du chaos (Gilles Kepel)|Oui|:)|
 |Homo Domesticus (James C. Scott)|Oui|:)|
+|Regards géopolitiques sur l'Iran (Revue Hérodote)|Oui|:\||
+|Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
 |Une histoire populaire de la France (Gérard Noiriel)|Non||
 |Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
 |Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
