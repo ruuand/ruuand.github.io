@@ -30,7 +30,7 @@ Il y a ensuite deux possibilités:
 - **Constrained Delegation with protocol transition**: dans ce cas c'est le service A qui demande un ticket en se faisant passer pour l'utilisateur (S4U2Self) et s'en sert ensuite avec S4U2Proxy
 
 Quelques notes:
-- Le userAccountControl doit contenir TRUSTED_TO_AUTH_FOR_DELEGATION pour que le compte puisse faire de la délégation. Dans la pratique si ce flag n'est pas set alors le compte ne peut pas récupérer un ticket Forwardable.
+- Le userAccountControl doit contenir TRUSTED_TO_AUTH_FOR_DELEGATION pour que le compte puisse faire de la délégation. Dans la pratique si ce flag n'est pas set alors le compte ne peut pas récupérer un ticket Forwardable, cependant il peut récupérer un ticket non-forwardable qui peut être utiliser dans le cadre de Ressource-Based Constrained Delegation.
 - Le service name contenu dans msDS-AllowedToDelegateTo n'est pas important, ce qui compte c'est le serveur indiqué (voir [Kerberos Delegation SPNs and more](https://www.secureauth.com/blog/kerberos-delegation-spns-and-more))
 - Un privilége spécifique (SeEnableDelegationPrivilege) est nécessaire pour modifier l'attribut **msDS-AllowedToDelegateTo**.
 - Ce mécanisme ne nécessite pas que l'utilisateur s'authentifie auprès du serveur !
