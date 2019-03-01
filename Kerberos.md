@@ -32,12 +32,7 @@ Le principe est le suivant :
 -   L'utilisateur accéde finalement au service ciblé en lui présentant son TGS. Celui-ci est validé grâce à la clé du service (connue du service et du KDC) et ensuite la validation basée sur les groupes est effectuée.
 
 ## Délégation Kerberos
-Voir les articles suivants:
-- [Kerberos Unconstrained Delegation (or How Compromise of a Single Server Can Compromise the Domain)](https://adsecurity.org/?p=1667)
-- [Kerberos Delegation, SPNs and More...](https://www.coresecurity.com/blog/kerberos-delegation-spns-and-more)
-- [Trust? Years to earn, seconds to break](https://labs.mwrinfosecurity.com/blog/trust-years-to-earn-seconds-to-break/)
-- [Delegate to the Top: Abusing Kerberos for arbitrary impersonations and RCE](https://www.blackhat.com/docs/asia-17/materials/asia-17-Hart-Delegate-To-The-Top-Abusing-Kerberos-For-Arbitrary-Impersonations-And-RCE-wp.pdf)
-
+Voir [Kerberos Delegation](/Kerberos_Delegation/)
 
 ## Chiffrement
 Les tickets Kerberos contiennent une partie chiffrée qui peut être chiffrée avec RC4, AES128, AE256. Dans le cas d'AES il est difficile d'envisager une attaque [Kerberoasting](/Kerberoasting/).

@@ -17,6 +17,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 - [Active Directory](/Active_Directory/)
 	- [Group Policy Object](/Group_Policy_Object/)
 	- [Kerberos](/Kerberos/)
+    - [Kerberos Delegation](/Kerberos_Delegation/)
 	- [Kerberoasting](/Kerberoasting/)
 	- [MS-RPRN](/MS_RPRN/)
 	- [Pass The Hash](/Pass_The_Hash/)
