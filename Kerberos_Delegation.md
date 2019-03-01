@@ -5,7 +5,7 @@ permalink: /Kerberos_Delegation/
 
 # Kerberos Delegation
 
-La délégation Kerberos permet à un service A d'accéder à un service B en se faisant passer pour un utilisateur. L'utilisateur "délégue" ses droits au service A.
+La délégation [Kerberos](/Kerberos/) permet à un service A d'accéder à un service B en se faisant passer pour un utilisateur. L'utilisateur "délégue" ses droits au service A.
 
 ## Unconstrained Delegation
 
@@ -50,8 +50,14 @@ Quelques notes:
 
 ## Références
 
+### Articles
+
 - [Another word on delegation](https://www.harmj0y.net/blog/redteaming/another-word-on-delegation/)
 - [Kerberos Delegation SPNs and more](https://www.secureauth.com/blog/kerberos-delegation-spns-and-more)
 - [S4U2Pwnage](https://www.harmj0y.net/blog/activedirectory/s4u2pwnage/)
 - [From Kekeo to Rubeus](http://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/)
 - [Wagging the dog](https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html)
+
+### Interne
+
+- [Kerberos](/Kerberos/)
