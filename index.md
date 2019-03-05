@@ -66,6 +66,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [Elévation de priviléges (Windows)](/Elévation_de_priviléges_(Windows)/)
 	- [Imprimantes](/Imprimantes/)
 	- [Logging](/Logging/)
+	- [Citrix](/Citrix/)
 
 Services
 --------
@@ -144,6 +145,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [WAF](/WAF/)
 	- [HP ILO](/HP_ILO/)
 	- [Google Web Toolkit (GWT)](/GWT/)
+
 
 ## Exploitation & RE
 - [Buffer Overflows](/Buffer_Overflows/)
