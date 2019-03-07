@@ -51,12 +51,13 @@ En revanche AES sera utilisé dans le cas suivant:
 
 ### Attaques génériques
 
--   [Kerberoasting](/Kerberoasting "wikilink"): méthodologie pour récupérer des hashs utilisés par Kerberos pour les services et essayer de casser ceux-ci. Cette attaque se base sur l'utilisation du hash d'un service pour chiffrer les TGS.
--   [Attaque sur AS-REP](http://www.harmj0y.net/blog/activedirectory/roasting-as-reps/): Cette attaque cible les comptes pour lesquels la pré authentification (la partie **PREAUTH**) est désactivé.
--   [Silver Ticket](/Silver_Ticket "wikilink"): forger un TGS
--   [Golden Ticket](/Golden_Ticket "wikilink"): forger un TGT
--   [Pass The Hash](/https://malicious.link/post/2018/pass-the-hash-with-kerberos/): il est possible de faire une attaque de type pass the hash via Kerberos
--   Il est possible de faire des attaques de type Man in the Middle sur le protocole Kerberos. On peut ensuite faire du cracking offline avec hashcat.
+- [Kerberoasting](/Kerberoasting "wikilink"): méthodologie pour récupérer des hashs utilisés par Kerberos pour les services et essayer de casser ceux-ci. Cette attaque se base sur l'utilisation du hash d'un service pour chiffrer les TGS.
+- [Attaque sur AS-REP](http://www.harmj0y.net/blog/activedirectory/roasting-as-reps/): Cette attaque cible les comptes pour lesquels la pré authentification (la partie **PREAUTH**) est désactivé.
+- [Silver Ticket](/Silver_Ticket "wikilink"): forger un TGS
+- [Golden Ticket](/Golden_Ticket "wikilink"): forger un TGT
+- [Pass The Hash](/https://malicious.link/post/2018/pass-the-hash-with-kerberos/): il est possible de faire une attaque de type pass the hash via Kerberos
+- Il est possible de faire des attaques de type Man in the Middle sur le protocole Kerberos. On peut ensuite faire du cracking offline avec hashcat.
+- [“Relaying” Kerberos - Having fun with unconstrained delegation](https://dirkjanm.io/krbrelayx-unconstrained-delegation-abuse-toolkit/)
 
 ### Attaques spécifiques
 
