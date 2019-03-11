@@ -49,11 +49,12 @@ Page contenant des éléments non liés à la sécurité.
 |Sortir du chaos (Gilles Kepel)|Oui|:)|
 |Homo Domesticus (James C. Scott)|Oui|:)|
 |Regards géopolitiques sur l'Iran (Revue Hérodote)|Oui|:\||
-|Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
+|Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Oui|:\||
+|Tragédie à l'Everest (Jon Krakauer)|Oui|:)|
+|Le Grand Jeu (Peter Hopkirk)||
 |Une histoire populaire de la France (Gérard Noiriel)|Non||
 |Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
 |Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
-|Tragédie à l'Everest (Jon Krakauer)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
 |Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Non||
