@@ -51,7 +51,7 @@ Page contenant des éléments non liés à la sécurité.
 |Regards géopolitiques sur l'Iran (Revue Hérodote)|Oui|:\||
 |Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Oui|:\||
 |Tragédie à l'Everest (Jon Krakauer)|Oui|:)|
-|Le Grand Jeu (Peter Hopkirk)||
+|Le Grand Jeu (Peter Hopkirk)|Non||
 |Une histoire populaire de la France (Gérard Noiriel)|Non||
 |Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
 |Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
