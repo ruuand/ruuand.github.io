@@ -12,6 +12,8 @@ Page contenant des éléments non liés à la sécurité.
 |My Beautiful Son|Vu|:)|
 |Vice|Vu|:)|
 |Grâce à Dieu|Vu|:)|
+|Le chant du loup|Vu|:)|
+|Captain Marvel|Vu|:)|
 
 ### 2018
 
@@ -22,7 +24,7 @@ Page contenant des éléments non liés à la sécurité.
 |Le monde est à toi|Vu|:)|
 |Under The Silver Lake|Vu|:(|
 |The Guilty|Vu|:\||
-|Ant-Man|Vu|:)|
+|Ant-Man 2|Vu|:)|
 |Burning|Vu|♥|
 |Mile 22|Vu|:(|
 |Equalizer 2|Vu|:\|
@@ -51,7 +53,7 @@ Page contenant des éléments non liés à la sécurité.
 |Regards géopolitiques sur l'Iran (Revue Hérodote)|Oui|:\||
 |Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Oui|:\||
 |Tragédie à l'Everest (Jon Krakauer)|Oui|:)|
-|Le Grand Jeu (Peter Hopkirk)|Non||
+|Le Grand Jeu (Peter Hopkirk)|Oui|:)|
 |Une histoire populaire de la France (Gérard Noiriel)|Non||
 |Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
 |Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
@@ -74,6 +76,9 @@ Page contenant des éléments non liés à la sécurité.
 |Titre|Lu||
 |-----|------|-----------|
 |Moisson d'hiver (Serge Brussolo)|Oui|:)|
+|Imperium (Robert Harris)|Non||
+|Conspirata (Robert Harris)|Non||
+|Dictator (Robert Harris)|Non||
 |Ubik (Philip K. Dick)|Non||
 
 ### 2018
