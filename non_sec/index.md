@@ -54,8 +54,8 @@ Page contenant des éléments non liés à la sécurité.
 |Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Oui|:\||
 |Tragédie à l'Everest (Jon Krakauer)|Oui|:)|
 |Le Grand Jeu (Peter Hopkirk)|Oui|:)|
+|Les dix millénaires oubliés qui ont fait l'histoire (Jean-Paul Demoule)|En cours||
 |Une histoire populaire de la France (Gérard Noiriel)|Non||
-|Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Non||
 |Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
@@ -76,7 +76,7 @@ Page contenant des éléments non liés à la sécurité.
 |Titre|Lu||
 |-----|------|-----------|
 |Moisson d'hiver (Serge Brussolo)|Oui|:)|
-|Imperium (Robert Harris)|Non||
+|Imperium (Robert Harris)|Oui|:)|
 |Conspirata (Robert Harris)|Non||
 |Dictator (Robert Harris)|Non||
 |Ubik (Philip K. Dick)|Non||
