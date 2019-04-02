@@ -54,7 +54,7 @@ Page contenant des éléments non liés à la sécurité.
 |Le cygne noir: la puissance de l'imprévisible (Nassim Nicholas Taleb)|Oui|:\||
 |Tragédie à l'Everest (Jon Krakauer)|Oui|:)|
 |Le Grand Jeu (Peter Hopkirk)|Oui|:)|
-|Les dix millénaires oubliés qui ont fait l'histoire (Jean-Paul Demoule)|En cours||
+|Les dix millénaires oubliés qui ont fait l'histoire (Jean-Paul Demoule)|Oui|:)|
 |Une histoire populaire de la France (Gérard Noiriel)|Non||
 |Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
