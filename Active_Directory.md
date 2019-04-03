@@ -35,11 +35,13 @@ Active Directory est un des éléments centraux d'un environnement Windows. Le s
 
 ### Outils
 
-- [PingCastle](https://www.pingcastle.com/): petit tool pour des audits AD. A tester.
+- [PingCastle](https://www.pingcastle.com/): petit tool pour des audits AD.
+- [windapsearch](https://github.com/ropnop/windapsearch): tool en python pour interagir avec l'Active Directory
 
 ### Articles
 -   [Attack Methods for Gaining Domain Admin Rights in Active Directory](https://adsecurity.org/?p=2362)
 -   [Red vs Blue Modern Active Directory Attacks Defense - Sean Metcalf](https://www.youtube.com/watch?v=Lz6haohGAMc&feature=youtu.be)
 -   [Active Directory Kill Chain Attack & Defense](https://github.com/infosecn1nja/AD-Attack-Defense): liste d'articles sur des problématiques liées à Active Directory.
+- [TR19: Fun with LDAP and Kerberos: Attacking AD from non-Windows machines](https://www.youtube.com/watch?v=2Xfd962QfPs&list=PL1eoQr97VfJnvOWo_Jxk2qUrFyB-BJh4Y&index=12&t=0s): présentation de techniques d'exploitation AD à partir d'une machine Linux.
 
 
