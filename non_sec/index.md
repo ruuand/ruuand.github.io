@@ -55,6 +55,7 @@ Page contenant des éléments non liés à la sécurité.
 |Tragédie à l'Everest (Jon Krakauer)|Oui|:)|
 |Le Grand Jeu (Peter Hopkirk)|Oui|:)|
 |Les dix millénaires oubliés qui ont fait l'histoire (Jean-Paul Demoule)|Oui|:)|
+|Djihad (Gilles Kepel)|Non||
 |Une histoire populaire de la France (Gérard Noiriel)|Non||
 |Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
@@ -77,7 +78,7 @@ Page contenant des éléments non liés à la sécurité.
 |-----|------|-----------|
 |Moisson d'hiver (Serge Brussolo)|Oui|:)|
 |Imperium (Robert Harris)|Oui|:)|
-|Conspirata (Robert Harris)|Non||
+|Conspirata (Robert Harris)|Oui|:)|
 |Dictator (Robert Harris)|Non||
 |Ubik (Philip K. Dick)|Non||
 
