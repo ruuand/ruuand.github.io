@@ -5,8 +5,7 @@ permalink: /Mimikatz/
 
 # Mimikatz
 
-Conditions
-----------
+## Conditions
 
 Pour utiliser mimikatz il faut pouvoir le lancer en tant qu'administrateur ou SYSTEM. Ensuite on peut récupérer des informations, modulo certaines conditions (https://technet.microsoft.com/en-us/windows-server-docs/security/securing-privileged-access/securing-privileged-access-reference-material#a-nameatltbmaadministrative-tools-and-logon-types):
 
@@ -23,8 +22,7 @@ Trucs & astuces:
 - Sous les vieilles versions de Windows il est possible d'utiliser mimilove.
 - Il est possible de dumper lsass et de l'analyser offline avec mimikatz.
 
-Défenses
---------
+## Défenses
 
 Il existe plusieurs mécanismes pour se défendre contre les attaques utilisant Mimikatz (Plus d'informations sur ADSecurity: <https://adsecurity.org/?p=559>)
 
@@ -39,14 +37,13 @@ A partir de Windows 8.1 et Windows Server 2012 les mots de passes ne sont plus s
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest “UseLogonCredential”(DWORD)
 ```
 
-Commandes
----------
+## Commandes
 
-Pour lancer powershell en tant que SHINRA-INC\\heidegger (y compris sur une machine qui n'est pas liée au domaine).
+Pour lancer restricted RDP (il y aura quand même affiché l'utilisateur original dans la fenêtre d'après mais c'est normal) en tant que SHINRA-INC\\heidegger (y compris sur une machine qui n'est pas liée au domaine).
 
 ``` bash
 privilege::debug
-sekurlsa::pth /user:heidegger /domain:SHINRA-INC /ntlm:XXXXXXXXXXXXXXXX /run:powershell.exe
+sekurlsa::pth /user:heidegger /domain:SHINRA-INC /ntlm:XXXXXXXXXXXXXXXX /run:"mstsc.exe /restrictedadmin"
 ```
 
 Références
