@@ -80,6 +80,7 @@ Page contenant des éléments non liés à la sécurité.
 |Moisson d'hiver (Serge Brussolo)|Oui|:)|
 |Imperium (Robert Harris)|Oui|:)|
 |Conspirata (Robert Harris)|Oui|:)|
+|La disparition de Josef Mengele (Olivier Guez)|Oui|:)|
 |Dictator (Robert Harris)|Non||
 |Ubik (Philip K. Dick)|Non||
 
