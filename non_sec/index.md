@@ -55,6 +55,7 @@ Page contenant des éléments non liés à la sécurité.
 |Tragédie à l'Everest (Jon Krakauer)|Oui|:)|
 |Le Grand Jeu (Peter Hopkirk)|Oui|:)|
 |Les dix millénaires oubliés qui ont fait l'histoire (Jean-Paul Demoule)|Oui|:)|
+|Winston Churchill: Une vie (John Keegan)|Oui|:)|
 |Djihad (Gilles Kepel)|Non||
 |Une histoire populaire de la France (Gérard Noiriel)|Non||
 |Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
