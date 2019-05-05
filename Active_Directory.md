@@ -10,7 +10,7 @@ Active Directory est un des éléments centraux d'un environnement Windows. Le s
 - Authentification
   - [Kerberos](/Kerberos/)
   - [MsCacheV2](/MsCacheV2/)
-	- [NTLM & NetNTLM](/NTLM/)
+  - [NTLM & NetNTLM](/NTLM/)
 
 - Attaques
   - [Kerberoasting](/Kerberoasting/)
