@@ -39,4 +39,8 @@ vssadmin delete shadows /for=C: /shadow=e8eb7931-5056-4f7d-a5d7-05c30da3e1b3
 
 **Note**: *copy* dans un invite powershell ne fonctionne pas correctement. Mieux vaut tout faire depuis un invite de commande traditionnel.
 
+## Références
 
+### Outils
+
+- [secretsdump.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/secretsdump.py)
