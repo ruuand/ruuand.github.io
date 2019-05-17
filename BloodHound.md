@@ -7,19 +7,22 @@ permalink: /BloodHound/
 
 ## Utilisation
 
-Il faut importer le module. **Note:** il y a une erreur si Powersploit a déjà été importé:
+Tout passe par l'ingestor Sharphound.exe.
 
-``` powershell
-Import-Module .\BloodHound.ps1
+## Cypher queries
+
+Quelques requêtes Cypher qui peuvent être utiles (inspiré de https://gist.github.com/jeffmcjunkin/7b4a67bb7dd0cfbfbd83768f3aa6eb12):
+
+``` 
+# Liste de tous les utilisateurs avec des droits d'admins locaux (direct ou via un groupe)
+MATCH p=(u:User)-[r:AdminTo|MemberOf*1..]->(c:Computer) RETURN p
+
+# Juste les groupes
+MATCH p=(g:Group)-[r:AdminTo|MemberOf*1..]->(c:Computer) RETURN p
+
+# Admin direct (sans groupe)
+MATCH p=(u:User)-[r:AdminTo]->(c:Computer) RETURN p
 ```
-
-Puis lancer la récupération des informations
-
-``` powershell
-Get-BloodHoundData | Export-BloodHoundCSV
-```
-
-Puis on importe dans BloodHound. The end.
 
 ## Hardening
 
