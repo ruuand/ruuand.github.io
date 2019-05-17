@@ -13,3 +13,4 @@ Si on a du NetNTLMv1 alors il est possible de retrouver le hash NTLM associé en
 
 - [Pwning with Responder a Pentester's guide](https://www.notsosecure.com/pwning-with-responder-a-pentesters-guide/)
 - [SpoolSample -> NetNTLMv1 -> NTLM -> Silver Ticket](https://github.com/NotMedic/NetNTLMtoSilverTicket/blob/master/Readme.md)
+- [crack.sh](https://crack.sh/netntlm/)
