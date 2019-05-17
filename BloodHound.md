@@ -11,7 +11,7 @@ Tout passe par l'ingestor Sharphound.exe.
 
 ## Cypher queries
 
-Quelques requêtes Cypher qui peuvent être utiles (inspiré de https://gist.github.com/jeffmcjunkin/7b4a67bb7dd0cfbfbd83768f3aa6eb12):
+Quelques requêtes Cypher qui peuvent être utiles (inspiré de ce [gist](https://gist.github.com/jeffmcjunkin/7b4a67bb7dd0cfbfbd83768f3aa6eb12)):
 
 ``` 
 # Liste de tous les utilisateurs avec des droits d'admins locaux (direct ou via un groupe)
