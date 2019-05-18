@@ -7,6 +7,8 @@ Pentest Interne & Active Directory
 ----------------------------------
 Cette section contient des éléments relatifs aux tests d'intrusion internes, principalement sur les parties Windows.
 
+- [Cheat Sheet](/CheatSheet_AD/)
+
 - [Test d'intrusion interne](/Test_d'intrusion_interne/)
 - [Post Exploitation](/Post_Exploitation/)
 - [User Hunting](/User_Hunting/)
