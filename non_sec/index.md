@@ -56,9 +56,10 @@ Page contenant des éléments non liés à la sécurité.
 |Le Grand Jeu (Peter Hopkirk)|Oui|:)|
 |Les dix millénaires oubliés qui ont fait l'histoire (Jean-Paul Demoule)|Oui|:)|
 |Winston Churchill: Une vie (John Keegan)|Oui|:)|
+|Et je disparaîtrai dans la nuit (Michelle McNamara)|Oui|:)|
+|Magella (Stefan Zweig)|En cours||
 |Djihad (Gilles Kepel)|Non||
 |Une histoire populaire de la France (Gérard Noiriel)|Non||
-|Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
 |Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Non||
@@ -80,8 +81,8 @@ Page contenant des éléments non liés à la sécurité.
 |Moisson d'hiver (Serge Brussolo)|Oui|:)|
 |Imperium (Robert Harris)|Oui|:)|
 |Conspirata (Robert Harris)|Oui|:)|
+|Dictator (Robert Harris)|Oui|:)|
 |La disparition de Josef Mengele (Olivier Guez)|Oui|:)|
-|Dictator (Robert Harris)|Non||
 |Ubik (Philip K. Dick)|Non||
 
 ### 2018
