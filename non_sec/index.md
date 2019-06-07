@@ -58,12 +58,12 @@ Page contenant des éléments non liés à la sécurité.
 |Winston Churchill: Une vie (John Keegan)|Oui|:)|
 |Et je disparaîtrai dans la nuit (Michelle McNamara)|Oui|:)|
 |Le divan d'Istanbul : Brêve histoire de l'Empire Ottoman (Alessandro Barbero)|Oui|:)|
-|Magella (Stefan Zweig)|En cours||
+|Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Oui|:\||
+|Magella (Stefan Zweig)|Oui|♥|
+|Une histoire populaire de la France (Gérard Noiriel)|En cours||
 |Djihad (Gilles Kepel)|Non||
-|Une histoire populaire de la France (Gérard Noiriel)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
-|Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Non||
 |Les origines du totalitarisme (Hannah Arendt, 320.5 ARE)|Non||
 |Il était une fois le gène (Siddartha Mukherjee)|Non||
 |Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)|Non||
