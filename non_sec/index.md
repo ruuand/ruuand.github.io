@@ -14,6 +14,8 @@ Page contenant des éléments non liés à la sécurité.
 |Grâce à Dieu|Vu|:)|
 |Le chant du loup|Vu|:)|
 |Captain Marvel|Vu|:)|
+|Avengers: Endgame|Vu|:)|
+|Parasite|Vu|♥|
 
 ### 2018
 
