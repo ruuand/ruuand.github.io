@@ -62,8 +62,8 @@ Page contenant des éléments non liés à la sécurité.
 |Le divan d'Istanbul : Brêve histoire de l'Empire Ottoman (Alessandro Barbero)|Oui|:)|
 |Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Oui|:\||
 |Magellan (Stefan Zweig)|Oui|♥|
+|De la marge au centre (bell hooks)|En cours|♥|
 |Une histoire populaire de la France (Gérard Noiriel)|En cours||
-|De la marge au centre (bell hooks)|En cours||
 |Djihad (Gilles Kepel)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
