@@ -62,7 +62,9 @@ Page contenant des éléments non liés à la sécurité.
 |Le divan d'Istanbul : Brêve histoire de l'Empire Ottoman (Alessandro Barbero)|Oui|:)|
 |Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Oui|:\||
 |Magellan (Stefan Zweig)|Oui|♥|
-|De la marge au centre (bell hooks)|En cours|♥|
+|De la marge au centre (bell hooks)|Oui|♥|
+|Marie-Antoinette (Stefan Zweig)|Oui|:)|
+|Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Non||
 |Une histoire populaire de la France (Gérard Noiriel)|En cours||
 |Djihad (Gilles Kepel)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
@@ -87,6 +89,7 @@ Page contenant des éléments non liés à la sécurité.
 |Conspirata (Robert Harris)|Oui|:)|
 |Dictator (Robert Harris)|Oui|:)|
 |La disparition de Josef Mengele (Olivier Guez)|Oui|:)|
+|Bakhita (Véronique Olmi)|Oui|:)|
 |Ubik (Philip K. Dick)|Non||
 
 ### 2018
