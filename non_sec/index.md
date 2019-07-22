@@ -67,6 +67,7 @@ Page contenant des éléments non liés à la sécurité.
 |Une histoire populaire de la France (Gérard Noiriel)|Oui|:\||
 |Le Prince (Machiavel)|En cours||
 |Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Non||
+|Robespierre (Hervé Leuwers)|Non||
 |Djihad (Gilles Kepel)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
 |La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
