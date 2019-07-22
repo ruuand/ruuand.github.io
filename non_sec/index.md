@@ -66,6 +66,7 @@ Page contenant des éléments non liés à la sécurité.
 |Marie-Antoinette (Stefan Zweig)|Oui|:)|
 |Une histoire populaire de la France (Gérard Noiriel)|Oui|:\||
 |Le Prince (Machiavel)|En cours||
+|Le Monde d'hier (Stefan Zweig)||
 |Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Non||
 |Robespierre (Hervé Leuwers)|Non||
 |Djihad (Gilles Kepel)|Non||
