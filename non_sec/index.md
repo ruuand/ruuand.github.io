@@ -70,10 +70,7 @@ Page contenant des éléments non liés à la sécurité.
 |Robespierre (Hervé Leuwers)|Non||
 |Djihad (Gilles Kepel)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
-|La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
 |Les origines du totalitarisme (Hannah Arendt, 320.5 ARE)|Non||
-|Il était une fois le gène (Siddartha Mukherjee)|Non||
-|Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)|Non||
 |Quand la beauté fait mal (Naomi Wolf)|Non||
 |Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
 |L'ordre du monde (Henry Kissinger)|Non||
