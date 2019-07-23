@@ -66,19 +66,12 @@ Page contenant des éléments non liés à la sécurité.
 |Marie-Antoinette (Stefan Zweig)|Oui|:)|
 |Une histoire populaire de la France (Gérard Noiriel)|Oui|:\||
 |Le Prince (Machiavel)|En cours||
-|Le Monde d'hier (Stefan Zweig)||
-|Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Non||
-|Robespierre (Hervé Leuwers)|Non||
+|*Le Monde d'hier (Stefan Zweig)*||
+|*Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)*|Non||
+|*Robespierre (Hervé Leuwers)*|Non||
 |Djihad (Gilles Kepel)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
-|Les origines du totalitarisme (Hannah Arendt, 320.5 ARE)|Non||
-|Quand la beauté fait mal (Naomi Wolf)|Non||
-|Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
-|L'ordre du monde (Henry Kissinger)|Non||
-|The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non|||
 |Le monde jusqu'à hier (Jared Diamond)|Non||
-|Psychologie des foules (Gustave Le Bon)|Non||
-
 
 #### Fictions
 
