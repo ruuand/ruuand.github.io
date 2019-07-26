@@ -65,13 +65,18 @@ Page contenant des éléments non liés à la sécurité.
 |De la marge au centre (bell hooks)|Oui|♥|
 |Marie-Antoinette (Stefan Zweig)|Oui|:)|
 |Une histoire populaire de la France (Gérard Noiriel)|Oui|:\||
-|Le Prince (Machiavel)|En cours||
-|*Le Monde d'hier (Stefan Zweig)*||
-|*Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)*|Non||
-|*Robespierre (Hervé Leuwers)*|Non||
+|Le Prince (Machiavel)|Oui|:)|
+|Fouché (Stegan Zweig)|Non||
+|Le Monde d'hier (Stefan Zweig)|Non||
+|Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Non||
+|La domination masculine (Pierre Bourdieu)|Non||
+|Les Très Riches Heures de l'Humanité (Stefan Zweig)|Non||
+|Histoires extraordinaires (Alain Decaux)|Non||
+|Antispéciste (Aymeric Caron)|Non||
 |Djihad (Gilles Kepel)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
 |Le monde jusqu'à hier (Jared Diamond)|Non||
+|*Robespierre (Hervé Leuwers)*|Non||
 
 #### Fictions
 
