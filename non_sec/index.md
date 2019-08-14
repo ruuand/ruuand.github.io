@@ -66,9 +66,9 @@ Page contenant des éléments non liés à la sécurité.
 |Marie-Antoinette (Stefan Zweig)|Oui|:)|
 |Une histoire populaire de la France (Gérard Noiriel)|Oui|:\||
 |Le Prince (Machiavel)|Oui|:)|
-|Fouché (Stegan Zweig)|Non||
+|Fouché (Stegan Zweig)|Oui|:)|
+|Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Oui|:)|
 |Le Monde d'hier (Stefan Zweig)|Non||
-|Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Non||
 |La domination masculine (Pierre Bourdieu)|Non||
 |Les Très Riches Heures de l'Humanité (Stefan Zweig)|Non||
 |Histoires extraordinaires (Alain Decaux)|Non||
@@ -88,7 +88,8 @@ Page contenant des éléments non liés à la sécurité.
 |Dictator (Robert Harris)|Oui|:)|
 |La disparition de Josef Mengele (Olivier Guez)|Oui|:)|
 |Bakhita (Véronique Olmi)|Oui|:)|
-|Ubik (Philip K. Dick)|Non||
+|Ubik (Philip K. Dick)|Oui|:)|
+|Total Recall - Recueil de nouvelles (Philip K. Dick)|Non||
 
 ### 2018
 #### Non fiction
