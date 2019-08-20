@@ -89,7 +89,7 @@ Page contenant des éléments non liés à la sécurité.
 |La disparition de Josef Mengele (Olivier Guez)|Oui|:)|
 |Bakhita (Véronique Olmi)|Oui|:)|
 |Ubik (Philip K. Dick)|Oui|:)|
-|Total Recall - Recueil de nouvelles (Philip K. Dick)|Non||
+|Total Recall - Recueil de nouvelles (Philip K. Dick)|Oui|:)|
 
 ### 2018
 #### Non fiction
