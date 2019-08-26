@@ -69,9 +69,9 @@ Page contenant des éléments non liés à la sécurité.
 |Fouché (Stegan Zweig)|Oui|:)|
 |Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Oui|:)|
 |Les Très Riches Heures de l'Humanité (Stefan Zweig)|Oui|:)|
+|Histoires extraordinaires (Alain Decaux)|Oui|:)|
 |Le Monde d'hier (Stefan Zweig)|Non||
 |La domination masculine (Pierre Bourdieu)|Non||
-|Histoires extraordinaires (Alain Decaux)|Non||
 |Antispéciste (Aymeric Caron)|Non||
 |Djihad (Gilles Kepel)|Non||
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
