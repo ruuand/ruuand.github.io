@@ -68,9 +68,9 @@ Page contenant des éléments non liés à la sécurité.
 |Le Prince (Machiavel)|Oui|:)|
 |Fouché (Stegan Zweig)|Oui|:)|
 |Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Oui|:)|
+|Les Très Riches Heures de l'Humanité (Stefan Zweig)|Oui|:)|
 |Le Monde d'hier (Stefan Zweig)|Non||
 |La domination masculine (Pierre Bourdieu)|Non||
-|Les Très Riches Heures de l'Humanité (Stefan Zweig)|Non||
 |Histoires extraordinaires (Alain Decaux)|Non||
 |Antispéciste (Aymeric Caron)|Non||
 |Djihad (Gilles Kepel)|Non||
@@ -90,6 +90,7 @@ Page contenant des éléments non liés à la sécurité.
 |Bakhita (Véronique Olmi)|Oui|:)|
 |Ubik (Philip K. Dick)|Oui|:)|
 |Total Recall - Recueil de nouvelles (Philip K. Dick)|Oui|:)|
+|Destruction d'un coeur (Stefan Zweig)|Oui|:)|
 
 ### 2018
 #### Non fiction
