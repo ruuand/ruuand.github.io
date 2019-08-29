@@ -58,6 +58,7 @@ Quelques notes:
 - [From Kekeo to Rubeus](http://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/)
 - [Wagging the dog](https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html)
 - [The worst of both worlds: Combining NTLM Relaying and Kerberos delegation](https://dirkjanm.io/worst-of-both-worlds-ntlm-relaying-and-kerberos-delegation/)
+- [Delegating like a Boss: Abusing Kerberos Delegation in Active Directory](https://horizon.guidepointsecurity.com/tutorials/delegating-like-a-boss-abusing-kerberos-delegation-in-active-directory/)
 
 ### Interne
 
