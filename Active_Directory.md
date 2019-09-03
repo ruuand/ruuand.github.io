@@ -27,9 +27,9 @@ Active Directory est un des éléments centraux d'un environnement Windows. Le s
 	- [Trust Relationships](/Trust_Relationships/)
 	- [Local Admin Password Solution](/LAPS/)
 	- [Read Only Domain Controllers](/RODC/)
-  - AdminSDHolder: objet AD qui contient les permissions à appliquer aux groupes administratifs. Si on supprime des permissions sur le groupe Domain Admins, une routine viendra les rétablir en se basant sur les permissions de l'objet AdminSDHolder. Ceci peut être utile pour faire une backdoor (voir [ADSecurity](https://adsecurity.org/?p=1906))
-  - [Restricted RDP](https://blogs.technet.microsoft.com/kfalde/2013/08/14/restricted-admin-mode-for-rdp-in-windows-8-1-2012-r2/)
-
+  	- AdminSDHolder: objet AD qui contient les permissions à appliquer aux groupes administratifs. Si on supprime des permissions sur le groupe Domain Admins, une routine viendra les rétablir en se basant sur les permissions de l'objet AdminSDHolder. Ceci peut être utile pour faire une backdoor (voir [ADSecurity](https://adsecurity.org/?p=1906))
+  	- [Restricted RDP](https://blogs.technet.microsoft.com/kfalde/2013/08/14/restricted-admin-mode-for-rdp-in-windows-8-1-2012-r2/)
+	- Le groupe **Backup Operators** peut devenir administrateur du domaine (voir [How could users in Backup Operators group escalate its privileges?](https://security.stackexchange.com/questions/182540/how-could-users-in-backup-operators-group-escalate-its-privileges))
 
 ## Ressources
 
