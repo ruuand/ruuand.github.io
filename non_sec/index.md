@@ -70,6 +70,10 @@ Page contenant des éléments non liés à la sécurité.
 |Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Oui|:)|
 |Les Très Riches Heures de l'Humanité (Stefan Zweig)|Oui|:)|
 |Histoires extraordinaires (Alain Decaux)|Oui|:)|
+|Et le monde devint silencieux (Stéphane Foucart)|Non||
+|Comment se faire des amis (Dale Carnegie)|Non||
+|Comment tout peut s'effondrer (Pablo Servigne, Raphaël Stevens)|||
+|Comment la non-violence protège l'État (Peter Gelderloos)|Oui|:)|
 |Le Monde d'hier (Stefan Zweig)|Non||
 |La domination masculine (Pierre Bourdieu)|Non||
 |Antispéciste (Aymeric Caron)|Non||
