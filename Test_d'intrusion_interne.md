@@ -132,6 +132,7 @@ Cette section regroup divers éléments sur des sujets trop précis pour faire l
 
 -   [Présentation d'ADSecurity](https://adsecurity.org/?page_id=1352)
 -   [Attack Methods for Gaining Domain Admin Rights in Active Directory](https://adsecurity.org/?p=2362)
+-   [Red Teaming Experiments](https://ired.team/)
 
 ### Vidéos
 
