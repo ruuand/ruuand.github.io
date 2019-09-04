@@ -1,10 +1,13 @@
 # Wiki / Cheat-Sheet de pentesting
 Les informations contenues dans ce site sont plus ou moins mises à jours et plus ou moins fiable. A utiliser avec précaution. Le regroupement en différentes catégories est très aproximatif.
 
+## Liens généraux
 
+Cette section contient des sites / articles généraux contenant de nombreuses ressources:
 
-Pentest Interne & Active Directory
-----------------------------------
+- [Read Teaming Experiments](https://ired.team/): un site contenant de nombreux articles / notes sur des techniques relatives aux missions Red Team / TI interne.
+
+## Pentest Interne & Active Directory
 Cette section contient des éléments relatifs aux tests d'intrusion internes, principalement sur les parties Windows.
 
 - [Cheat Sheet](/CheatSheet_AD/)
