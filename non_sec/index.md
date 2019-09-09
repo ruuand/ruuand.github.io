@@ -72,9 +72,9 @@ Page contenant des éléments non liés à la sécurité.
 |Histoires extraordinaires (Alain Decaux)|Oui|:)|
 |Comment la non-violence protège l'État (Peter Gelderloos)|Oui|:)|
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Oui|:)|
+|Comment tout peut s'effondrer (Pablo Servigne, Raphaël Stevens)|Oui|:\||
 |Et le monde devint silencieux (Stéphane Foucart)|Non||
 |Comment se faire des amis (Dale Carnegie)|Non||
-|Comment tout peut s'effondrer (Pablo Servigne, Raphaël Stevens)|||
 |Le Monde d'hier (Stefan Zweig)|Non||
 |La domination masculine (Pierre Bourdieu)|Non||
 |Antispéciste (Aymeric Caron)|Non||
