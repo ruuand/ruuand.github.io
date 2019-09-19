@@ -18,6 +18,12 @@ Désactiver les scans real time en ligne de commande:
 Set-MpPreference -DisableRealtimeMonitoring $true
 ```
 
+Désactiver Windows Defender via les clés de registres:
+``` text
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\real-time protection
+```
+
 ## Références
 
 - [GreHack 2018: Abusing Privileged File Manipulation - Clement Lavoillotte](https://www.youtube.com/watch?v=OfPTkx36EWs)
