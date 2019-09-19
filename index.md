@@ -43,6 +43,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [SecureBoot](/SecureBoot/)
 	- [Windows 10](/Windows_10/)
 	- [Mode Kiosque](/Kiosk_Mode/)
+	- [Bitlocker](/Bitlocker/)
 
 - Outils
 	- [Powershell](/Powershell/)
