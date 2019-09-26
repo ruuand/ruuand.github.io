@@ -14,6 +14,8 @@ Page contenant des éléments non liés à la sécurité.
 |Grâce à Dieu|Vu|:)|
 |Le chant du loup|Vu|:)|
 |Captain Marvel|Vu|:)|
+|Avengers: Endgame|Vu|:)|
+|Parasite|Vu|♥|
 
 ### 2018
 
@@ -56,22 +58,29 @@ Page contenant des éléments non liés à la sécurité.
 |Le Grand Jeu (Peter Hopkirk)|Oui|:)|
 |Les dix millénaires oubliés qui ont fait l'histoire (Jean-Paul Demoule)|Oui|:)|
 |Winston Churchill: Une vie (John Keegan)|Oui|:)|
+|Et je disparaîtrai dans la nuit (Michelle McNamara)|Oui|:)|
+|Le divan d'Istanbul : Brêve histoire de l'Empire Ottoman (Alessandro Barbero)|Oui|:)|
+|Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Oui|:\||
+|Magellan (Stefan Zweig)|Oui|♥|
+|De la marge au centre (bell hooks)|Oui|♥|
+|Marie-Antoinette (Stefan Zweig)|Oui|:)|
+|Une histoire populaire de la France (Gérard Noiriel)|Oui|:\||
+|Le Prince (Machiavel)|Oui|:)|
+|Fouché (Stegan Zweig)|Oui|:)|
+|Système 1, Système 2 : les deux vitesses de la pensée (Daniel Kahneman)|Oui|:)|
+|Les Très Riches Heures de l'Humanité (Stefan Zweig)|Oui|:)|
+|Histoires extraordinaires (Alain Decaux)|Oui|:)|
+|Comment la non-violence protège l'État (Peter Gelderloos)|Oui|:)|
+|1491: Les Ameriques avant l'arrivee de Christophe Colomb|Oui|:)|
+|Comment tout peut s'effondrer (Pablo Servigne, Raphaël Stevens)|Oui|:\||
+|Et le monde devint silencieux (Stéphane Foucart)|Non||
+|Comment se faire des amis (Dale Carnegie)|Non||
+|Le Monde d'hier (Stefan Zweig)|Non||
+|La domination masculine (Pierre Bourdieu)|Non||
+|Antispéciste (Aymeric Caron)|Non||
 |Djihad (Gilles Kepel)|Non||
-|Une histoire populaire de la France (Gérard Noiriel)|Non||
-|Et je disparaîtrai dans la nuit (Michelle McNamara)|Non||
-|1491: Les Ameriques avant l'arrivee de Christophe Colomb|Non||
-|La stratégie du choc: la montée d'un capitalisme du désastre (Naomi Klein, 330 KLE)|Non||
-|Dire non ne suffit plus: contre la stratégie du choc de Trump (Naomi Klein)|Non||
-|Les origines du totalitarisme (Hannah Arendt, 320.5 ARE)|Non||
-|Il était une fois le gène (Siddartha Mukherjee)|Non||
-|Après guerre: une histoire de l'Europe depuis 1945 (Tony Judt)|Non||
-|Quand la beauté fait mal (Naomi Wolf)|Non||
-|Antifragile: les bienfaits du désordre (Nassim Nicholas Taleb)|Non||
-|L'ordre du monde (Henry Kissinger)|Non||
-|The Disaster Artist: Ma vie avec the Room (Greg Sestero)|Non|||
 |Le monde jusqu'à hier (Jared Diamond)|Non||
-|Psychologie des foules (Gustave Le Bon)|Non||
-
+|*Robespierre (Hervé Leuwers)*|Non||
 
 #### Fictions
 
@@ -80,9 +89,12 @@ Page contenant des éléments non liés à la sécurité.
 |Moisson d'hiver (Serge Brussolo)|Oui|:)|
 |Imperium (Robert Harris)|Oui|:)|
 |Conspirata (Robert Harris)|Oui|:)|
+|Dictator (Robert Harris)|Oui|:)|
 |La disparition de Josef Mengele (Olivier Guez)|Oui|:)|
-|Dictator (Robert Harris)|Non||
-|Ubik (Philip K. Dick)|Non||
+|Bakhita (Véronique Olmi)|Oui|:)|
+|Ubik (Philip K. Dick)|Oui|:)|
+|Total Recall - Recueil de nouvelles (Philip K. Dick)|Oui|:)|
+|Destruction d'un coeur (Stefan Zweig)|Oui|:)|
 
 ### 2018
 #### Non fiction

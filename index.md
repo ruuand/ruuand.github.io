@@ -1,10 +1,16 @@
 # Wiki / Cheat-Sheet de pentesting
 Les informations contenues dans ce site sont plus ou moins mises à jours et plus ou moins fiable. A utiliser avec précaution. Le regroupement en différentes catégories est très aproximatif.
 
+## Liens généraux
 
+Cette section contient des sites / articles généraux contenant de nombreuses ressources:
 
 ## Pentest Interne
+
 Cette section contient des éléments relatifs aux tests d'intrusion internes, principalement sur les parties Windows.
+
+- [Read Teaming Experiments](https://ired.team/): un site contenant de nombreux articles / notes sur des techniques relatives aux missions Red Team / TI interne.
+
 
 - [Cheat Sheet](/CheatSheet_AD/)
 
@@ -39,6 +45,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [SecureBoot](/SecureBoot/)
 	- [Windows 10](/Windows_10/)
 	- [Mode Kiosque](/Kiosk_Mode/)
+	- [Bitlocker](/Bitlocker/)
 
 - Outils
 	- [Powershell](/Powershell/)
@@ -142,6 +149,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [Microsoft Silverlight](/Silverlight/)
 	- [Amazon Web Services (AWS)](/AWS/)
 	- [Java](/JAVA/)
+	- [Jenkins](/Jenkins/)
 	- [Cloudflare](/Cloudflare/)
 	- [WAF](/WAF/)
 	- [HP ILO](/HP_ILO/)

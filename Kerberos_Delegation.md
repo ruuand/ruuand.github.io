@@ -58,6 +58,9 @@ Quelques notes:
 - [From Kekeo to Rubeus](http://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/)
 - [Wagging the dog](https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html)
 - [The worst of both worlds: Combining NTLM Relaying and Kerberos delegation](https://dirkjanm.io/worst-of-both-worlds-ntlm-relaying-and-kerberos-delegation/)
+- [Delegating like a Boss: Abusing Kerberos Delegation in Active Directory](https://horizon.guidepointsecurity.com/tutorials/delegating-like-a-boss-abusing-kerberos-delegation-in-active-directory/)
+- [Gone to the Dogs (élévation de privilèges)](https://shenaniganslabs.io/2019/08/08/Lock-Screen-LPE.html). La même attaque est décrite dans l'article suivant [Kerberos Resource-Based Constrained Delegation: When an Image Change Leads to a Privilege Escalation
+](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2019/august/kerberos-resource-based-constrained-delegation-when-an-image-change-leads-to-a-privilege-escalation/)
 
 ### Interne
 
