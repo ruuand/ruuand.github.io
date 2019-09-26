@@ -7,7 +7,7 @@ permalink: /iOS/
 
 ## Installation Application
 
-L'article suivant détaille différentes manières d'installer une application sur iOS quand celle-ci n'est pas sur le market et que le téléphone n'est pas jailbreaké. Voir [Non-market App Distribution](https://docs.monaca.io/en/products_guide/monaca_ide/deploy/non_market_deploy/).
+L'article suivant détaille différentes manières d'installer une application sur iOS quand celle-ci n'est pas sur le market et que le téléphone n'est pas jailbreaké. Voir [Non-market App Distribution](https://docs.monaca.io/en/products_guide/monaca_ide/deploy/non_market_deploy/). Il est aussi possible d'utiliser une vieille version d'iTunes. Voir [Deploy apps in a business environment with iTunes](https://support.apple.com/en-gb/HT208079).
 
 
 ## Références
