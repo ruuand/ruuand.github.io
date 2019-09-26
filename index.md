@@ -3,8 +3,7 @@ Les informations contenues dans ce site sont plus ou moins mises à jours et plu
 
 
 
-Pentest Interne & Active Directory
-----------------------------------
+## Pentest Interne
 Cette section contient des éléments relatifs aux tests d'intrusion internes, principalement sur les parties Windows.
 
 - [Cheat Sheet](/CheatSheet_AD/)
