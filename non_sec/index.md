@@ -73,8 +73,8 @@ Page contenant des éléments non liés à la sécurité.
 |Comment la non-violence protège l'État (Peter Gelderloos)|Oui|:)|
 |1491: Les Ameriques avant l'arrivee de Christophe Colomb|Oui|:)|
 |Comment tout peut s'effondrer (Pablo Servigne, Raphaël Stevens)|Oui|:\||
-|Et le monde devint silencieux (Stéphane Foucart)|Non||
-|Comment se faire des amis (Dale Carnegie)|Non||
+|Et le monde devint silencieux (Stéphane Foucart)|Oui|:)|
+|Comment se faire des amis (Dale Carnegie)|Oui|:)|
 |Le Monde d'hier (Stefan Zweig)|Non||
 |La domination masculine (Pierre Bourdieu)|Non||
 |Antispéciste (Aymeric Caron)|Non||
