@@ -95,6 +95,10 @@ Page contenant des éléments non liés à la sécurité.
 |Ubik (Philip K. Dick)|Oui|:)|
 |Total Recall - Recueil de nouvelles (Philip K. Dick)|Oui|:)|
 |Destruction d'un coeur (Stefan Zweig)|Oui|:)|
+|Ces rêves qu'on piétine (Sébastien Spitzer)|Oui|:)|
+|HHhH (Laurent Binet)|Oui|♥|
+|Des fleurs pour Algernon (Daniel Keyes)|Oui|:)|
+
 
 ### 2018
 #### Non fiction
