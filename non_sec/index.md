@@ -75,12 +75,13 @@ Page contenant des éléments non liés à la sécurité.
 |Comment tout peut s'effondrer (Pablo Servigne, Raphaël Stevens)|Oui|:\||
 |Et le monde devint silencieux (Stéphane Foucart)|Oui|:)|
 |Comment se faire des amis (Dale Carnegie)|Oui|:)|
+|Pourquoi nous dormons (Dr Matthew Walker)|En cours||
 |Le Monde d'hier (Stefan Zweig)|Non||
 |La domination masculine (Pierre Bourdieu)|Non||
 |Antispéciste (Aymeric Caron)|Non||
 |Djihad (Gilles Kepel)|Non||
 |Le monde jusqu'à hier (Jared Diamond)|Non||
-|*Robespierre (Hervé Leuwers)*|Non||
+|Maximilien Robespierre (Hervé Leuwers)|Non||
 
 #### Fictions
 
@@ -98,6 +99,7 @@ Page contenant des éléments non liés à la sécurité.
 |Ces rêves qu'on piétine (Sébastien Spitzer)|Oui|:)|
 |HHhH (Laurent Binet)|Oui|♥|
 |Des fleurs pour Algernon (Daniel Keyes)|Oui|:)|
+|Le complot contre l'Amérique (Philip Roth)|Non||
 
 
 ### 2018
