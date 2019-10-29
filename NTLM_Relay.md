@@ -23,7 +23,7 @@ Certains scénarios pratiques sont:
 ## Serveur cible
 
 Il est nécessaire de prendre en compte le serveur cible (machine de la victime ou machine tierce) et le service cible. Dans le cas du serveur cible:
-- S'il s'agit de la machine de la victime alors ce n'est normalement pas possible. Faire un "reflective relay" de SMB vers SMB n'est pas possible à cause de MS08-067 et faire un relai "cross-protocol" ne semble pas possible sur les machines récentes (https://github.com/SecureAuthCorp/impacket/issues/451). C'est notamment lié aux attaques "Hot Potato" & cie
+- S'il s'agit de la machine de la victime alors ce n'est normalement pas possible. Faire un "reflective relay" de SMB vers SMB n'est pas possible à cause de MS08-067 et faire un relai "cross-protocol" ne semble pas possible sur les machines récentes (https://github.com/SecureAuthCorp/impacket/issues/451).
 - Pour une machine tierce pas de problème spécifique. Le fonctionnement va dépendre du service.
 
 ## Service cible
