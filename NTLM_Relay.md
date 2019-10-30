@@ -40,3 +40,5 @@ Il n'est pas possible de relayer vers un Active Directory en raison du **SMB Sig
 
 ### Connexion sur HTTP
 
+Si l'utilisateur vient se connecter en HTTP on pourra faire du relai vers d'autres protocoles (SMB, LDAP, LDAPS, IMAP, MS SQL)
+
