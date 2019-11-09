@@ -1,46 +1,5 @@
 Page contenant des éléments non liés à la sécurité.
 
-## Films
-
-### 2019
-
-|Titre|Status||
-|-----|------|-----------|
-|Une affaire de famille|Vu|:)|
-|Spider-Man: Into the Spider-Verse|Vu|:)|
-|Glass|Vu|:\||
-|My Beautiful Son|Vu|:)|
-|Vice|Vu|:)|
-|Grâce à Dieu|Vu|:)|
-|Le chant du loup|Vu|:)|
-|Captain Marvel|Vu|:)|
-|Avengers: Endgame|Vu|:)|
-|Parasite|Vu|♥|
-
-### 2018
-
-|Titre|Status||
-|-----|------|-----------|
-|BlacKkKlansman|Vu|:\||
-|Silent Voice|Vu|♥♥|
-|Le monde est à toi|Vu|:)|
-|Under The Silver Lake|Vu|:(|
-|The Guilty|Vu|:\||
-|Ant-Man 2|Vu|:)|
-|Burning|Vu|♥|
-|Mile 22|Vu|:(|
-|Equalizer 2|Vu|:\|
-|Invasion|Vu|:\||
-|Bonhomme|Vu|♥|
-|Mademoiselle de Joncquières|Vu|:\||
-|Première Année|Vu|:\||
-|La saveur des Ramens|Vu|:)|
-|Girl|Vu|:)|
-|Capharnaüm|Vu|♥|
-|Les Chatouilles|Vu|♥♥|
-|Amanda|Vu|:)|
-|Bird Box|Vu|:\||
-
 ## Livres 
 ### 2019
 
@@ -75,13 +34,13 @@ Page contenant des éléments non liés à la sécurité.
 |Comment tout peut s'effondrer (Pablo Servigne, Raphaël Stevens)|Oui|:\||
 |Et le monde devint silencieux (Stéphane Foucart)|Oui|:)|
 |Comment se faire des amis (Dale Carnegie)|Oui|:)|
-|Pourquoi nous dormons (Dr Matthew Walker)|En cours||
+|Pourquoi nous dormons (Dr Matthew Walker)|Oui|:)|
+|Maximilien Robespierre (Hervé Leuwers)|Oui|:)|
 |Le Monde d'hier (Stefan Zweig)|Non||
 |La domination masculine (Pierre Bourdieu)|Non||
 |Antispéciste (Aymeric Caron)|Non||
 |Djihad (Gilles Kepel)|Non||
 |Le monde jusqu'à hier (Jared Diamond)|Non||
-|Maximilien Robespierre (Hervé Leuwers)|Non||
 
 #### Fictions
 
