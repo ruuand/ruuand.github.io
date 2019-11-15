@@ -63,20 +63,15 @@ sekurlsa::pth /user:heidegger /domain:SHINRA-INC /ntlm:XXXXXXXXXXXXXXXX /run:"ms
 
 ## Secrets d'authentification en mémoire
 
-Les "logins" suivants provoquent le stockage d'information d'authenficaction en mémoire (https://technet.microsoft.com/en-us/windows-server-docs/security/securing-privileged-access/securing-privileged-access-reference-material#a-nameatltbmaadministrative-tools-and-logon-types):
-
--   Log on at console
--   Remote Desktop
--   RunAs
--   Powershell WiRM with CredSSP
--   PsExec with explicit creds
--   Scheduled Task
--   Tool running as a service
--   IIS "Basic Authentication"
+Les "logins" suivants provoquent le stockage d'information d'authenficaction en mémoire [Administrative Tools and Logon Types](https://technet.microsoft.com/en-us/windows-server-docs/security/securing-privileged-access/securing-privileged-access-reference-material#a-nameatltbmaadministrative-tools-and-logon-types)
 
 Trucs & astuces:
 - Sous les vieilles versions de Windows il est possible d'utiliser mimilove.
 - Il est possible de dumper lsass et de l'analyser offline avec mimikatz.
+
+## Compatibilité minidump
+
+Voir [sekurlsa :: minidump](http://blog.gentilkiwi.com/securite/mimikatz/minidump).
 
 ## Défenses
 
