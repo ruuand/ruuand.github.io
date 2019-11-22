@@ -253,3 +253,4 @@ emulator.exe -writable-system -camera-back none -camera-front none -netdelay non
 - [MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
 - [Android Security Awesome](https://github.com/ashishb/android-security-awesome)
 - [Tests d’intrusion d’applications Android (XMCO)](https://www.xmco.fr/actu-secu/XMCO-ActuSecu-41-Tests-Intrusion-Android.pdf)
+- [Android Application Pentest Guide](https://nightowl131.github.io/AAPG/)

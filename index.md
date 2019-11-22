@@ -33,6 +33,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [WMI](/WMI/)
 	- [LLMNR](/LLMNR/)
 	- [SMB Relay](/SMB_Relay/)
+    - [NTLM Relay](/NTLM_Relay/)
 	- [Trust Relationships](/Trust_Relationships/)
 	- [MSCacheV2](/MsCacheV2/)
 	- [Local Admin Password Solution](/LAPS/)
