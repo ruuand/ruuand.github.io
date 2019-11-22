@@ -5,6 +5,8 @@ permalink: /MS_RPRN/
 
 # MS-RPRN
 
+**Note**: la vulnérabilité permettant de prendre le contrôle d'une autre forêt est patchée depuis Juillet 2019. Voir [Updates to TGT delegation across incoming trusts in Windows Server](https://support.microsoft.com/en-us/help/4490425/updates-to-tgt-delegation-across-incoming-trusts-in-windows-server). Cependant certains déploiements peuvent encore être vulnérables !
+
 MS-RPRN est un protocole utilisé pour les printers. Il est cependant utilisable pour obtenir un accès administratif dans une forêt ou **sur une autre forêt avec laquelle on un trust**. (Voir [Not A Security Boundary: Breaking Forest Trusts](https://posts.specterops.io/not-a-security-boundary-breaking-forest-trusts-cd125829518d)).
 
 ## Exploitation
