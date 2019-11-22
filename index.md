@@ -47,6 +47,7 @@ Cette section contient des éléments relatifs aux tests d'intrusion internes, p
 	- [Windows 10](/Windows_10/)
 	- [Mode Kiosque](/Kiosk_Mode/)
 	- [Bitlocker](/Bitlocker/)
+    - [Applocker](/Applocker/)
 
 - Outils
 	- [Powershell](/Powershell/)
@@ -155,6 +156,7 @@ Cette section contient différents éléments relatifs aux tests d'intrusions we
 	- [WAF](/WAF/)
 	- [HP ILO](/HP_ILO/)
 	- [Google Web Toolkit (GWT)](/GWT/)
+    - [JSON Web Tokens (JWT)](/JWT/)
 
 
 ## Exploitation & RE
