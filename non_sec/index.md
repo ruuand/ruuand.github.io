@@ -36,6 +36,13 @@ Page contenant des éléments non liés à la sécurité.
 |Comment se faire des amis (Dale Carnegie)|Oui|:)|
 |Pourquoi nous dormons (Dr Matthew Walker)|Oui|:)|
 |Maximilien Robespierre (Hervé Leuwers)|Oui|:)|
+|Les premiers pharaons (Collection Histoire et civilisations)|Oui|:)|
+|L'Empire égyptien (Collection Histoire et civilisations)|Oui|:)|
+|La fin de l'Egypte antique (Collection Histoire et civilisations)|Oui|:)|
+|Les civilisations mésopotamiennes (Collection Histoire et civilisations)|||
+|Royaumes et empires du Proche-Orient (Collection Histoire et civilisations)|||
+|Les origines de la Grèce (Collection Histoire et civilisations)|||
+|La Grèce classique (Collection Histoire et civilisations)|||
 |Le Monde d'hier (Stefan Zweig)|Non||
 |La domination masculine (Pierre Bourdieu)|Non||
 |Antispéciste (Aymeric Caron)|Non||
@@ -58,7 +65,7 @@ Page contenant des éléments non liés à la sécurité.
 |Ces rêves qu'on piétine (Sébastien Spitzer)|Oui|:)|
 |HHhH (Laurent Binet)|Oui|♥|
 |Des fleurs pour Algernon (Daniel Keyes)|Oui|:)|
-|Le complot contre l'Amérique (Philip Roth)|Non||
+|Le complot contre l'Amérique (Philip Roth)|Oui|:\||
 
 
 ### 2018
