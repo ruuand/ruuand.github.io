@@ -30,8 +30,9 @@ Il est possible d'empêcher l'énumération des sessions locales avec l'outil [N
 
 ## Ressources
 
--   [Projet Github](https://github.com/adaptivethreat/BloodHound)
--   [BloodHound - Custom Queries](http://www.securityripcord.com/blog/2016/09/28/bloodhound-custom-queries/)
+-   **[Projet Github](https://github.com/adaptivethreat/BloodHound)**
+-   [BloodHound Tools](https://github.com/BloodHoundAD/BloodHound-Tools/)
+-   **[Bloodhound Cypher Cheatsheet](https://hausec.com/2019/09/09/bloodhound-cypher-cheatsheet/)**
 -   [Extending BloodHound: Track and Visualize Your Compromise](http://porterhau5.com/blog/extending-bloodhound-track-and-visualize-your-compromise/)
 -   [The ACL Attack Path Update](https://wald0.com/?p=112)
 -   [The Dog Whisperer’s Handbook](https://www.ernw.de/download/BloodHoundWorkshop/ERNW_DogWhispererHandbook.pdf)
