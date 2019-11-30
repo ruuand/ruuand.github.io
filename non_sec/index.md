@@ -39,11 +39,12 @@ Page contenant des éléments non liés à la sécurité.
 |Les premiers pharaons (Collection Histoire et civilisations)|Oui|:)|
 |L'Empire égyptien (Collection Histoire et civilisations)|Oui|:)|
 |La fin de l'Egypte antique (Collection Histoire et civilisations)|Oui|:)|
-|Les civilisations mésopotamiennes (Collection Histoire et civilisations)|||
-|Royaumes et empires du Proche-Orient (Collection Histoire et civilisations)|||
-|Les origines de la Grèce (Collection Histoire et civilisations)|||
-|La Grèce classique (Collection Histoire et civilisations)|||
+|Les civilisations mésopotamiennes (Collection Histoire et civilisations)|Oui|:)|
+|Royaumes et empires du Proche-Orient (Collection Histoire et civilisations)|Oui|:)|
+|Les origines de la Grèce (Collection Histoire et civilisations)|Non||
+|La Grèce classique (Collection Histoire et civilisations)|Non||
 |Le Monde d'hier (Stefan Zweig)|Non||
+|Marie Stuart (Stefan Zweig)|Non||
 |La domination masculine (Pierre Bourdieu)|Non||
 |Antispéciste (Aymeric Caron)|Non||
 |Djihad (Gilles Kepel)|Non||
