@@ -1,6 +1,25 @@
 Page contenant des éléments non liés à la sécurité.
 
 ## Livres 
+### 2020
+
+#### Non-fictions
+
+|Titre|Lu||
+|-----|------|-----------|
+|Comprendre le monde (Pascal Boniface)|Oui|:)|
+|Les origines de la Grèce (Collection Histoire et Civilisations)|Oui|:)|
+|La Grèce classique (Collection Histoire et Civilisations)|Non||
+|Le déclin d'Athènes (Collection Histoire et Civilisations)|Non||
+|L'empire d'Alexandre (Collection Histoire et Civilisations)|Non||
+|La République Romaine (Collection Histoire et Civilisations)|Non||
+|Le Monde d'hier (Stefan Zweig)|Non||
+|La domination masculine (Pierre Bourdieu)|Non||
+|Antispéciste (Aymeric Caron)|Non||
+|Djihad (Gilles Kepel)|Non||
+|Le monde jusqu'à hier (Jared Diamond)|Non||
+
+
 ### 2019
 
 #### Non-fictions
@@ -36,19 +55,12 @@ Page contenant des éléments non liés à la sécurité.
 |Comment se faire des amis (Dale Carnegie)|Oui|:)|
 |Pourquoi nous dormons (Dr Matthew Walker)|Oui|:)|
 |Maximilien Robespierre (Hervé Leuwers)|Oui|:)|
+|Marie Stuart (Stefan Zweig)|Oui|:)|
 |Les premiers pharaons (Collection Histoire et civilisations)|Oui|:)|
 |L'Empire égyptien (Collection Histoire et civilisations)|Oui|:)|
 |La fin de l'Egypte antique (Collection Histoire et civilisations)|Oui|:)|
 |Les civilisations mésopotamiennes (Collection Histoire et civilisations)|Oui|:)|
 |Royaumes et empires du Proche-Orient (Collection Histoire et civilisations)|Oui|:)|
-|Les origines de la Grèce (Collection Histoire et civilisations)|Non||
-|La Grèce classique (Collection Histoire et civilisations)|Non||
-|Le Monde d'hier (Stefan Zweig)|Non||
-|Marie Stuart (Stefan Zweig)|Non||
-|La domination masculine (Pierre Bourdieu)|Non||
-|Antispéciste (Aymeric Caron)|Non||
-|Djihad (Gilles Kepel)|Non||
-|Le monde jusqu'à hier (Jared Diamond)|Non||
 
 #### Fictions
 
