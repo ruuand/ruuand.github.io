@@ -9,7 +9,7 @@ Page contenant des éléments non liés à la sécurité.
 |-----|------|-----------|----|
 |Comprendre le monde (Pascal Boniface)|Oui|:)|2020|
 |Les origines de la Grèce (Collection Histoire et Civilisations)|Oui|:)|2020|
-|La Grèce classique (Collection Histoire et Civilisations)|Non|||
+|La Grèce classique (Collection Histoire et Civilisations)|Oui|:)|2020|
 |Le déclin d'Athènes (Collection Histoire et Civilisations)|Non|||
 |L'empire d'Alexandre (Collection Histoire et Civilisations)|Non|||
 |La République Romaine (Collection Histoire et Civilisations)|Non|||
