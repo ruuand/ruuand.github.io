@@ -18,6 +18,8 @@ Page contenant des éléments non liés à la sécurité.
 |Antispéciste (Aymeric Caron)|Non|||
 |Djihad (Gilles Kepel)|Non|||
 |Le monde jusqu'à hier (Jared Diamond)|Non|||
+|1493: comment la découverte de l'Amérique a transformé le monde (Charles C. Mann)|Non|||
+|Les routes de la soie (Peter Frankopan)|Non|||
 |S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|Oui|:)|2019|
 |D'abord, ils ont tué mon père (Loung Ung)|Oui|♥♥|2019|
 |Sortir du chaos (Gilles Kepel)|Oui|:)|2019|
