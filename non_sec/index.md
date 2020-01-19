@@ -8,9 +8,15 @@ Page contenant des éléments non liés à la sécurité.
 |Titre|Lu||Année|
 |-----|------|-----------|----|
 |Comprendre le monde (Pascal Boniface)|Oui|:)|2020|
+|Une histoire de tout, ou presque... (Bill Bryson)|Non|||
+|Les premiers pharaons (Collection Histoire et civilisations)|Oui|:)|2019|
+|L'Empire égyptien (Collection Histoire et civilisations)|Oui|:)|2019|
+|La fin de l'Egypte antique (Collection Histoire et civilisations)|Oui|:)|2019|
+|Les civilisations mésopotamiennes (Collection Histoire et civilisations)|Oui|:)|2019|
+|Royaumes et empires du Proche-Orient (Collection Histoire et civilisations)|Oui|:)|2019|
 |Les origines de la Grèce (Collection Histoire et Civilisations)|Oui|:)|2020|
 |La Grèce classique (Collection Histoire et Civilisations)|Oui|:)|2020|
-|Le déclin d'Athènes (Collection Histoire et Civilisations)|Non|||
+|Le déclin d'Athènes (Collection Histoire et Civilisations)|Oui|:)|2020|
 |L'empire d'Alexandre (Collection Histoire et Civilisations)|Non|||
 |La République Romaine (Collection Histoire et Civilisations)|Non|||
 |Le Monde d'hier (Stefan Zweig)|Non|||
@@ -50,11 +56,6 @@ Page contenant des éléments non liés à la sécurité.
 |Pourquoi nous dormons (Dr Matthew Walker)|Oui|:)|2019|
 |Maximilien Robespierre (Hervé Leuwers)|Oui|:)|2019|
 |Marie Stuart (Stefan Zweig)|Oui|:)|2019|
-|Les premiers pharaons (Collection Histoire et civilisations)|Oui|:)|2019|
-|L'Empire égyptien (Collection Histoire et civilisations)|Oui|:)|2019|
-|La fin de l'Egypte antique (Collection Histoire et civilisations)|Oui|:)|2019|
-|Les civilisations mésopotamiennes (Collection Histoire et civilisations)|Oui|:)|2019|
-|Royaumes et empires du Proche-Orient (Collection Histoire et civilisations)|Oui|:)|2019|
 |Why Nations Fail (Daron Acemoglu et James A. Robinson)|Oui|♥|2018|
 |Peur (Bob Woodward)|Oui|:\||2018|
 |No Logo: La tyrannie des marques (Naomi Klein)|Oui|♥♥|2018|
