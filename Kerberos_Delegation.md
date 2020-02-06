@@ -17,6 +17,10 @@ Quelques notes:
 - Si l'utilisateur est dans le groupe "Protected Users" ou s'il a l'option "Account is sensitive and cannot be delegated" alors il n'enverra pas de TGT dans le TGS.
 - Une attaque utilisant [MS-RPRN](/MS_RPRN/) utilise ce défaut. Elle permet notamment prendre le contrôle d'une autre forêt.
 
+### Références
+
+- [“Relaying” Kerberos - Having fun with unconstrained delegation](https://dirkjanm.io/krbrelayx-unconstrained-delegation-abuse-toolkit/)
+
 ## Constrained Delegation - Traditional (Windows 2003)
 
 Dans sa version classique la "Constrained Delegation" se configure au niveau d'un compte (utilisateur ou ordinateur) via l'attribut **msDS-AllowedToDelegateTo**. Cet attribut contient une liste de services pour lesquels le compte peut se faire passer pour n'importe quel utilisateur.
