@@ -8,7 +8,7 @@ Page contenant des éléments non liés à la sécurité.
 |Titre|Lu||Année|
 |-----|------|-----------|----|
 |Comprendre le monde (Pascal Boniface)|Oui|:)|2020|
-|Une histoire de tout, ou presque... (Bill Bryson)|Non|||
+|Une histoire de tout, ou presque... (Bill Bryson)|Oui|:\||2020|
 |Les premiers pharaons (Collection Histoire et civilisations)|Oui|:)|2019|
 |L'Empire égyptien (Collection Histoire et civilisations)|Oui|:)|2019|
 |La fin de l'Egypte antique (Collection Histoire et civilisations)|Oui|:)|2019|
@@ -17,15 +17,9 @@ Page contenant des éléments non liés à la sécurité.
 |Les origines de la Grèce (Collection Histoire et Civilisations)|Oui|:)|2020|
 |La Grèce classique (Collection Histoire et Civilisations)|Oui|:)|2020|
 |Le déclin d'Athènes (Collection Histoire et Civilisations)|Oui|:)|2020|
-|L'empire d'Alexandre (Collection Histoire et Civilisations)|Non|||
-|La République Romaine (Collection Histoire et Civilisations)|Non|||
-|Le Monde d'hier (Stefan Zweig)|Non|||
-|La domination masculine (Pierre Bourdieu)|Non|||
-|Antispéciste (Aymeric Caron)|Non|||
-|Djihad (Gilles Kepel)|Non|||
-|Le monde jusqu'à hier (Jared Diamond)|Non|||
-|1493: comment la découverte de l'Amérique a transformé le monde (Charles C. Mann)|Non|||
-|Les routes de la soie (Peter Frankopan)|Non|||
+|L'empire d'Alexandre (Collection Histoire et Civilisations)|Oui|:)|2020|
+|La République Romaine (Collection Histoire et Civilisations)|Oui|:)|2020|
+|The Dictator's Handbook: Why Bad Behavior Is Almost Always Good Politics (Bruce Bueno de Mesquita & Alastair Smith)|Oui|♥|2020|
 |S.P.Q.R. Histoire de l'ancienne Rome (Mary Beard)|Oui|:)|2019|
 |D'abord, ils ont tué mon père (Loung Ung)|Oui|♥♥|2019|
 |Sortir du chaos (Gilles Kepel)|Oui|:)|2019|
@@ -89,6 +83,14 @@ Page contenant des éléments non liés à la sécurité.
 |Introduction à l'économie (Jacques Généreux)|Oui|:\||2018|
 |Freakonomics (Steven D. Levitt)|Oui|:\||2018|
 |Superfreakonomics (Steven D. Levitt)|Oui|:\||2018|
+|Le Monde d'hier (Stefan Zweig)|Non|||
+|La domination masculine (Pierre Bourdieu)|Non|||
+|Antispéciste (Aymeric Caron)|Non|||
+|Djihad (Gilles Kepel)|Non|||
+|Le monde jusqu'à hier (Jared Diamond)|Non|||
+|1493: comment la découverte de l'Amérique a transformé le monde (Charles C. Mann)|Non|||
+|Les routes de la soie (Peter Frankopan)|Non|||
+
 
 ### Fictions
 
