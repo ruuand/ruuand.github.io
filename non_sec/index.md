@@ -90,6 +90,7 @@ Page contenant des éléments non liés à la sécurité.
 |Le monde jusqu'à hier (Jared Diamond)|Non|||
 |1493: comment la découverte de l'Amérique a transformé le monde (Charles C. Mann)|Non|||
 |Les routes de la soie (Peter Frankopan)|Non|||
+|The Great Leveler (Walter Scheidel)|Non|||
 
 
 ### Fictions
