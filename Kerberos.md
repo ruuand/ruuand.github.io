@@ -73,3 +73,4 @@ En revanche AES sera utilisé dans le cas suivant:
 -   [Kerberos, Active Directory’s Secret Decoder Ring](http://adsecurity.org/?p=227)
 -   [Return From The Underworld The Future Of Red Team Kerberos](https://www.youtube.com/watch?v=E_BNhuGmJwM)
 -   [Kerberos en Active Directory](https://beta.hackndo.com/kerberos/)
+- [Constructing Kerberos Attacks with Delegation Primitives](https://shenaniganslabs.io/media/Constructing%20Kerberos%20Attacks%20with%20Delegation%20Primitives.pdf)
