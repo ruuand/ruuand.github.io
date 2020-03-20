@@ -95,5 +95,5 @@ Références
 -   [Unofficial Guide to Mimikatz & Command Reference - ADSecurity](https://adsecurity.org/?page_id=1821)
 -   [Mimikatz Overview, Defenses and Detection](https://www.sans.org/reading-room/whitepapers/detection/mimikatz-overview-defenses-detection-36780)
 -   [Utilisation avancée de Mimikatz](http://connect.ed-diamond.com/MISC/MISC-066/Utilisation-avancee-de-Mimikatz)
--   [Administrative Tools and Logon Types](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material#ATLT_BM): Information sur la réutilisation des mots de passe
+-   [Administrative Tools and Logon Types](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material#administrative-tools-and-logon-types): Information sur la réutilisation des mots de passe
 
