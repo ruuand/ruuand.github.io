@@ -1,6 +1,6 @@
 ---
-title: Active Directory
-permalink: /Active_Directory/
+title: Azure Active Directory
+permalink: /Azure_AD/
 ---
 
 # Azure Active Directory
