@@ -90,8 +90,8 @@ Page contenant des éléments non liés à la sécurité.
 
 |Titre|Lu||Année|
 |-----|------|-----------|----|
-|Filles de la mer (Mary Lynn Bracht)|:)|2020|
-|La chute de l'Empire romain (Maw Gallo)|:(|2020|
+|Filles de la mer (Mary Lynn Bracht)|Oui|:)|2020|
+|La chute de l'Empire romain (Maw Gallo)|Oui|:(|2020|
 |Americanah (Chimamanda Ngozi Adichie)|Oui|:)|2020|
 |Petit Pays (Gaël Faye)|Oui|:)|2020|
 |Mémoires d'Hadrien (Marguerite Yourcenar)|Oui|♥|2020|
