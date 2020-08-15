@@ -6,8 +6,8 @@ Page contenant des éléments non liés à la sécurité.
 
 |Titre|Lu||Année|
 |-----|------|-----------|----|
-|Une belle histoire du temps (Stephen Hawking)|:\|2020|
-|Contre l'empathie (Paul Bloom)|Oui|:\|2020|
+|Une belle histoire du temps (Stephen Hawking)|Oui|:\||2020|
+|Contre l'empathie (Paul Bloom)|Oui|:\||2020|
 |La conquête du pain (Pierre Kropotkine)|Oui|:)|2020|
 |Are prisons obsolete ? (Angela Davis)|Oui|:\||2020|
 |Comprendre le monde (Pascal Boniface)|Oui|:)|2020|
