@@ -30,6 +30,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\real-time protec
 
 ### AMSI
 - [How to bypass AMSI and execute ANY malicious Powershell code](https://0x00-0x00.github.io/research/2018/10/28/How-to-bypass-AMSI-and-Execute-ANY-malicious-powershell-code.html)
+- [AMSI.fail](https://amsi.fail/): AMSI.fail generates obfuscated PowerShell snippets that break or disable AMSI for the current process.
 
 ### Symantec
 
