@@ -90,10 +90,11 @@ Page contenant des éléments non liés à la sécurité.
 |Les routes de la soie (Peter Frankopan)|Non|||
 |The Great Leveler (Walter Scheidel)|Non|||
 
-### Fictions
+### Fictions / Biographies romancées
 
 |Titre|Lu||Année|
 |-----|------|-----------|----|
+|Léon l'Africain (Amin Maalouf)|Oui|:)|2020|
 |Filles de la mer (Mary Lynn Bracht)|Oui|:)|2020|
 |La chute de l'Empire romain (Maw Gallo)|Oui|:(|2020|
 |Americanah (Chimamanda Ngozi Adichie)|Oui|:)|2020|
