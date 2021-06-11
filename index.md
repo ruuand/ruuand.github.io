@@ -10,7 +10,7 @@ Cette section contient des sites / articles généraux contenant de nombreuses r
 Cette section contient des éléments relatifs aux tests d'intrusion internes, principalement sur les parties Windows.
 
 - [Read Teaming Experiments](https://ired.team/): un site contenant de nombreux articles / notes sur des techniques relatives aux missions Red Team / TI interne.
-
+- [HackTricks](https://book.hacktricks.xyz)
 
 - [Cheat Sheet](/CheatSheet_AD/)
 
