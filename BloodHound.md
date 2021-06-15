@@ -7,7 +7,7 @@ permalink: /BloodHound/
 
 ## Utilisation
 
-Tout passe par l'ingestor Sharphound.exe.
+Tout passe par l'ingestor Sharphound.exe. Une cheatsheet pratique ici: https://github.com/SadProcessor/HandsOnBloodHound/blob/master/BH21/BH4_SharpHound_Cheat_Dark.pdf
 
 ## Cypher queries
 
