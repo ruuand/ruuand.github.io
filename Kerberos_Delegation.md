@@ -45,7 +45,7 @@ Plus d'infos [S4U2Pwnage](https://www.harmj0y.net/blog/activedirectory/s4u2pwnag
 
 ## Resource-based Constrained Delegation (Windows 2012)
 
-Dans cette version, c'est le service final (service B) qui indique quels utilisateurs ou ordinateurs sont autorisés à effectuer de la délégation via le champ **msDS-AllowedToDelegateTo**.
+Dans cette version, c'est le service final (service B) qui indique quels utilisateurs ou ordinateurs sont autorisés à effectuer de la délégation via le champ ~~**msDS-AllowedToDelegateTo**~~ c'est pas ça le nom du champ yolo.
 
 Quelques notes:
 - Le champ **msDS-AllowedToDelegateTo** peut être édité sans SeEnableDelegationPrivilege.
